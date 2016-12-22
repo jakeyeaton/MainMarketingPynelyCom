@@ -1,0 +1,567 @@
+<!DOCTYPE>
+<html>
+<!--
+If you're the kind of person who reads source code, you might be a great fit at Pynely Apply at: https://www.pynely.com/en/jobs/home.html
+-->
+<head>
+<title id="app">Oh non 404! Page. On dirait que nous nous sommes trompés.</title>
+<meta charset="utf-8"/>
+<!-- Google Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,600,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="assets/sass/main.css" />
+<script src="https://use.fontawesome.com/e8493447ed.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=763265290446217";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	        <div id="wrapper">
+	            <header class="header header2 sticky-header animated-dropdown ttb-dropdown">
+	                <div class="header-top dark">
+	                    <div class="container-fluid">
+	                        <div class="dropdown header-dropdown pull-right">
+	                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="desktop-header-lanauge-label">
+																{{ title }}
+															</a>
+
+	                            <ul class="dropdown-menu">
+	                                <li id="desktop-header-language-english">
+																		<a :href="url">{{ title }}</a>
+																	</li><!-- American Dollar -->
+	                                <li id="desktop-header-language-espanol">
+																		<a :href="url">{{ title }}</a>
+																	</li> <!-- American Dollar -->
+	                                <li id="desktop-header-language-portugues">
+																		<a :href="url">{{ title }}</a>
+																	</li> <!-- American Dollar -->
+	                                <li id="desktop-header-language-french">
+																		<a :href="url">{{ title }}</a>
+																	</li> <!-- American Dollar -->
+	                                <li id="desktop-header-language-german">
+																		<a :href="url">{{ title }}</a>
+																	</li> <!-- American Dollar -->
+	                                <li id="desktop-header-language-japanese">
+																		<a :href="url">{{ title }}</a>
+																	</li> <!-- American Dollar -->
+	                            </ul>
+	                        </div><!-- End .header-dropdown -->
+
+	                        <ul class="top-menu visible-lg pull-right">
+	                            <li id="desktop-header-contact-link">
+																<a :href="url">{{ title }}</a>
+															</li>
+	                            <li id="desktop-header-call-us-hours">{{ title }}
+	                                <a href="tel:18886290687">
+																		<i class="fa fa-phone" aria-hidden="true"></i>
+																		&#160;+1 888 629-0687
+																	</a>
+	                            </li>
+	                            <li id="desktop-header-login-link">
+	                                <a :href="url">
+	                                    {{ title }}
+	                                </a>
+	                            </li>
+	                        </ul>
+
+
+	                    </div><!-- End .container-fluid -->
+	                </div><!-- End .header-top -->
+
+	                <div class="header-inner">
+	                    <div class="container-fluid">
+	                        <a href="#" class="site-logo" title="Bold - Multipurpose Template">
+	                            <img src="assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" data-rjs="3" alt="Pynely Logo">
+	                        </a>
+	                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
+	                            <span class="toggle-text">Menu</span>
+	                            <span class="toggle-wrapper">
+	                                <span class="sr-only">Toggle Menu</span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                            </span>
+	                        </button>
+
+	                        <div class="collapse navbar-collapse" id="main-nav-container">
+	                            <ul class="nav navbar-nav">
+	                                <li class="dropdown">
+	                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-development-services-label">
+																				{{ title }}
+																				<span class="angle"></span>
+																			</a>
+	                                    <ul class="dropdown-menu">
+	                                        <li class="dropdown">
+	                                            <a id="header-dropdown-services-mobile-app-dev" :href="url">
+																								{{ title }}
+																							</a>
+	                                            <a id="header-dropdown-services-wordpress-dev" :href="url">
+																								{{ title }}
+																							</a>
+	                                        </li>
+	                                    </ul>
+	                                </li>
+
+	                                <li class="dropdown">
+	                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-design-services-label">
+																				{{ title }}
+																				<span class="angle"></span>
+																			</a>
+	                                    <ul class="dropdown-menu" role="menu">
+	                                        <li class="dropdown">
+	                                            <a id="header-dropdown-services-mobile-app-ux-ui-design" :href="url">
+																								{{ title }}
+																							</a>
+	                                            <a id="header-dropdown-services-website-ux-ui-design" :href="url">
+																								{{ title }}
+																							</a>
+	                                        </li>
+	                                    </ul>
+	                                </li>
+
+	                                <li class="dropdown">
+	                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-marketing-services-label">
+																				{{ title }}
+																				<span class="angle"></span>
+																			</a>
+	                                    <ul class="dropdown-menu" role="menu">
+	                                        <li class="dropdown">
+	                                            <a id="header-dropdown-services-social-media-marketing" :href="url">
+																								{{ title }}
+																							</a>
+	                                            <a id="header-dropdown-services-pay-per-click-ads" :href="url">
+																								{{ title }}
+																							</a>
+	                                        </li>
+	                                    </ul>
+	                                </li>
+	                                <li class="dropdown pull-right">
+	                                    <a href="#" class="header-search-toggle" role="button" title="Open Search"><span class="visible-inline-xs">Search</span><i class="fa fa-search"></i></a>
+	                                </li>
+	                            </ul>
+	                        </div><!-- /.navbar-collapse -->
+	                    </div><!-- End .container-fluid -->
+	                </div><!-- End .header-inner -->
+	            </header><!-- End .header -->
+
+	            <div class="header-search-form">
+	                <a href="#" class="header-search-toggle" title="Close"><i class="fa fa-times"></i></a>
+	                <form action="#">
+	                    <input type="search" class="form-control" placeholder="Type in here" required>
+	                </form>
+	            </div><!-- End .header-search-form -->
+
+
+
+              <!-- Start of Main Content -->
+
+              <div class="main">
+
+                <div class="error-page text-center">
+                    <div class="container-fluid">
+                        <h1>404</h1>
+                        <h2>Page non trouvée!</h2>
+                        <p>Désolé, la page que vous avez demandée est introuvable. Revenez à la page d'accueil.</p>
+                        <a href="https://pynely.com/fr/home.html" class="btn btn-custom2 min-width">De retour à la maison</a>
+                    </div><!-- End .container-fluid -->
+                </div><!-- End .error-page -->
+            </div><!-- End .main -->
+
+
+              <!-- End of Main Content -->
+
+
+<footer class="footer white">
+				<div class="container-fluid">
+						<div class="row">
+								<div class="col-md-3 col-sm-6">
+									 <div class="widget about-widget">
+																<img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
+																<p id="footer-short-description">
+																{{ title }}
+																</p>
+																<ul class="about-list">
+																		<li>
+																			<span id="footer-location-label">{{ title }}</span>
+																			<span id="footer-location-city">{{ title }}</span>
+																		</li>
+																		<li>
+																			<span id="footer-call-us-label">{{ title }}</span>
+																			<span id="footer-call-us-hours">{{ title }}</span>
+																			<br>
+																			<a id="footer-call-us-number" href="tel:1-888-629-0687">
+																				{{ title }}
+																			</a>
+																		</li>
+																		<li>
+																			<span id="footer-email-label">{{ title }}</span>
+																			<a id="footer-email-address" href="mailto:hello@pynely.com">
+																				{{ title }}
+																			</a>
+																		</li>
+																		<li>
+																			<span id="footer-chat-label">{{ title }}</span>
+																			<a id="footer-chat-trigger" class="drift-open-chat">
+																				{{ title }}
+																			</a>
+																		</li>
+
+																		<li>
+																				<a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-related="jakeyeaton" data-show-count="false">Tweet to @pynely</a>
+																		</li>
+																</ul>
+														</div><!-- End .widget -->
+								</div><!-- End .col-md-3 -->
+
+								<div class="col-md-3 col-sm-6">
+										<div class="widget">
+												<h4 id="footer-services-label" class="widget-title">{{ title }}</h4>
+																<ul class="fa-ul">
+																		<li id="footer-lable-services-development">
+																			<strong>{{ title }}</strong>
+																		</li>
+
+																		<li id="footer-services-mobile-app-dev">
+																				<a :href="url">
+																				<i class="fa-li fa fa-angle-right"></i>
+																				{{ title }}
+																				</a>
+																		</li>
+																		<li id="footer-services-wordpress-dev">
+																				<a :href="url">
+																				<i class="fa-li fa fa-angle-right"></i>
+																				{{ title }}
+																				</a>
+																		</li>
+
+																		<li id="footer-label-services-design">
+																			<strong>{{ title }}</strong>
+																		</li>
+
+																		<li id="footer-services-mobile-app-uxui">
+																				<a :href="url">
+																				<i class="fa-li fa fa-angle-right"></i>
+																				{{ title }}
+																				</a>
+																		</li>
+
+																		<li id="footer-services-website-uxui">
+																				<a :href="url">
+																				<i class="fa-li fa fa-angle-right"></i>
+																				{{ title }}
+																				</a>
+																		</li>
+
+																		<li id="footer-label-services-marketing">
+																			<strong>{{ title }}</strong>
+																		</li>
+
+																		<li id="footer-services-socialMediaMarketing">
+																				<a :href="url">
+																				<i class="fa-li fa fa-angle-right"></i>
+																				{{ title }}
+																				</a>
+																		</li>
+
+																		<li id="footer-services-ppc">
+																				<a :href="url">
+																				<i class="fa-li fa fa-angle-right"></i>
+																				{{ title }}
+																				</a>
+																		</li>
+
+																</ul>
+										</div><!-- End .widget -->
+								</div><!-- End .col-md-3 -->
+
+								<div class="clearfix visible-sm"></div><!-- clearfix -->
+
+								<div class="col-md-3 col-sm-6">
+										<div class="widget">
+												<h4 id="footer-twitter-feed-label" class="widget-title">{{ title }}</h4>
+												<a class="twitter-timeline" data-width="350" data-height="435" data-link-color="#00b16a" href="https://twitter.com/Pynely">Tweets by Pynely</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+										</div><!-- End .widget -->
+								</div><!-- End .col-md-3 -->
+
+								<div class="col-md-3 col-sm-6">
+										<div class="widget flickr-widget">
+												<h4 id="footer-instagram-feed-label" class="widget-title">{{ title }}</h4>
+												<div class="row">
+														<!-- SnapWidget -->
+													 <script src="https://snapwidget.com/js/snapwidget.js"></script>
+													 <iframe src="https://snapwidget.com/embed/code/218240" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+												</div><!-- end .row -->
+										</div><!-- End .widget -->
+								</div><!-- End .col-md-3 -->
+
+						</div><!-- End .row -->
+				</div><!-- End .container-fluid -->
+
+				<div class="footer-bottom">
+						<div class="container-fluid">
+								<div class="footer-left">
+										<div class="social-icons">
+											<h6 id="footer-social-label">
+												{{ title }}
+											</h6>
+
+											<ul class="list-inline">
+													<li id="footer-facebook-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+													<li id="footer-twitter-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+													<li id="footer-linkedin-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+													<li id="footer-instagram-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+													<li id="footer-google-plus-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+													<li id="footer-pinterest-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+													<li id="footer-behance-icon">
+														<a :href="url" target="_blank">
+															<span class="fa-stack fa-md">
+															<i class="fa fa-square fa-stack-2x"></i>
+															<i class="fa fa-behance fa-stack-1x fa-inverse"></i>
+														</span>
+														</a>
+													</li>
+												</ul>
+										</div><!-- End .social-icons -->
+								</div><!-- End .footer-left -->
+
+								<div class="footer-right">
+										<ul class="footer-menu">
+
+												<li id="footer-bottom-about">
+													<a :href="url">
+														<i class="fa-li fa fa-angle-right"></i>
+														{{ title }}
+													</a>
+												</li>
+
+												<li id="footer-bottom-companyNews">
+													<a :href="url" target="_blank">
+														<i class="fa-li fa fa-angle-right"></i>
+														{{ title }}
+													</a>
+												</li>
+
+												<li id="footer-bottom-blog">
+													<a :href="url" target="_blank">
+														<i class="fa-li fa fa-angle-right"></i>
+														{{ title }}
+													</a>
+												</li>
+
+												<li id="footer-bottom-jobs">
+													<a :href="url">
+														<i class="fa-li fa fa-angle-right"></i>
+														{{ title }}
+													</a>
+												</li>
+
+												<li id="footer-bottom-privacy">
+													<a :href="url">
+														<i class="fa-li fa fa-angle-right"></i>
+														{{ title }}
+													</a>
+												</li>
+
+												<li id="footer-bottom-terms">
+													<a :href="url">
+														<i class="fa-li fa fa-angle-right"></i>
+														{{ title }}
+													</a>
+												</li>
+										</ul>
+										<p id="footer-copyright-year" class="copyright">
+											droits d'auteur &copy; {{ title }} Pynely, LLC.
+										</p>
+										<br>
+										<br>
+								</div><!-- End .footer-right -->
+						</div><!-- End .container-fluid -->
+				</div><!-- End .footer-bottom -->
+		</footer><!-- End .footer -->
+
+
+
+
+
+		<script id="dsq-count-scr" src="//pynely-1.disqus.com/count.js" async></script>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+		<script type="text/javascript" src="assets/js/extra-js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/plugins.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/contact.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/main.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.video.min.js"></script>
+
+
+		<script>
+		(function (w,i,d,g,e,t,s){w[d]=w[d]||[];t=i.createElement(g); t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);})(window, document, '_gscq','script','//widgets.getsitecontrol.com/54219/script.js');
+		</script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-71950190-1', 'auto'); ga('send', 'pageview');
+		</script>
+		<script type="text/javascript">
+		    (function() {
+		                "use strict";
+
+		                $(document).ready(function() {
+		                    var revapi;
+		                    if($("#rev_slider").revolution == undefined){
+		                        revslider_showDoubleJqueryError("#rev_slider");
+		                    }else{
+		                        revapi = $("#rev_slider").show().revolution({
+		                            sliderType:"standard",
+		                            jsFileLocation:"assets/js/",
+		                            sliderLayout:"auto",
+		                            dottedOverlay:"none",
+		                            delay:10000,
+		                            navigation: {
+		                                keyboardNavigation: "on",
+		                                keyboard_direction: "horizontal",
+		                                mouseScrollNavigation: "off",
+		                                onHoverStop: "off",
+		                                touch: {
+		                                    touchenabled: "on",
+		                                    swipe_threshold: 75,
+		                                    swipe_min_touches: 1,
+		                                    swipe_direction: "horizontal",
+		                                    drag_block_vertical: false
+		                                },
+		                                arrows: {
+		                                    style: "erinyen",
+		                                    enable: true,
+		                                    hide_onmobile: false,
+		                                    hide_under: 768,
+		                                    hide_onleave: false,
+		                                    tmp: '<div class="tp-title-wrap"> <div class="tp-arr-imgholder"></div><div class="tp-arr-img-over"></div> <span class="tp-arr-titleholder">{{title}}</span> </div>',
+		                                    left: {
+		                                        h_align: "left",
+		                                        v_align: "center",
+		                                        h_offset: 20,
+		                                        v_offset: 0
+		                                    },
+		                                    right: {
+		                                        h_align: "right",
+		                                        v_align: "center",
+		                                        h_offset: 20,
+		                                        v_offset: 0
+		                                    }
+		                                }
+		                            },
+		                            viewPort: {
+		                                enable:true,
+		                                outof:"pause",
+		                                visible_area:"80%"
+		                            },
+		                            responsiveLevels:[1500,992,768,480],
+		                            gridwidth:[1470,970,750,480],
+		                            gridheight:[600,540,480,360],
+		                            autoHeight:"off",
+		                            lazyType:"single",
+		                            shadow:0,
+		                            spinner:"off",
+		                            stopLoop:"off",
+		                            stopAfterLoops:-1,
+		                            stopAtSlide:-1,
+		                            shuffle:"off",
+		                            hideThumbsOnMobile:"off",
+		                            hideSliderAtLimit:0,
+		                            hideCaptionAtLimit:0,
+		                            hideAllCaptionAtLilmit:0,
+		                            debugMode:false,
+		                            disableProgressBar: "on"
+		                        });
+
+		                    }
+		                });
+
+		            })();
+		</script>
+
+<!-- Latest compiled and minified JavaScript - Bootstrap JavaScript -->
+<script src="assets/js//vue/vue.js"></script>
+<script src="assets/js/vue/footer-vue.js"></script>
+<script src="assets/js/vue/general-vue.js"></script>
+<script src='assets/js/vue/header-vue.js'></script>
+</body>
+</html>

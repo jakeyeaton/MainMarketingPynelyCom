@@ -1,0 +1,115 @@
+/* ----------- 4.Pricing ---------------
+--------------------------------------*/
+.pricing-table {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  /* Active */
+  /* Dark */
+}
+
+@media (min-width: 991px) {
+  .pricing-table {
+    margin-bottom: 4rem;
+  }
+}
+
+.pricing-table header {
+  background-color: #673AB7;
+  color: #fff;
+  padding: 1.9rem 0;
+}
+
+.fullwidth-row .col-md-3:nth-of-type(2n) .pricing-table header {
+  background-color: #5c34a4;
+}
+
+.pricing-table header .pricing-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid #7c52c8;
+  margin-bottom: 1.9rem;
+}
+
+.pricing-table header .price {
+  font-size: 3.6rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.pricing-table header .price span {
+  font-size: 50%;
+  vertical-align: super;
+}
+
+.pricing-table header .price-dur {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.pricing-table .pricing-body {
+  background-color: #f6f6fa;
+  padding: 1.5rem 1.25rem;
+}
+
+.fullwidth-row .col-md-3:nth-of-type(2n) .pricing-table .pricing-body {
+  background-color: #fff;
+}
+
+.pricing-table .pricing-body ul {
+  margin-bottom: 1rem;
+}
+
+.pricing-table .pricing-body ul:last-child {
+  margin-bottom: 0;
+}
+
+.pricing-table .pricing-body ul li {
+  padding: 0.75rem 0;
+}
+
+.pricing-table .pricing-body ul li:nth-child(2n+1) {
+  background-color: #e8ebec;
+}
+
+.pricing-table .pricing-body ul li i {
+  font-size: 90%;
+  margin-right: 0.5rem;
+  color: #656565;
+}
+
+.pricing-table .pricing-body ul li.disabled {
+  text-decoration: line-through;
+}
+
+.pricing-table .pricing-body .price-action {
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .pricing-table.active {
+    margin-top: -1.25rem;
+  }
+  .pricing-table.active header {
+    padding-top: 2.6rem;
+    padding-bottom: 1.9rem;
+  }
+  .pricing-table.active header .pricing-title {
+    padding-bottom: 2.25rem;
+    margin-bottom: 1.9rem;
+  }
+}
+
+.pricing-table.dark header {
+  background-color: #181818;
+}
+
+.fullwidth-row .col-md-3:nth-of-type(2n) .pricing-table.dark header {
+  background-color: #0e0e0e;
+}
+
+.pricing-table.dark header .pricing-title {
+  border-bottom-color: #2f2f2f;
+}

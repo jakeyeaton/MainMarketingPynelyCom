@@ -1,0 +1,30 @@
+/* ----------- 14.Checkout -------------
+--------------------------------------*/
+/* Checkout */
+.table-checkout {
+  font-weight: 700;
+}
+
+.table-checkout .total-row td:first-child {
+  text-align: right;
+}
+
+.table-checkout .total-row td:last-child {
+  text-align: center;
+}
+
+.table-checkout .total-row:last-child {
+  font-size: 1.25rem;
+}
+
+.table-checkout .total-row:last-child td:last-child {
+  color: #e53935;
+}
+
+.checkout-action {
+  font-size: 0;
+}
+
+.checkout-action .btn + .btn {
+  margin-left: 4px;
+}

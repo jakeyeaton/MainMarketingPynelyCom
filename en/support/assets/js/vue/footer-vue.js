@@ -220,6 +220,15 @@ new Vue({
 	}
 });
 
+//Partners - Bottom Footer
+new Vue({
+	el: '#footer-bottom-partners',
+	data: {
+		title: 'Partners',
+		url: 'https://www.pynely.com/en/partners/home.html'
+	}
+});
+
 //About us - Bottom Footer
 new Vue({
 	el: '#footer-bottom-about',

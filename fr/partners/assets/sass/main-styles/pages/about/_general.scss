@@ -1,0 +1,287 @@
+/* ----------- 7.About -----------------
+--------------------------------------*/
+/* About Us */
+.table-row .service:not(.icon-left) p {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member {
+  margin-bottom: 2rem;
+}
+
+.member .member-top {
+  position: relative;
+  background-color: #d7d4d4;
+  margin-bottom: 1.35rem;
+  overflow: hidden;
+}
+
+.member .member-top figure {
+  position: relative;
+}
+
+.member .member-top figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.member .member-top figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #673AB7;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.65s cubic-bezier(0.92, 0.17, 0.29, 0.93) 0s;
+  z-index: 50;
+}
+
+.member .member-top .social-icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  padding: 0;
+  margin: 0;
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  transition: all 0.65s cubic-bezier(0.92, 0.17, 0.29, 0.93) 0s;
+}
+
+.member .member-top .social-icons label {
+  color: #f2f2f2;
+  font-weight: 400;
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.member .member-top .social-icons .social-icon {
+  display: block;
+  border-radius: 0;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .member .member-top .social-icons .social-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 2.7rem;
+  }
+}
+
+.member .member-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.member .member-title a {
+  color: #212121;
+}
+
+.member .member-title a:hover, .member .member-title a:focus {
+  color: #673AB7;
+}
+
+.member .member-title small {
+  display: inline;
+  font-size: 80%;
+  color: #E91E63;
+  font-weight: 600;
+}
+
+.member .member-title:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.member.text-center .member-title {
+  margin-bottom: 0.85rem;
+}
+
+.member.text-center .member-title small {
+  display: block;
+  margin-top: 0.6rem;
+}
+
+.member:hover .member-top figure:after {
+  visibility: visible;
+  opacity: 0.35;
+}
+
+.member:hover .member-top .social-icons {
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.swiper-container .member {
+  margin-bottom: 0;
+}
+
+.swiper-container .member p:last-child {
+  margin-bottom: 0;
+}
+
+.testimonials-wrapper {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  margin: 0;
+  color: inherit;
+}
+
+.testimonial blockquote {
+  background-color: transparent;
+  margin: 0;
+  font-style: normal;
+}
+
+@media (min-width: 992px) {
+  .testimonial blockquote {
+    font-size: 1.25rem;
+  }
+}
+
+.testimonial blockquote:before {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+.bg-image .testimonial blockquote:before,
+.parallax .testimonial blockquote:before {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.bg-white .testimonial blockquote:before {
+  color: #eee;
+}
+
+.swiper-container .testimonial blockquote:before {
+  top: auto;
+  bottom: 0.8rem;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.testimonial figure {
+  display: inline-block;
+  max-width: 66px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.bg-image .testimonial figure {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.testimonial figure img {
+  display: block;
+  width: 100;
+  height: auto;
+  border-radius: 50%;
+}
+
+.testimonial cite {
+  color: inherit;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .testimonial cite {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial cite {
+    font-size: 1.1rem;
+  }
+}
+
+.testimonial cite > span {
+  display: block;
+  font-size: 95%;
+  font-weight: normal;
+  margin-top: -0.1rem;
+}
+
+.text-white .testimonial cite {
+  color: inherit;
+}
+
+.testimonials-thumbs-wrapper {
+  max-width: 200px;
+  margin: 2.2rem auto 0;
+}
+
+@media (min-width: 481px) {
+  .testimonials-thumbs-wrapper {
+    max-width: 340px;
+  }
+}
+
+.testimonials-thumbs-wrapper .swiper-slide {
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.testimonials-thumbs-wrapper .swiper-slide img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.testimonials-thumbs-wrapper .swiper-slide-active {
+  background-color: rgba(233, 30, 99, 0.6);
+}
+
+.custom-link {
+  display: block;
+}
+
+.custom-link img {
+  displat: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-link + .custom-link {
+  margin-top: 20px;
+}
+
+/*About Me*/
+.aboutme-section {
+  margin-bottom: 1.5rem;
+}
+
+.aboutme-section h4 {
+  font-size: 1.3rem;
+}
+
+.aboutme-section h4 small {
+  margin-left: 0.5rem;
+}
+
+.aboutme-section p:last-child {
+  margin-bottom: 0;
+}

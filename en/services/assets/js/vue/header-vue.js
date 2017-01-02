@@ -75,7 +75,7 @@ new Vue({
   el: '#desktop-header-login-link',
   data: {
     title: 'Login',
-    url: '/login.html'
+    url: 'https://pynely.com/en/login.html'
   }
 });
 
@@ -85,64 +85,80 @@ new Vue({
           */
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
-    el: '#header-dropdown-services-development-services-label',
+    el: '#header-dropdown-services-social-services-label',
     data: {
-      title: 'Development Services'
+      title: 'Social Media Services'
     }
   });
-//Dropdown Menu - Services - Mobile App Development
+//Dropdown Menu - Services - Full Service Management
 new Vue({
-  el: '#header-dropdown-services-mobile-app-dev',
+  el: '#header-dropdown-services-social-full-service',
   data: {
-    title: 'Mobile App Development',
-    url: 'https://pynely.com/en/services/development/mobile-app.html'
+    title: 'Full Service Management',
+    url: 'https://pynely.com/en/services/marketing/social-media-full-service-management.html'
   }
 });
 
-//Dropdown Menu - Services - WordPress Development
+//Dropdown Menu - Services - Content Posting
 new Vue({
-  el: '#header-dropdown-services-wordpress-dev',
+  el: '#header-dropdown-services-social-content-posting',
   data: {
-    title: 'WordPress Development',
-    url: 'https://pynely.com/en/services/development/wordpress.html'
+    title: 'Content Posting',
+    url: 'https://pynely.com/en/services/marketing/social-media-content-posting.html'
   }
 });
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
-  el: '#header-dropdown-services-design-services-label',
+  el: '#header-dropdown-services-social-media-ads-services-label',
   data: {
-    title: 'Design Services'
+    title: 'Social Media Ads Services'
   }
 });
-//Dropdown Menu - Services - Mobile App UX/UI Design
+//Dropdown Menu - Services - Facebook Ads
 new Vue({
-  el: '#header-dropdown-services-mobile-app-ux-ui-design',
+  el: '#header-dropdown-services-facebook-ads-management',
   data: {
-    title: 'Mobile App UX/UI Design',
-    url: 'https://pynely.com/en/services/design/mobile-app-ux-ui.html'
+    title: 'Facebook Ads Management',
+    url: 'https://pynely.com/en/services/marketing/social-media-facebook-ppc.html'
   }
 });
-//Dropdown Menu - Services - Website UX/UI Design
+//Dropdown Menu - Services - Twitter Ads
 new Vue({
-  el: '#header-dropdown-services-website-ux-ui-design',
+  el: '#header-dropdown-services-twitter-ads-management',
   data: {
-    title: 'Website UX/UI Design',
-    url: 'https://pynely.com/en/services/design/website-ux-ui.html'
+    title: 'Twitter Ads Management',
+    url: 'https://pynely.com/en/services/marketing/social-media-twitter-ppc.html'
   }
 });
-//Dropdown Menu - Services - Marketing Services Label
+//Dropdown Menu - Services - Pinterest Ads
 new Vue({
-  el: '#header-dropdown-services-marketing-services-label',
+  el: '#header-dropdown-services-pinterest-ads-management',
   data: {
-    title: 'Marketing Services'
+    title: 'Pinterest Ads Management',
+    url: 'https://pynely.com/en/services/marketing/social-media-pinterest-ppc.html'
   }
 });
-//Dropdown Menu - Services - Social Media Marketing
+//Dropdown Menu - Services - Instagram Ads
 new Vue({
-  el: '#header-dropdown-services-social-media-marketing',
+  el: '#header-dropdown-services-instagram-ads-management',
   data: {
-    title: 'Social Media Marketing',
-    url: 'https://pynely.com/en/services/marketing/social-media-marketing.html'
+    title: 'Instagram Ads Management',
+    url: 'https://pynely.com/en/services/marketing/social-media-instagram-ppc.html'
+  }
+});
+//Dropdown Menu - Services - LinkedIn Ads
+new Vue({
+  el: '#header-dropdown-services-linkedin-ads-management',
+  data: {
+    title: 'LinkedIn Ads Management',
+    url: 'https://pynely.com/en/services/marketing/social-media-linkedin-ppc.html'
+  }
+});
+//Dropdown Menu - Services - Search Markteing Services Label
+new Vue({
+  el: '#header-dropdown-services-search-marketing-services-label',
+  data: {
+    title: 'Search Marketing Services'
   }
 });
 //Dropdown Menu - Services - Pay-Per-Click Ads
@@ -150,6 +166,6 @@ new Vue({
   el: '#header-dropdown-services-pay-per-click-ads',
   data: {
     title: 'Pay-Per-Click Ads',
-    url: 'https://pynely.com/en/services/marketing/pay-per-click-ads.html'
+    url: 'https://pynely.com/en/services/marketing/search-pay-per-click-ads.html'
   }
 });

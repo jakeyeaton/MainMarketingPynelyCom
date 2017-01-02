@@ -19,7 +19,7 @@ new Vue({
 new Vue({
 	el: "#footer-short-description",
 	data: {
-		title: "We create digital marketing, design, and development services that are simple."
+		title: 		"We create social marketing solutions that are dead simple yet work."
 
 	}
 });
@@ -82,71 +82,81 @@ new Vue({
 });
 //Services - Development Services Label
 new Vue({
-	el: "#footer-lable-services-development",
+	el: "#footer-lable-services-social-media",
 	data: {
-		title: "Development Services"
+		title: "Social Media Services"
 	}
 });
 //Services - Mobile App Development Footer Link
 new Vue({
-	el: "#footer-services-mobile-app-dev",
+	el: "#footer-services-full-service-social",
 	data: {
-		title: 'Mobile App Services',
-		url: 'https://pynely.com/en/services/development/mobile-app-development.html'
+		title: 'Full Service Mangement',
+		url: 'https://pynely.com/en/services/marketing/social-media-full-service-management.html'
 	}
 });
 //Services - WordPress Development Footer Link
 new Vue({
-	el: "#footer-services-wordpress-dev",
+	el: "#footer-services-content-posting",
 	data: {
-		title: 'WordPress Development',
-		url: 'https://pynely.com/en/services/development/wordpress-development.html'
+		title: 'Content Posting',
+		url: 'https://pynely.com/en/services/marketing/social-media-content-posting.html'
 	}
 });
-//Services - Design Services Label
+//Services - Facebook Ads Footer Link
 new Vue({
-	el: '#footer-label-services-design',
+	el: '#footer-services-facebook-ads',
 	data: {
-		title: 'Design Services'
+		title: 'Facebook Ads Management',
+		url: 'https://pynely.com/en/services/marketing/social-media-facebook-ppc.html'
 	}
 });
-//Services - Mobile App UX/UI Footer Link
+//Services - Twitter Ads Footer Link
 new Vue({
-	el: '#footer-services-mobile-app-uxui',
+	el: '#footer-services-twitter-ads',
 	data: {
-		title: 'Mobile App UX/UI',
-		url: 'https://pynely.com/en/services/design/mobile-app-ux-ui.html'
+		title: 'Twitter Ads Management',
+		url: 'https://pynely.com/en/services/marketing/social-media-twitter-ppc.html'
 	}
 });
-//Services - Website UX/UI Footer Link
+//Services - Pinterest Ads Footer Link
 new Vue({
-	el: '#footer-services-website-uxui',
+	el: '#footer-services-pinterest-ads',
 	data: {
-		title: 'Website UX/UI',
-		url: 'https://pynely.com/en/services/design/website-ux-ui.html'
+		title: 'Pinterest Ads Management',
+		url: 'https://pynely.com/en/services/marketing/social-media-pinterest-ppc.html'
 	}
 });
-//Services - Marketing Services Label
+//Services - Instagram Ads Footer Link
 new Vue({
-	el: "#footer-label-services-marketing",
+	el: '#footer-services-instagram-ads',
 	data: {
-		title: "Marketing Services"
+		title: 'Instagram Ads Management',
+		url: 'https://pynely.com/en/services/marketing/social-media-instagram-ppc.html'
 	}
 });
-//Services - Social Media Marketing Footer Link
+//Services - LinkedIn Ads Footer Link
 new Vue({
-	el: '#footer-services-socialMediaMarketing',
+	el: '#footer-services-linkedin-ads',
 	data: {
-		title: 'Social Media Marketing',
-		url: 'https://pynely.com/en/services/marketing/social-media-marketing.html'
+		title: 'LinkedIn Ads Management',
+		url: 'https://pynely.com/en/services/marketing/social-media-linkedin-ppc.html'
 	}
 });
+//Services - Search Marketing Services Label
+new Vue({
+	el: "#footer-label-services-search",
+	data: {
+		title: "Search Engine Services"
+	}
+});
+
 //Services - Pay-Per-Click Ads Footer Link
 new Vue({
-	el: "#footer-services-ppc",
+	el: "#footer-services-search-ppc",
 	data: {
 		title: 'Pay-Per-Click Ads',
-		url: 'https://pynely.com/en/services/marketing/pay-per-click-ads.html'
+		url: 'https://pynely.com/en/services/marketing/search-pay-per-click-ads.html'
 	}
 });
 
@@ -207,7 +217,7 @@ new Vue({
 	el: '#footer-bottom-blog',
 	data: {
 		title: 'Blog',
-		url: "https://blog.pynely.com"
+		url: "http://www.pynelyblog.com"
 	}
 });
 
@@ -216,7 +226,7 @@ new Vue({
 	el: '#footer-bottom-companyNews',
 	data: {
 		title: 'Company News',
-		url: "https://blog.pynely.com/tagged/company-news"
+		url: "http://www.pynelyblog.com/search/label/company%20news"
 	}
 });
 
@@ -304,10 +314,17 @@ new Vue({
 			url: "https://www.pinterest.com/pynely/"
 		}
 });
-//Behance Icon - Bottom Footer
+//Snapchat Icon - Bottom Footer
 new Vue({
-	el: '#footer-behance-icon',
+	el: '#footer-snapchat-icon',
 		data: {
-			url: "https://www.behance.net/pynely"
+			url: "https://www.snapchat.com/add/pynely"
+		}
+});
+//Tumblr Icon - Bottom Footer
+new Vue({
+	el: '#footer-tumblr-icon',
+		data: {
+			url: "https://pynely.tumblr.com/"
 		}
 });

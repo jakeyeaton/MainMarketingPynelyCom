@@ -73,6 +73,14 @@ new Vue({
     url: 'https://pynely.com/services/marketing/social-media-twitter-ppc.html'
   }
 });
+//Dropdown Menu - Services - Pinterest Ads
+new Vue({
+  el: '#header-dropdown-services-pinterest-ads-management',
+  data: {
+    title: 'Pinterest Ads Management',
+    url: 'https://pynely.com/services/marketing/social-media-pinterest-ppc.html'
+  }
+});
 //Dropdown Menu - Services - Instagram Ads
 new Vue({
   el: '#header-dropdown-services-instagram-ads-management',

@@ -119,6 +119,14 @@ new Vue({
 		url: 'https://pynely.com/services/marketing/social-media-twitter-ppc.html'
 	}
 });
+//Services - Pinterest Ads Footer Link
+new Vue({
+	el: '#footer-services-pinterest-ads',
+	data: {
+		title: 'Pinterest Ads Management',
+		url: 'https://pynely.com/services/marketing/social-media-pinterest-ppc.html'
+	}
+});
 //Services - Instagram Ads Footer Link
 new Vue({
 	el: '#footer-services-instagram-ads',
@@ -183,7 +191,7 @@ new Vue({
 	el: '#footer-bottom-terms',
 	data: {
 		title: 'Terms',
-		url: "https://pynely.com/polices/terms.html"
+		url: "https://pynely.com/policies/terms.html"
 	}
 });
 
@@ -192,7 +200,7 @@ new Vue({
 	el: '#footer-bottom-privacy',
 	data: {
 		title: 'Privacy',
-		url: "https://pynely.com/polices/privacy.html"
+		url: "https://pynely.com/policies/privacy.html"
 	}
 });
 

@@ -10,7 +10,7 @@ new Vue({
 new Vue({
   el: "#desktop-header-call-us-hours",
   data: {
-    title: 'Mon-Fri. 9am-5pm (PST) -'
+    title: 'Mon-Fri.8am-5pm (PST) -'
   }
 });
 //Desktop Header - Login Link

@@ -192,7 +192,7 @@ new Vue({
 	el: '#footer-bottom-privacy',
 	data: {
 		title: 'Privacy',
-		url: "https://pynely.com/polices/privacy.html"
+		url: "https://pynely.com/olices/privacy.html"
 	}
 });
 

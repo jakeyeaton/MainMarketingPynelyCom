@@ -209,7 +209,7 @@ new Vue({
 	el: '#footer-bottom-jobs',
 	data: {
 		title: 'Jobs',
-		url: "https://pynely.com/jobs/main.html"
+		url: "https://pynely.com/jobs/home.html"
 	}
 });
 //Blog - Bottom Footer

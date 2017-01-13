@@ -461,11 +461,8 @@
 }
 
 .page-header.customContact{
-  background: #4cc896; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #4cc896 , #99dfc3, #e5f7f0); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #4cc896, #99dfc3, #e5f7f0); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #4cc896, #99dfc3, #e5f7f0); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #4cc896 , #99dfc3, #e5f7f0); /* Standard syntax */
+  background: #fff; /* For browsers that do not support gradients */
+  
     color: #fff;
     border-color: #00b16a;
 }
@@ -475,13 +472,8 @@ color:#fff;
 }
 
 .page-header.custom {
-background: #00b16a; /* For browsers that do not support gradients */
-background: -webkit-linear-gradient(left, #009f5f, #00b16a , #7fd8b4, #ccefe1, #e5f7f0); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, #009f5f, #00b16a, #7fd8b4, #ccefe1, #e5f7f0); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, #009f5f, #00b16a, #7fd8b4, #ccefe1, #e5f7f0); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, #009f5f, #00b16a , #7fd8b4, #ccefe1, #e5f7f0); /* Standard syntax */
-  color: #fff;
-  border-color: #00b16a;
+background: #fff; /* For browsers that do not support gradients */
+
 
 }
 

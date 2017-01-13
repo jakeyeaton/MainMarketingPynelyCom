@@ -270,6 +270,21 @@ drift.load('fmwrhpbtzhdc');
                                         </li>
                                     </ul>
                                 </li>
+                                <li id="header-partners">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-blog">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-contact-us">
+                                  <a href="" class="drift-open-chat">
+                                    Get Started <i class="fa fa-comment" aria-hidden="true"></i>
+                                  </a>
+                                </li>
                                 <!--
                                 <li class="dropdown pull-right">
                                     <a href="#" class="header-search-toggle" role="button" title="Open Search"><span class="visible-inline-xs">Search</span><i class="fa fa-search"></i></a>
@@ -540,7 +555,7 @@ drift.load('fmwrhpbtzhdc');
       </div>
     </div>
   </div>
-</div>
+</div><!-- End .modal -->
 
 
 
@@ -766,6 +781,13 @@ drift.load('fmwrhpbtzhdc');
 
                   <li id="footer-bottom-partners">
                     <a :href="url">
+                      <i class="fa-li fa fa-angle-right"></i>
+                      {{ title }}
+                    </a>
+                  </li>
+
+                  <li id="footer-bottom-support">
+                    <a :href="url" target="_blank">
                       <i class="fa-li fa fa-angle-right"></i>
                       {{ title }}
                     </a>

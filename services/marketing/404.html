@@ -34,27 +34,7 @@ If you're the kind of person who reads source code, you might be a great fit at 
 																{{ title }}
 															</a>
 
-	                            <ul class="dropdown-menu">
-	                                <li id="desktop-header-language-english">
-																		<a :href="url">{{ title }}</a>
-																	</li><!-- American Dollar -->
-	                                <li id="desktop-header-language-espanol">
-																		<a :href="url">{{ title }}</a>
-																	</li> <!-- American Dollar -->
-	                                <li id="desktop-header-language-portugues">
-																		<a :href="url">{{ title }}</a>
-																	</li> <!-- American Dollar -->
-	                                <li id="desktop-header-language-french">
-																		<a :href="url">{{ title }}</a>
-																	</li> <!-- American Dollar -->
-	                                <li id="desktop-header-language-german">
-																		<a :href="url">{{ title }}</a>
-																	</li> <!-- American Dollar -->
-	                                <li id="desktop-header-language-japanese">
-																		<a :href="url">{{ title }}</a>
-																	</li> <!-- American Dollar -->
-	                            </ul>
-	                        </div><!-- End .header-dropdown -->
+
 
 	                        <ul class="top-menu visible-lg pull-right">
 	                            <li id="desktop-header-contact-link">
@@ -93,61 +73,82 @@ If you're the kind of person who reads source code, you might be a great fit at 
 	                        </button>
 
 	                        <div class="collapse navbar-collapse" id="main-nav-container">
-	                            <ul class="nav navbar-nav">
-	                                <li class="dropdown">
-	                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-development-services-label">
-																				{{ title }}
-																				<span class="angle"></span>
-																			</a>
-	                                    <ul class="dropdown-menu">
-	                                        <li class="dropdown">
-	                                            <a id="header-dropdown-services-mobile-app-dev" :href="url">
-																								{{ title }}
-																							</a>
-	                                            <a id="header-dropdown-services-wordpress-dev" :href="url">
-																								{{ title }}
-																							</a>
-	                                        </li>
-	                                    </ul>
-	                                </li>
+														<ul class="nav navbar-nav">
+																<li class="dropdown">
+																		<a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-social-services-label">
+																			{{ title }}
+																			<span class="angle"></span>
+																		</a>
+																		<ul class="dropdown-menu">
+																				<li class="dropdown">
+																						<a id="header-dropdown-services-social-full-service" :href="url">
+																							{{ title }}
+																						</a>
+																						<a id="header-dropdown-services-social-content-posting" :href="url">
+																							{{ title }}
+																						</a>
+																				</li>
+																		</ul>
+																</li>
 
-	                                <li class="dropdown">
-	                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-design-services-label">
-																				{{ title }}
-																				<span class="angle"></span>
-																			</a>
-	                                    <ul class="dropdown-menu" role="menu">
-	                                        <li class="dropdown">
-	                                            <a id="header-dropdown-services-mobile-app-ux-ui-design" :href="url">
-																								{{ title }}
-																							</a>
-	                                            <a id="header-dropdown-services-website-ux-ui-design" :href="url">
-																								{{ title }}
-																							</a>
-	                                        </li>
-	                                    </ul>
-	                                </li>
+																<li class="dropdown">
+																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-social-media-ads-services-label">
+																			{{ title }}
+																			<span class="angle"></span>
+																		</a>
+																		<ul class="dropdown-menu" role="menu">
+																				<li class="dropdown">
+																						<a id="header-dropdown-services-facebook-ads-management" :href="url">
+																							{{ title }}
+																						</a>
+																						<a id="header-dropdown-services-twitter-ads-management" :href="url">
+																							{{ title }}
+																						</a>
 
-	                                <li class="dropdown">
-	                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-marketing-services-label">
-																				{{ title }}
-																				<span class="angle"></span>
-																			</a>
-	                                    <ul class="dropdown-menu" role="menu">
-	                                        <li class="dropdown">
-	                                            <a id="header-dropdown-services-social-media-marketing" :href="url">
-																								{{ title }}
-																							</a>
-	                                            <a id="header-dropdown-services-pay-per-click-ads" :href="url">
-																								{{ title }}
-																							</a>
-	                                        </li>
-	                                    </ul>
-	                                </li>
-	                                <li class="dropdown pull-right">
-	                                    <a href="#" class="header-search-toggle" role="button" title="Open Search"><span class="visible-inline-xs">Search</span><i class="fa fa-search"></i></a>
-	                                </li>
-	                            </ul>
+																						<a id="header-dropdown-services-instagram-ads-management" :href="url">
+																							{{ title }}
+																						</a>
+																						<a id="header-dropdown-services-linkedin-ads-management" :href="url">
+																							{{ title }}
+																						</a>
+																				</li>
+																		</ul>
+																</li>
+
+																<li class="dropdown">
+																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-search-marketing-services-label">
+																			{{ title }}
+																			<span class="angle"></span>
+																		</a>
+																		<ul class="dropdown-menu" role="menu">
+																				<li class="dropdown">
+																						<a id="header-dropdown-services-pay-per-click-ads" :href="url">
+																							{{ title }}
+																						</a>
+																				</li>
+																		</ul>
+																</li>
+																<li id="header-partners">
+																		<a :href="url">
+																		{{ title }}
+																		</a>
+																</li>
+																<li id="header-blog">
+																		<a :href="url">
+																		{{ title }}
+																		</a>
+																</li>
+																<li id="header-contact-us">
+																	<a href="" class="drift-open-chat">
+																		Get Started <i class="fa fa-comment" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<!--
+																<li class="dropdown pull-right">
+																		<a href="#" class="header-search-toggle" role="button" title="Open Search"><span class="visible-inline-xs">Search</span><i class="fa fa-search"></i></a>
+																</li>
+															-->
+														</ul>
 	                        </div><!-- /.navbar-collapse -->
 	                    </div><!-- End .container-fluid -->
 	                </div><!-- End .header-inner -->

@@ -3066,7 +3066,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925; }
-  .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+  .btn-danger:active, .btn-danger.active, .open > .btn-danger.-toggle {
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925; }
@@ -3181,7 +3181,6 @@ tbody.collapse.in {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -3195,7 +3194,6 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
@@ -3802,7 +3800,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  }
   .navbar-toggle:focus {
     outline: 0; }
   .navbar-toggle .icon-bar {
@@ -6167,7 +6165,7 @@ body {
   direction: ltr;
   color: #323232;
   font: 400 1rem/1.65 "Raleway", sans-serif;
-  background-color: green;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -9272,7 +9270,7 @@ hr {
 --------------------------------------*/
 /* Header Main */
 .header {
-  background-color: #e8ebec;
+  background-color: #fff;
   position: relative; }
 
 .header a {
@@ -10081,7 +10079,6 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   text-align: left;
   list-style: none;
   border: none;
-  border-radius: 0;
   background-color: #fff;
   border-top: 0.2rem solid #00b16a; }
 
@@ -10290,7 +10287,6 @@ Animations - add these clases to the parent element - Navbar Or dropdown
     padding-bottom: 2.7rem; } }
 @media (min-width: 768px) {
   .header.header2 .navbar-nav > li > a {
-    border-radius: 24px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     position: relative; }
@@ -10386,8 +10382,8 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   text-align: center; }
 
 .header.header3 .header-inner .social-icons .social-icon:hover, .header.header3 .header-inner .social-icons .social-icon:focus {
-  color: #fff;
-  background-color: #00b16a; }
+  color: #4a4a4a;
+  background-color: #fff; }
 
 .header.header3 .header-inner .social-icons.pull-left .social-icon:first-child {
   margin-left: 0; }
@@ -11344,22 +11340,13 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   text-shadow: 5px 5px #00b16a; }
 
 .page-header.custom {
-  background: #00b16a;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, #009f5f, #00b16a, #7fd8b4, #ccefe1, #e5f7f0);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #009f5f, #00b16a, #7fd8b4, #ccefe1, #e5f7f0);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #009f5f, #00b16a, #7fd8b4, #ccefe1, #e5f7f0);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #009f5f, #00b16a, #7fd8b4, #ccefe1, #e5f7f0);
-  /* Standard syntax */
-  color: #fff;
-  border-color: #00b16a; }
+  background: #fff;
+
+  color: #fff;}
 
 .page-header.custom h1 {
-  color: #fff;
-  text-shadow: 5px 5px #00b16a; }
+  color: #4a4a4a;
+  }
 
 .page-header.custom .breadcrumb li a {
   color: #e5ddf4; }
@@ -11543,14 +11530,14 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   border-color: #111111; }
 
 .panel.panel-custom .panel-heading a {
-  background-color: #673AB7;
-  border-color: #5c34a4;
-  color: #fff; }
+  background-color: #fff;
+  border-color: #00b16a;
+  color: #4a4a4a; }
 
 .panel.panel-custom .panel-heading a:hover, .panel.panel-custom .panel-heading a:focus {
   color: #fff;
-  background-color: #5c34a4;
-  border-color: #512e90; }
+  background-color: #00b16a;
+  border-color: #fff; }
 
 /* Elements Tabs */
 .nav.nav-tabs, .nav.nav-pills {

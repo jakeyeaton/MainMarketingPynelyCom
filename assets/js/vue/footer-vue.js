@@ -218,7 +218,7 @@ new Vue({
 	el: '#footer-bottom-support',
 	data: {
 		title: 'Support',
-		url: ""
+		url: "https://pynely1.zendesk.com/hc/en-us"
 	}
 });
 
@@ -246,12 +246,6 @@ new Vue({
 		title: "2017"
 	}
 });
-
-
-
-
-
-
 
 /*
 Social Media Icon Section

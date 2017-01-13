@@ -26,6 +26,21 @@ new Vue({
 /*
   Services
           */
+          new Vue({
+          el:"#header-partners",
+          data: {
+          title: 'Partners',
+          url: 'https://pynely.com/partners/home.html'
+          }
+          });
+
+          new Vue({
+          el:"#header-blog",
+          data: {
+          title: 'Blog',
+          url: 'https://www.pynelyblog.com'
+          }
+          });
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
     el: '#header-dropdown-services-social-services-label',

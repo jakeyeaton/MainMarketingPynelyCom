@@ -218,7 +218,7 @@ new Vue({
 	el: '#footer-bottom-support',
 	data: {
 		title: 'Support',
-		url: ""
+		url: "https://pynely1.zendesk.com/hc/en-us"
 	}
 });
 

@@ -8377,7 +8377,9 @@ hr {
   font-size: 8rem;
   margin-bottom: 3rem;
   line-height: 0.7;
-  color: #673AB7; }
+  color: #00b16a;
+  text-shadow:20px 20px #4a4a4a;
+   }
 
 @media (min-width: 768px) {
   .error-page h1 {

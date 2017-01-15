@@ -9214,9 +9214,10 @@ hr {
 .footer.white .widget .posts-list li:hover {
   background-color: #dde1e3; }
 
-.footer.white .footer-bottom {
-  color: #323232;
-  background-color: #dde1e3; }
+  .footer.white .footer-bottom {
+    color: #4a4a4a;
+    background-color: #fff;
+  }
 
 .footer.white .footer-bottom.transparent {
   border-top-color: #e2e6e7; }
@@ -10956,7 +10957,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
     height: 0 !important; } }
 /* Vue Styles */
 #desktop-header-contact-link, #desktop-header-call-us-hours {
-  color: #fff; }
+  color: #4a4a4a; }
 
 /* ----------- 3.Elements ------------
 --------------------------------------*/
@@ -23876,4 +23877,15 @@ body.rtl .tp-kbimg {
   font-size: 10px;
   overflow: scroll; }
 
-/*# sourceMappingURL=main.css.map */
+  /* Custom CSS */
+    @media (max-width: 766px) {
+      .index-transition-tablet-up{
+        display: none;
+      }
+    }
+
+    @media (min-width: 766px) {
+      .index-transition-mobile{
+        display: none;
+      }
+    }

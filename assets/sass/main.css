@@ -9213,9 +9213,10 @@ hr {
 .footer.white .widget .posts-list li:hover {
   background-color: #dde1e3; }
 
-.footer.white .footer-bottom {
-  color: #323232;
-  background-color: #dde1e3; }
+  .footer.white .footer-bottom {
+    color: #4a4a4a;
+    background-color: #fff;
+  }
 
 .footer.white .footer-bottom.transparent {
   border-top-color: #e2e6e7; }
@@ -9308,7 +9309,7 @@ hr {
 .header-top {
   font-size: 0.85rem;
   font-weight: 500;
-  border-bottom: 1px solid #d7dcde; }
+  }
 
 .header-top a {
   color: #666; }
@@ -10740,12 +10741,16 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 /* Header Top Gray*/
 .header-top.white {
   background-color: #fff;
-  border-bottom: none; }
+  color:#4a4a4a;
+}
+.header-top.white .top-menu li a {
+  color:#4a4a4a;
+}
 
 /* Header Top - Custom*/
 .header-top.custom {
   background-color: #673AB7;
-  border-bottom: none; }
+   }
 
 .header-top.custom .header-dropdown > a {
   color: #f1f1f1;
@@ -10955,7 +10960,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
     height: 0 !important; } }
 /* Vue Styles */
 #desktop-header-contact-link, #desktop-header-call-us-hours {
-  color: #fff; }
+  color: #4a4a4a; }
 
 /* ----------- 3.Elements ------------
 --------------------------------------*/
@@ -12671,10 +12676,14 @@ label.error {
   margin-bottom: 1rem; }
 
 .service .service-title a {
-  color: #212121; }
+  color: #4a4a4a; }
+.learn-more-link a {
+  color:#4a4a4a;
+}
+.learn-more-link:hover {
+  color:#00b16a;
+}
 
-.service .service-title a:hover, .service .service-title a:focus {
-  color: #00b16a; }
 
 .service .service-title:last-child {
   margin-bottom: 0; }
@@ -12706,22 +12715,15 @@ label.error {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
 
-.service.service-box:hover {
-  color: #fff;
-  background-color: #00b16a !important; }
+
 
 .service.service-box:hover .service-icon.custom {
   background-color: #009f5f;
   box-shadow: 5px 5px 2px #008d54; }
 
-.service.service-box:hover .service-title {
-  color: #fff; }
 
-.service.service-box:hover .service-title a {
-  color: #f1f1f1; }
 
-.service.service-box:hover .service-title a:hover, .service.service-box:hover .service-title a:focus {
-  color: #fff; }
+
 
 .service.service-box.gray:not(.service-border) {
   background-color: #d7d4d4 !important; }
@@ -23905,3 +23907,103 @@ body.rtl .tp-kbimg {
   z-index: 100000;
   font-size: 10px;
   overflow: scroll; }
+
+  /* Custom CSS */
+  @media (max-width: 766px) {
+    .index-transition-tablet-up{
+      display: none;
+    }
+  }
+
+  @media (min-width: 766px) {
+    .index-transition-mobile{
+      display: none;
+    }
+  }
+
+  @import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+
+
+.pullquote,
+.pullquote:before,
+.pullquote:after {
+
+    background-image: -webkit-linear-gradient(left, #00FE98, #929292);
+    background-image: -o-linear-gradient(left, #00FE98, #929292);
+	/* Note that there's no -moz because backgrould-clip: text;
+	   is not supported in Firefox, so we skip the gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #fff;
+    -o-text-fill-color: #fff;
+    color: transparent;
+}
+
+.pullquote {
+    -webkit-text-stroke: 0.1875rem transparent;
+    -o-text-stroke: 0.1875rem transparent;
+    color: #FA1E64;
+    font-size: 5rem;
+    letter-spacing: -0.125rem;
+    line-height: 5.625rem;
+    margin: auto;
+    max-width: 40rem;
+    position: relative;
+	color: #00FE98;
+}
+
+.pullquote:before,
+.pullquote:after {
+    content: attr(data-feature-quote);
+    position: absolute;
+    width: 100%;
+}
+
+.pullquote:before {
+    left: 0.25rem;
+    top: -0.25rem;
+}
+
+.pullquote:after {
+    left: 0.5rem;
+    top: -0.5rem;
+}
+
+p {
+	margin: 0.5em 0;
+}
+
+cite {
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: -1px 1px 2px rgba(0,0,0,0.3);
+	letter-spacing: 0.125em;
+}
+
+a {
+	color: #5565BE;
+	text-decoration: none;
+}
+
+.btn.btn-mobile-transition {
+  color: #fff;
+  background:#00b16a;
+  border-color: #fff; }
+
+.btn.btn-mobile-transition:hover, .btn.btn-mobile-transition:focus {
+  color: #fff;
+  background:#32c087;
+  background-image: -o-linear-gradient(left, #00FE98, #00b16a);
+  border-color: #fff; }
+
+.btn.btn-mobile-transition.btn-border {
+  color: #49ba17;
+  background-color: transparent;
+  border-color: #49ba17; }
+
+.btn.btn-mobile-transition.btn-border:hover, .btn.btn-mobile-transition.btn-border:focus {
+  color: #fff;
+  background-color: #49ba17;
+  border-color: #49ba17; }

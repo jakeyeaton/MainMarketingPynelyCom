@@ -10,7 +10,7 @@ new Vue({
 new Vue({
   el: "#desktop-header-call-us-hours",
   data: {
-    title: 'Mon-Fri.8am-5pm (PST) -'
+    title: 'Mon-Fri. 9am-5pm (PST) -'
   }
 });
 //Desktop Header - Login Link
@@ -26,6 +26,21 @@ new Vue({
 /*
   Services
           */
+          new Vue({
+          el:"#header-partners",
+          data: {
+          title: 'Partners',
+          url: 'https://pynely.com/partners/home.html'
+          }
+          });
+
+          new Vue({
+          el:"#header-blog",
+          data: {
+          title: 'Blog',
+          url: 'https://www.pynelyblog.com'
+          }
+          });
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
     el: '#header-dropdown-services-social-services-label',

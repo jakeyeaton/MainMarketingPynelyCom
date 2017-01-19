@@ -26,7 +26,6 @@ new Vue({
 /*
   Services
           */
-
           new Vue({
           el:"#header-partners",
           data: {
@@ -36,12 +35,29 @@ new Vue({
           });
 
           new Vue({
+            el:"#header-qa",
+            data: {
+              title: 'Q & A',
+              url: 'https://pynely.com/Q-A/home.html'
+            }
+          });
+
+          new Vue({
           el:"#header-blog",
           data: {
           title: 'Blog',
-          url: 'https://www.pynelyblog.com'
+          url: 'https://blog.pynely.com'
           }
           });
+
+          new Vue({
+            el:"#header-support",
+            data: {
+              title: 'Support',
+              url: 'https://pynely1.zendesk.com/hc/en-us'
+            }
+          });
+
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
     el: '#header-dropdown-services-social-services-label',
@@ -87,14 +103,6 @@ new Vue({
   data: {
     title: 'Twitter Ads Management',
     url: 'https://pynely.com/services/marketing/social-media-twitter-ppc.html'
-  }
-});
-//Dropdown Menu - Services - Pinterest Ads
-new Vue({
-  el: '#header-dropdown-services-pinterest-ads-management',
-  data: {
-    title: 'Pinterest Ads Management',
-    url: 'https://pynely.com/services/marketing/social-media-pinterest-ppc.html'
   }
 });
 //Dropdown Menu - Services - Instagram Ads

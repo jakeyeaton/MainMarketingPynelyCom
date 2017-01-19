@@ -26,21 +26,38 @@ new Vue({
 /*
   Services
           */
-new Vue({
-el:"#header-partners",
-data: {
-title: 'Partners',
-url: 'https://pynely.com/partners/home.html'
-}
-});
+          new Vue({
+          el:"#header-partners",
+          data: {
+          title: 'Partners',
+          url: 'https://pynely.com/partners/home.html'
+          }
+          });
 
-new Vue({
-el:"#header-blog",
-data: {
-title: 'Blog',
-url: 'https://www.pynelyblog.com'
-}
-});
+          new Vue({
+            el:"#header-qa",
+            data: {
+              title: 'Q & A',
+              url: 'https://pynely.com/Q-A/home.html'
+            }
+          });
+
+          new Vue({
+          el:"#header-blog",
+          data: {
+          title: 'Blog',
+          url: 'https://blog.pynely.com'
+          }
+          });
+
+          new Vue({
+            el:"#header-support",
+            data: {
+              title: 'Support',
+              url: 'https://pynely1.zendesk.com/hc/en-us'
+            }
+          });
+
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
     el: '#header-dropdown-services-social-services-label',

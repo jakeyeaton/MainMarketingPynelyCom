@@ -42,7 +42,7 @@ web design, mobile design">
 
 
 <link rel="stylesheet" href="assets/sass/main.css" />
-<script src="https://use.fontawesome.com/e8493447ed.js"></script>
+<script src="https://use.fontawesome.com/68e13207cf.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
@@ -247,10 +247,20 @@ drift.load('fmwrhpbtzhdc');
                             {{ title }}
                             </a>
                         </li>
+                        <li id="header-qa">
+                          <a :href="url">
+                            {{ title }}
+                          </a>
+                        </li>
                         <li id="header-blog">
-                            <a :href="url">
+                            <a :href="url" target="_blank">
                             {{ title }}
                             </a>
+                        </li>
+                        <li id="header-support">
+                          <a :href="url" target="_blank">
+                            {{ title }}
+                          </a>
                         </li>
                         <li id="header-contact-us">
                           <a href="" class="drift-open-chat">
@@ -584,141 +594,141 @@ drift.load('fmwrhpbtzhdc');
             </div><!-- End .main -->
               <!-- End Main Body -->
               <footer class="footer white">
-              				<div class="container-fluid">
-              						<div class="row">
-              								<div class="col-md-3 col-sm-6">
-              									 <div class="widget about-widget">
-              																<img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
-              																<p id="footer-short-description">
-              																{{ title }}
-              																</p>
-              																<ul class="about-list">
-              																		<li>
-              																			<span id="footer-location-label">{{ title }}</span>
-              																			<span id="footer-location-city">{{ title }}</span>
-              																		</li>
-              																		<li>
-              																			<span id="footer-call-us-label">{{ title }}</span>
-              																			<span id="footer-call-us-hours">{{ title }}</span>
-              																			<br>
-              																			<a id="footer-call-us-number" href="tel:1-888-629-0687">
-              																				{{ title }}
-              																			</a>
-              																		</li>
-              																		<li>
-              																			<span id="footer-email-label">{{ title }}</span>
-              																			<a id="footer-email-address" href="mailto:hello@pynely.com">
-              																				{{ title }}
-              																			</a>
-              																		</li>
-              																		<li>
-              																			<span id="footer-chat-label">{{ title }}</span>
-              																			<a id="footer-chat-trigger" class="drift-open-chat">
-              																				{{ title }}
-              																			</a>
-              																		</li>
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-md-3 col-sm-6">
+                                 <div class="widget about-widget">
+                                              <img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
+                                              <p id="footer-short-description">
+                                              {{ title }}
+                                              </p>
+                                              <ul class="about-list">
+                                                  <li>
+                                                    <span id="footer-location-label">{{ title }}</span>
+                                                    <span id="footer-location-city">{{ title }}</span>
+                                                  </li>
+                                                  <li>
+                                                    <span id="footer-call-us-label">{{ title }}</span>
+                                                    <span id="footer-call-us-hours">{{ title }}</span>
+                                                    <br>
+                                                    <a id="footer-call-us-number" href="tel:1-888-629-0687">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <span id="footer-email-label">{{ title }}</span>
+                                                    <a id="footer-email-address" href="mailto:hello@pynely.com">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <span id="footer-chat-label">{{ title }}</span>
+                                                    <a id="footer-chat-trigger" class="drift-open-chat">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-              																		<li>
-              																				<a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-related="jakeyeaton" data-show-count="false">Tweet to @pynely</a>
-              																		</li>
-              																</ul>
-              														</div><!-- End .widget -->
-              								</div><!-- End .col-md-3 -->
+                                                  <li>
+                                                      <a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-related="jakeyeaton" data-show-count="false">Tweet to @pynely</a>
+                                                  </li>
+                                              </ul>
+                                          </div><!-- End .widget -->
+                              </div><!-- End .col-md-3 -->
 
-              								<div class="col-md-3 col-sm-6">
-              										<div class="widget">
-              												<h4 id="footer-services-label" class="widget-title">{{ title }}</h4>
-              																<ul class="fa-ul">
-              																		<li id="footer-lable-services-social-media">
-              																			<strong>{{ title }}</strong>
-              																		</li>
+                              <div class="col-md-3 col-sm-6">
+                                  <div class="widget">
+                                      <h4 id="footer-services-label" class="widget-title">{{ title }}</h4>
+                                              <ul class="fa-ul">
+                                                  <li id="footer-lable-services-social-media">
+                                                    <strong>{{ title }}</strong>
+                                                  </li>
 
-              																		<li id="footer-services-full-service-social">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
-              																		<li id="footer-services-content-posting">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
+                                                  <li id="footer-services-full-service-social">
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
+                                                  <li id="footer-services-content-posting">
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
 
-              																		<li id="footer-services-facebook-ads">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
+                                                  <li id="footer-services-facebook-ads">
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
 
-              																		<li id="footer-services-twitter-ads">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
+                                                  <li id="footer-services-twitter-ads">
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
 
                                                   <li id="footer-services-instagram-ads">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
 
                                                   <li id="footer-services-linkedin-ads">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
 
                                                   <li id="footer-label-services-search">
-              																			<strong>{{ title }}</strong>
-              																		</li>
+                                                    <strong>{{ title }}</strong>
+                                                  </li>
 
-              																		<li id="footer-services-search-ppc">
-              																				<a :href="url">
-              																				<i class="fa-li fa fa-angle-right"></i>
-              																				{{ title }}
-              																				</a>
-              																		</li>
+                                                  <li id="footer-services-search-ppc">
+                                                      <a :href="url">
+                                                      <i class="fa-li fa fa-angle-right"></i>
+                                                      {{ title }}
+                                                      </a>
+                                                  </li>
 
-              																</ul>
-              										</div><!-- End .widget -->
-              								</div><!-- End .col-md-3 -->
+                                              </ul>
+                                  </div><!-- End .widget -->
+                              </div><!-- End .col-md-3 -->
 
-              								<div class="clearfix visible-sm"></div><!-- clearfix -->
+                              <div class="clearfix visible-sm"></div><!-- clearfix -->
 
-              								<div class="col-md-3 col-sm-6">
-              										<div class="widget">
-              												<h4 id="footer-twitter-feed-label" class="widget-title">{{ title }}</h4>
-              												<a class="twitter-timeline" data-width="350" data-height="435" data-link-color="#00b16a" href="https://twitter.com/Pynely">Tweets by Pynely</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-              										</div><!-- End .widget -->
-              								</div><!-- End .col-md-3 -->
+                              <div class="col-md-3 col-sm-6">
+                                  <div class="widget">
+                                      <h4 id="footer-twitter-feed-label" class="widget-title">{{ title }}</h4>
+                                      <a class="twitter-timeline" data-width="350" data-height="435" data-link-color="#00b16a" href="https://twitter.com/Pynely">Tweets by Pynely</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                  </div><!-- End .widget -->
+                              </div><!-- End .col-md-3 -->
 
-              								<div class="col-md-3 col-sm-6">
-              										<div class="widget flickr-widget">
-              												<h4 id="footer-instagram-feed-label" class="widget-title">{{ title }}</h4>
-              												<div class="row">
+                              <div class="col-md-3 col-sm-6">
+                                  <div class="widget flickr-widget">
+                                      <h4 id="footer-instagram-feed-label" class="widget-title">{{ title }}</h4>
+                                      <div class="row">
                                         <!-- SnapWidget -->
-              													 <script src="https://snapwidget.com/js/snapwidget.js"></script>
-              													 <iframe src="https://snapwidget.com/embed/code/218240" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
-                                    	</div><!-- end .row -->
-              										</div><!-- End .widget -->
-              								</div><!-- End .col-md-3 -->
+                                         <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                                         <iframe src="https://snapwidget.com/embed/code/218240" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+                                      </div><!-- end .row -->
+                                  </div><!-- End .widget -->
+                              </div><!-- End .col-md-3 -->
 
-              						</div><!-- End .row -->
-              				</div><!-- End .container-fluid -->
+                          </div><!-- End .row -->
+                      </div><!-- End .container-fluid -->
 
-              				<div class="footer-bottom">
-              						<div class="container-fluid">
-              								<div class="footer-left">
-              										<div class="social-icons">
-              											<h6 id="footer-social-label">
-              												{{ title }}
-              											</h6>
+                      <div class="footer-bottom">
+                          <div class="container-fluid">
+                              <div class="footer-left">
+                                  <div class="social-icons">
+                                    <h6 id="footer-social-label">
+                                      {{ title }}
+                                    </h6>
 
                                     <ul class="list-inline">
                                         <li id="footer-facebook-icon">
@@ -769,11 +779,11 @@ drift.load('fmwrhpbtzhdc');
                                           </span>
                                           </a>
                                         </li>
-                                        <li id="footer-snapchat-icon">
-                                          <a :href="url" target="_blank" style="color:#fffc00;">
+                                        <li id="footer-quora-icon">
+                                          <a :href="url" target="_blank" style="color:#a82400;">
                                             <span class="fa-stack fa-md">
                                             <i class="fa fa-square fa-stack-2x"></i>
-                                            <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                                            <i class="fa fa-quora fa-stack-1x fa-inverse"></i>
                                           </span>
                                           </a>
                                         </li>
@@ -786,7 +796,7 @@ drift.load('fmwrhpbtzhdc');
                                           </a>
                                         </li>
                                       </ul>
-              										</div><!-- End .social-icons -->
+                                  </div><!-- End .social-icons -->
                                   <br>
                     <div style="width 100px;float:left;" class="index-transition-tablet-up">
                       <div class="fb-like" data-href="https://facebook.com/pynelyllc" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
@@ -799,17 +809,17 @@ drift.load('fmwrhpbtzhdc');
                       <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
                       <script type="IN/FollowCompany" data-id="7583442" data-counter="right"></script>
                     </div>
-              								</div><!-- End .footer-left -->
+                              </div><!-- End .footer-left -->
 
-              								<div class="footer-right">
-              										<ul class="footer-menu">
+                              <div class="footer-right">
+                                  <ul class="footer-menu">
 
-              												<li id="footer-bottom-about">
-              													<a :href="url">
-              														<i class="fa-li fa fa-angle-right"></i>
-              														{{ title }}
-              													</a>
-              												</li>
+                                      <li id="footer-bottom-about">
+                                        <a :href="url">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
                                       <li id="footer-bottom-partners">
                                         <a :href="url">
@@ -818,50 +828,57 @@ drift.load('fmwrhpbtzhdc');
                                         </a>
                                       </li>
 
-              												<li id="footer-bottom-support">
-              													<a :href="url" target="_blank">
-              														<i class="fa-li fa fa-angle-right"></i>
-              														{{ title }}
-              													</a>
-              												</li>
+                                      <li id="footer-bottom-support">
+                                        <a :href="url" target="_blank">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-              												<li id="footer-bottom-blog">
-              													<a :href="url" target="_blank">
-              														<i class="fa-li fa fa-angle-right"></i>
-              														{{ title }}
-              													</a>
-              												</li>
+                                      <li id="footer-bottom-qa">
+                                        <a :href="url" target="_blank">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-              												<li id="footer-bottom-jobs">
-              													<a :href="url">
-              														<i class="fa-li fa fa-angle-right"></i>
-              														{{ title }}
-              													</a>
-              												</li>
+                                      <li id="footer-bottom-blog">
+                                        <a :href="url" target="_blank">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-              												<li id="footer-bottom-privacy">
-              													<a :href="url">
-              														<i class="fa-li fa fa-angle-right"></i>
-              														{{ title }}
-              													</a>
-              												</li>
+                                      <li id="footer-bottom-jobs">
+                                        <a :href="url">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-              												<li id="footer-bottom-terms">
-              													<a :href="url">
-              														<i class="fa-li fa fa-angle-right"></i>
-              														{{ title }}
-              													</a>
-              												</li>
-              										</ul>
-              										<p id="footer-copyright-year" class="copyright">
-              											Copyright &copy; {{ title }} Pynely, LLC.
-              										</p>
-              										<br>
-              										<br>
-              								</div><!-- End .footer-right -->
-              						</div><!-- End .container-fluid -->
-              				</div><!-- End .footer-bottom -->
-              		</footer><!-- End .footer -->
+                                      <li id="footer-bottom-privacy">
+                                        <a :href="url">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
+
+                                      <li id="footer-bottom-terms">
+                                        <a :href="url">
+                                          <i class="fa-li fa fa-angle-right"></i>
+                                          {{ title }}
+                                        </a>
+                                      </li>
+                                  </ul>
+                                  <p id="footer-copyright-year" class="copyright">
+                                    Copyright &copy; {{ title }} Pynely, LLC.
+                                  </p>
+                                  <br>
+                                  <br>
+                              </div><!-- End .footer-right -->
+                          </div><!-- End .container-fluid -->
+                      </div><!-- End .footer-bottom -->
+                  </footer><!-- End .footer -->
 
 
 

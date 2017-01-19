@@ -119,6 +119,14 @@ new Vue({
 		url: 'https://pynely.com/services/marketing/social-media-twitter-ppc.html'
 	}
 });
+//Services - Pinterest Ads Footer Link
+new Vue({
+	el: '#footer-services-pinterest-ads',
+	data: {
+		title: 'Pinterest Ads Management',
+		url: 'https://pynely.com/services/marketing/social-media-pinterest-ppc.html'
+	}
+});
 //Services - Instagram Ads Footer Link
 new Vue({
 	el: '#footer-services-instagram-ads',
@@ -183,7 +191,7 @@ new Vue({
 	el: '#footer-bottom-terms',
 	data: {
 		title: 'Terms',
-		url: "https://pynely.com/polices/terms.html"
+		url: "https://pynely.com/policies/terms.html"
 	}
 });
 
@@ -192,7 +200,7 @@ new Vue({
 	el: '#footer-bottom-privacy',
 	data: {
 		title: 'Privacy',
-		url: "https://pynely.com/olices/privacy.html"
+		url: "https://pynely.com/policies/privacy.html"
 	}
 });
 
@@ -209,7 +217,16 @@ new Vue({
 	el: '#footer-bottom-blog',
 	data: {
 		title: 'Blog',
-		url: "http://www.pynelyblog.com"
+		url: "https://blog.pynely.com"
+	}
+});
+
+//Q&A - Bottom Footer
+new Vue({
+	el: "#footer-bottom-qa",
+	data: {
+		title: 'Q & A',
+		url: "https://pynely.com/Q-A/home.html"
 	}
 });
 
@@ -308,9 +325,9 @@ new Vue({
 });
 //Snapchat Icon - Bottom Footer
 new Vue({
-	el: '#footer-snapchat-icon',
+	el: '#footer-quora-icon',
 		data: {
-			url: "https://www.snapchat.com/add/pynely"
+			url: "https://pynelyllc.quora.com"
 		}
 });
 //Tumblr Icon - Bottom Footer

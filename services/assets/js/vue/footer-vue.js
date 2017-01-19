@@ -217,7 +217,16 @@ new Vue({
 	el: '#footer-bottom-blog',
 	data: {
 		title: 'Blog',
-		url: "http://www.pynelyblog.com"
+		url: "https://blog.pynely.com"
+	}
+});
+
+//Q&A - Bottom Footer
+new Vue({
+	el: "#footer-bottom-qa",
+	data: {
+		title: 'Q & A',
+		url: "https://pynely.com/Q-A/home.html"
 	}
 });
 
@@ -316,9 +325,9 @@ new Vue({
 });
 //Snapchat Icon - Bottom Footer
 new Vue({
-	el: '#footer-snapchat-icon',
+	el: '#footer-quora-icon',
 		data: {
-			url: "https://www.snapchat.com/add/pynely"
+			url: "https://pynelyllc.quora.com"
 		}
 });
 //Tumblr Icon - Bottom Footer

@@ -191,7 +191,7 @@ new Vue({
 	el: '#footer-bottom-terms',
 	data: {
 		title: 'Terms',
-		url: "https://pynely.com/policies/terms.html"
+		url: "https://pynely.com/polices/terms.html"
 	}
 });
 
@@ -200,7 +200,7 @@ new Vue({
 	el: '#footer-bottom-privacy',
 	data: {
 		title: 'Privacy',
-		url: "https://pynely.com/policies/privacy.html"
+		url: "https://pynely.com/polices/privacy.html"
 	}
 });
 

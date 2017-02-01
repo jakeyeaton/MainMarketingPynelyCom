@@ -23912,6 +23912,7 @@ body.rtl .tp-kbimg {
   @media (max-width: 766px) {
     .index-transition-tablet-up{
       display: none;
+      text-align: center;
     }
   }
 

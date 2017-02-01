@@ -1,68 +1,79 @@
-//Desktop Header - Contact Link
-new Vue({
-  el: '#desktop-header-contact-link',
-  data: {
-    title: 'Contact',
-    url: 'https://pynely.com/contact.html'
-  }
-});
-//Desktop Header - Call Us Hours
-new Vue({
-  el: "#desktop-header-call-us-hours",
-  data: {
-    title: 'Mon-Fri. 9am-5pm (PST) -'
-  }
-});
-//Desktop Header - Login Link
-new Vue({
-  el: '#desktop-header-login-link',
-  data: {
-    title: 'Login',
-    url: 'https://pynely.com/login.html'
-  }
-});
-
-
 /*
-  Services
+  Partners
           */
+          //Dropdown Menu - Partners - Marketing Services Label
           new Vue({
-          el:"#header-partners",
+              el: '#header-dropdown-partners-label',
+              data: {
+                title: 'Partners'
+              }
+            });
+            new Vue({
+            el:"#header-partners-homes",
+            data: {
+            title: 'Partners Home',
+            url: 'https://pynely.com/partners/home.html'
+            }
+            });
+          new Vue({
+          el:"#header-partners-white-lable",
           data: {
-          title: 'Partners',
-          url: 'https://pynely.com/partners/home.html'
+          title: 'White Label',
+          url: 'https://pynely.com/partners/white-label.html'
           }
           });
-
           new Vue({
-            el:"#header-qa",
-            data: {
-              title: 'Q & A',
-              url: 'https://pynely.com/Q-A/home.html'
-            }
-          });
-
-          new Vue({
-          el:"#header-blog",
+          el:"#header-partners-affilate",
           data: {
-          title: 'Blog',
-          url: 'https://blog.pynely.com'
+          title: 'Affiliate',
+          url: 'https://pynely.com/partners/affiliates.html'
           }
           });
+          //End Partners
 
+          //Dropdown Menu - Blog
           new Vue({
-            el:"#header-support",
-            data: {
-              title: 'Support',
-              url: 'https://pynely1.zendesk.com/hc/en-us'
-            }
-          });
+              el: '#header-dropdown-blog-label',
+              data: {
+                title: 'Blog'
+              }
+            });
+
+            new Vue({
+              el:"#header-blog-social-media",
+              data: {
+                title: 'Social Media Blog',
+                url: 'https://blog.pynely.com/home/?category=Social+Media'
+              }
+            });
+            new Vue({
+              el:"#header-blog-productivity",
+              data: {
+                title: 'Productivity Blog',
+                url: 'https://blog.pynely.com/home/?category=Productivity'
+              }
+            });
+            new Vue({
+              el:"#header-blog-sales",
+              data: {
+                title: 'Sales Blog',
+                url: 'https://blog.pynely.com/home/?category=Sales'
+              }
+            });
+            new Vue({
+              el:"#header-qa",
+              data: {
+                title: 'Q & A',
+                url: 'https://pynely.com/Q-A/home.html'
+              }
+            });
+          //End Blog
 
 //Dropdown Menu - Services - Marketing Services Label
 new Vue({
-    el: '#header-dropdown-services-social-services-label',
+    el: '#header-dropdown-services-label',
     data: {
-      title: 'Social Media Services'
+      title: 'Services'
     }
   });
 //Dropdown Menu - Services - Full Service Management

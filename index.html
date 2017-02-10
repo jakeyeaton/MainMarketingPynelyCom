@@ -63,9 +63,6 @@ web design, mobile design">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<!-- Place this tag in your head or just before your close body tag. -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-
 
 
 <!-- Google Fonts -->
@@ -243,40 +240,33 @@ body {
 
                         <div class="collapse navbar-collapse" id="main-nav-container">
                             <ul class="nav navbar-nav">
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services-label">
+
+                                <li id="header-how-it-works">
+                                    <a :href="url">
                                       {{ title }}
-                                      <span class="angle"></span>
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-                                            <a id="header-dropdown-services-social-full-service" :href="url">
-                                              {{ title }}
-                                            </a>
-                                            <a id="header-dropdown-services-social-content-posting" :href="url">
-                                              {{ title }}
-                                            </a>
-                                            <a id="header-dropdown-services-facebook-ads-management" :href="url">
-                                              {{ title }}
-                                            </a>
-                                            <a id="header-dropdown-services-twitter-ads-management" :href="url">
-                                              {{ title }}
-                                            </a>
+                                  </li>
 
-                                            <a id="header-dropdown-services-instagram-ads-management" :href="url">
-                                              {{ title }}
-                                            </a>
-                                            <a id="header-dropdown-services-linkedin-ads-management" :href="url">
-                                              {{ title }}
-                                            </a>
-																						<hr>
-																						<a id="header-dropdown-services-pay-per-click-ads" :href="url">
-                                              {{ title }}
-                                            </a>
+                                  <li id="header-pricing">
+                                    <a :href="url">
+                                      {{ title }}
+                                    </a>
+                                  </li>
 
-                                        </li>
-                                    </ul>
-                                </li>
+                                  <li id="header-features">
+                                    <a :href="url">
+                                      {{ title }}
+                                    </a>
+                                  </li>
+
+                                  <li id="header-faq">
+                                    <a :href="url">
+                                      {{ title }}
+                                    </a>
+                                  </li>
+
+
+
 
 
 																<li class="dropdown">
@@ -338,25 +328,14 @@ body {
                                     Get Started <i class="fa fa-comment" aria-hidden="true"></i>
                                   </a>
                                 </li>
-                                <!--
-                                <li class="dropdown pull-right">
-                                    <a href="#" class="header-search-toggle" role="button" title="Open Search"><span class="visible-inline-xs">Search</span><i class="fa fa-search"></i></a>
-                                </li>
-                              -->
+
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- End .container-fluid -->
                 </div><!-- End .header-inner -->
             </header><!-- End .header -->
 
-              <!--
-	            <div class="header-search-form">
-	                <a href="#" class="header-search-toggle" title="Close"><i class="fa fa-times"></i></a>
-	                <form action="#">
-	                    <input type="search" class="form-control" placeholder="Type in here" required>
-	                </form>
-	            </div>
-            -->
+
               <!-- End .header-search-form -->
 
               <!-- Start Main Content -->
@@ -634,7 +613,7 @@ body {
     <br>That Simply Work.
   </h1>
 
-  <a href="https://pynely.com/services/marketing/social-media-full-service-management.html">
+  <a href="https://pynely.com/services/marketing/social-media-management.html">
     <button class="btn btn-mobile-transition">
 
       Learn More Here
@@ -650,7 +629,7 @@ body {
   <aside class="pullquote" data-feature-quote="We Create Social Media Experiences That Simply Work.">
   	<p>We Create Social Media Experiences That Simply Work.</p>
   </aside>
-<a href="https://pynely.com/services/marketing/social-media-full-service-management.html">
+<a href="https://pynely.com/services/marketing/social-media-management.html">
   <button class="center-block btn btn-mobile-transition">
 
     Learn More Here
@@ -659,26 +638,6 @@ body {
 </a>
 
 </div><!-- end col-md-6 -->
-
-<!--
-<div class="col-sm-12 index-transition-mobile">
-  <h1 style="">
-    Learn Social Media Marketing:
-  </h1>
-  <img src="" class="img-responsive">
-<p>
-  Does
-  <span class=""></span>
-  <a href=""><span class=""></span></a>
-</p>
-<br>
-</div> --> <!-- End col-sm-12 -->
-<!-- End Mobile Transition -->
-
-
-
-
-
 
                 </div><!-- End .row -->
               </div> <!-- End .container-fluid -->
@@ -699,75 +658,86 @@ body {
                   </h1>
                 </div>
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="service service-box">
                         <div class="service-icon custom">
-                          <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                          <i class="fa fa-bullseye" aria-hidden="true"></i>
                         </div><!-- End .service-icon -->
                         <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/social-media-full-service-management.html">
-                          Full Social Service Management
-                        </a>
-
+                          Competitive Analysis
                       </h3>
-                      <p class="learn-more-link">
-                        <a href="https://pynely.com/services/marketing/social-media-full-service-management.html">
-                          Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
+                      <p style="font-size:21px;">
+                      We monitor competitors closely to make sure we can capitalize for our clients when downfalls and mistakes are made by competitors.
                       </p>
                     </div><!-- End .service -->
                 </div><!-- End .col-md-3 -->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="service service-box">
                         <div class="service-icon custom">
-                          <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          <i class="fa fa-industry" aria-hidden="true"></i>
                         </div><!-- End .service-icon -->
                         <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/social-media-content-posting.html">
-                          Social Media Content Posting
-                        </a>
+                          Industry Targeted
                       </h3>
-                      <p class="learn-more-link">
-                        <a href="https://pynely.com/services/marketing/social-media-content-posting.html">
-                          Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
+                      <p style="font-size:21px;">
+                      Each industry is different and has their own hurdles. This is at the forefront of our social strategy.
                       </p>
                     </div><!-- End .service -->
                 </div><!-- End .col-md-3 -->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="service service-box">
                         <div class="service-icon custom">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                          <i class="fa fa-pencil" aria-hidden="true"></i>
                         </div><!-- End .service-icon -->
                         <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/social-media-facebook-ppc.html">
-                          Facebook Ads Management
-                        </a>
+                          Content Development
                       </h3>
-                      <p class="learn-more-link">
-                        <a href="https://pynely.com/services/marketing/social-media-facebook-ppc.html">
-                          Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
+                      <p style="font-size:21px;">
+                      Beautiful content created for each platform according to your brand, goals, audience, target market, and other factors.
                       </p>
                     </div><!-- End .service -->
                 </div><!-- End .col-md-3 -->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="service service-box">
                         <div class="service-icon custom">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <i class="fa fa-bullhorn" aria-hidden="true"></i>
                         </div><!-- End .service-icon -->
                         <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/social-media-twitter-ppc.html">
-                          Twitter Ads Management
-                        </a>
+                          Social Ads Management
                       </h3>
-                      <p class="learn-more-link">
-                        <a href="https://pynely.com/services/marketing/social-media-twitter-ppc.html">
-                          Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
+                      <p style="font-size:21px;">
+                      Social media ad creation and management for Facebook, Twitter and LinkedIn to fit your goals and needs.
+                      </p>
+                    </div><!-- End .service -->
+                </div><!-- End .col-md-3 -->
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service service-box">
+                        <div class="service-icon custom">
+                          <i class="fa fa-users" aria-hidden="true"></i>
+                        </div><!-- End .service-icon -->
+                        <h3 class="service-title">
+                          Community Monitoring
+                      </h3>
+                      <p style="font-size:21px;">
+                      We respond to customers/fans in the correct matter. Directing customers to their correct "home" within your business.
+                      </p>
+                    </div><!-- End .service -->
+                </div><!-- End .col-md-3 -->
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service service-box">
+                        <div class="service-icon custom">
+                          <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+                        </div><!-- End .service-icon -->
+                        <h3 class="service-title">
+                          Influencer Identification
+                      </h3>
+                      <p style="font-size:21px;">
+                      We identify influencers who would be willing to promote your products.
                       </p>
                     </div><!-- End .service -->
                 </div><!-- End .col-md-3 -->
@@ -776,39 +746,16 @@ body {
               <div class="row">
 
 
-
                 <div class="col-md-4 col-sm-6">
                     <div class="service service-box">
                         <div class="service-icon custom">
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
+                          <i class="fa fa-bar-chart" aria-hidden="true"></i>
                         </div><!-- End .service-icon -->
                         <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/social-media-instagram-ppc.html">
-                            Instagram Ads Management
-                          </a>
-                        </h3>
-                        <p class="learn-more-link">
-                          <a href="https://pynely.com/services/marketing/social-media-instagram-ppc.html">
-                            Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                          </a>
-                        </p>
-                    </div><!-- End .service -->
-                </div><!-- End .col-md-3 -->
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="service service-box">
-                        <div class="service-icon custom">
-                          <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </div><!-- End .service-icon -->
-                        <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/social-media-linkedin-ppc.html">
-                          LinkedIn Ads Management
-                        </a>
+                          Full Reporting
                       </h3>
-                      <p class="learn-more-link">
-                        <a href="https://pynely.com/services/marketing/social-media-linkedin-ppc.html">
-                          Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
+                      <p style="font-size:21px;">
+                      Monthly reports via email and access to real-time dashboard reporting via Pynely Reports.
                       </p>
                     </div><!-- End .service -->
                 </div><!-- End .col-md-3 -->
@@ -816,48 +763,144 @@ body {
                 <div class="col-md-4 col-sm-6">
                     <div class="service service-box">
                         <div class="service-icon custom">
-                          <i class="fa fa-line-chart" aria-hidden="true"></i>
+                          <i class="fa fa-life-ring" aria-hidden="true"></i>
                         </div><!-- End .service-icon -->
                         <h3 class="service-title">
-                          <a href="https://pynely.com/services/marketing/search-pay-per-click-ads.html">
-                          Search Engine Pay-Per-Click Ads
-                        </a>
+                          Support
                       </h3>
-                      <p class="learn-more-link">
-                        <a href="https://pynely.com/services/marketing/search-pay-per-click-ads.html">
-                          Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
+                      <p style="font-size:21px;">
+                      We get it. Stuff breaks from time to time. We are always here for support. 24/5 support on all packages.
                       </p>
                     </div><!-- End .service -->
                 </div><!-- End .col-md-3 -->
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service service-box">
+                        <div class="service-icon custom">
+                          <i class="fa fa-file-o" aria-hidden="true"></i>
+                        </div><!-- End .service-icon -->
+                        <h3 class="service-title">
+                          Simplicity
+                      </h3>
+                      <p style="font-size:21px;">
+                      Simplicity is at the root of how we run everything at Pynely. We bring this quality into your marketing.
+                      </p>
+                    </div><!-- End .service -->
+                </div><!-- End .col-md-3 -->
+
+                <div class="col-md-12 text-center">
+                    <a href="https://pynely.com/services/marketing/social-media-management.html#features">
+                  <button type="button" style="font-size:21px;" class="btn btn-custom2 min-width">
+                      View All Features
+                  </button>
+                    </a>
+                </div>
 </div>
+      <br><br><br><br><br>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center">
+          <h3>
+            Social Media Management for Every Business
+          </h3>
+          <h3 class="title text-center"></h3><br>
+          <p style="font-size:21px;">
+            From Fortune 500 companies to first-time entrepreneurs, people in every industry can use Pynely to take social media off their to-do list and get better marketing results.
+          </p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-12 text-center">
+
+        </div>
+      </div>
+      <br>
+      <div class="container-fluid">
+      <div class="row fullwidth-row">
+        <div class="col-md-3 col-sm-12">
+            <div class="pricing-table dark">
+                <header>
+                    <h3 class="pricing-title">
+                      Micro
+                    </h3>
+                    <div class="price-container">
+                        <span class="price">$475<span>.00</span></span><br><br>
+                        <span class="pricing-dur">per month</span><br>
+                        <span class="pricing-dur">billed monthly</span><br>
+                    </div><!-- End .price-container -->
+
+                </header>
+
+            </div><!-- End .pricing-table -->
+        </div><!-- End .col-md-3 -->
+          <div class="col-md-3 col-sm-12">
+              <div class="pricing-table dark">
+                  <header>
+                      <h3 class="pricing-title">
+                        Venture
+                      </h3>
+                      <div class="price-container">
+                          <span class="price">$675<span>.00</span></span><br><br>
+                          <span class="pricing-dur">per month</span><br>
+                          <span class="pricing-dur">billed monthly</span><br>
+
+                      </div><!-- End .price-container -->
+
+                  </header>
+              </div><!-- End .pricing-table -->
+          </div><!-- End .col-md-3 -->
+
+          <div class="col-md-3 col-sm-12">
+              <div class="pricing-table dark">
+                  <header>
+                      <h3 class="pricing-title">
+                        Bouteche
+                      </h3>
+                      <div class="price-container">
+                        <span class="price">$775<span>.00</span></span><br><br>
+                        <span class="pricing-dur">per month</span><br>
+                        <span class="pricing-dur">billed monthly</span><br>
+
+                      </div><!-- End .price-container -->
+
+                  </header>
+              </div><!-- End .pricing-table -->
+          </div><!-- End .col-md-3 -->
+
+          <span class="clearfix visible-sm"></span><!--clearfix -->
+
+
+          <div class="col-md-3 col-sm-12">
+              <div class="pricing-table dark">
+                  <header>
+                      <h3 class="pricing-title">
+                        <strong>Enterprise</strong>
+                      </h3>
+                      <div class="price-container">
+                        <span class="price">$1,250<span>.00</span></span><br><br>
+                        <span class="pricing-dur">per month</span><br>
+                        <span class="pricing-dur">billed monthly</span><br>
+
+                      </div><!-- End .price-container -->
+
+                  </header>
+              </div><!-- End .pricing-table -->
+          </div><!-- End .col-md-3 -->
+
+          <div class="col-md-12 text-center">
+              <a href="https://pynely.com/services/marketing/social-media-mangement.html#pricing">
+            <button type="button" style="font-size:21px;" class="btn btn-custom2 min-width">
+                View All Plans
+            </button>
+              </a>
+          </div>
+
+
+      </div><!--End .row -->
+    </div>
+    <br><br><br>
 
             </div>
-            <div class="callout custom mb0">
-                   <div class="container-fluid">
-                     <div class="text-center">
-                       <h2 style="color:#ffffff;">
-                         Sign Up For Our Weekly Newsletter
-                       </h2>
-                       </div>
-                       <br>
 
-                       <div class="text-center">
-                       <i style="color:#fff;font-size:148px;" class="fa fa-5x fa-envelope-o" aria-hidden="true"></i>
-                     </div>
-                       <br>
-                       <div class="text-center">
-
-                         <button type="button" class="btn btn-custom2 min-width" data-toggle="modal" data-target="#myModal">
-                           Sign Up Now
-                         </button>
-                           <br><br>
-                           <h6 style="color:#ffffff;">
-                             (We Respect Your Privacy and MailBox. No Spam. We Promise)
-                           </h6>
-                       </div><!-- End .right -->
-                   </div><!-- End .h -->
-               </div><!-- End .callout -->
           </div>
 
               <!-- End Main Content -->
@@ -871,7 +914,7 @@ body {
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="myModalLabel">Pynely Newsletter Signup</h4>
+        <h4 class="modal-title text-center" id="myModalLabel">Pynely Weekly Newsletter Signup</h4>
       </div>
       <div class="modal-body">
         <!-- Begin MailChimp Signup Form -->
@@ -976,13 +1019,8 @@ body {
                                                 <a href="https://twitter.com/pynely" class="twitter-follow-button" data-show-count="true">Follow @pynely</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                                             </div>
                                             <br>
-                                            <div style="width: 100px;float:left" class="index-transition-tablet-up center-block">
-                                              <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-                                              <script type="IN/FollowCompany" data-id="7583442" data-counter="right"></script>
-                                            </div>
-                                            <div style="width: 100px;float:left;margin-left:10px;" class="index-transition-tablet-up center-block">
-                                            <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/101959252084887977206" data-rel="publisher"></div>
-                                          </div>
+
+
                                         </ul>
                                     </div><!-- End .widget -->
                                 </div><!-- End .col-xs-4 -->
@@ -997,53 +1035,29 @@ body {
                                                       </span>
                                                     </strong>
                                                 </li>
-                                                  <li id="footer-lable-services-social-media">
-                                                    <strong>{{ title }}</strong>
+
+                                                <li id="footer-how-it-works">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
                                                   </li>
 
-                                                  <li id="footer-services-full-service-social">
-                                                      <a :href="url">
+                                                  <li id="footer-pricing">
+                                                    <a :href="url">
                                                       {{ title }}
-                                                      </a>
-                                                  </li>
-                                                  <li id="footer-services-content-posting">
-                                                      <a :href="url">
-                                                      {{ title }}
-                                                      </a>
+                                                    </a>
                                                   </li>
 
-                                                  <li id="footer-services-facebook-ads">
-                                                      <a :href="url">
+                                                  <li id="footer-features">
+                                                    <a :href="url">
                                                       {{ title }}
-                                                      </a>
+                                                    </a>
                                                   </li>
 
-                                                  <li id="footer-services-twitter-ads">
-                                                      <a :href="url">
+                                                  <li id="footer-faq">
+                                                    <a :href="url">
                                                       {{ title }}
-                                                      </a>
-                                                  </li>
-
-                                                  <li id="footer-services-instagram-ads">
-                                                      <a :href="url">
-                                                      {{ title }}
-                                                      </a>
-                                                  </li>
-
-                                                  <li id="footer-services-linkedin-ads">
-                                                      <a :href="url">
-                                                      {{ title }}
-                                                      </a>
-                                                  </li>
-
-                                                  <li id="footer-label-services-search">
-                                                    <strong>{{ title }}</strong>
-                                                  </li>
-
-                                                  <li id="footer-services-search-ppc">
-                                                      <a :href="url">
-                                                      {{ title }}
-                                                      </a>
+                                                    </a>
                                                   </li>
 
                                               </ul>
@@ -1057,14 +1071,14 @@ body {
                                         </span>
                                       </strong>
                                   </p>
-                                  <img src="assets/img/payment-methods.png" class="img-responsive text-right" width="125px" alt="payment methods">
+                                  <img src="assets/img/payment-methods.png" class="img-responsive text-right" width="190px" alt="payment methods">
                                   <br>
 
-                                  <img src="assets/img/made-in-america.png" class="img-responsive text-right" width="100px" alt="made in america">
+                                  <img src="assets/img/made-in-america-img.png" class="img-responsive text-right" width="120px" alt="made in america">
                                   <br>
 
                                   <a href="https://yeatongroup.com" target="_blank">
-                                  <img src="assets/img/yeaton-group.png" class="img-responsive text-right" width="175px" alt="yeaton group">
+                                  <img src="assets/img/yeaton-group.png" class="img-responsive text-right" width="195px" alt="yeaton group">
                                 </a>
                                 </div><!-- End .col-xs-4 -->
 
@@ -1147,9 +1161,6 @@ body {
 
 
 
-		<script id="dsq-count-scr" src="//pynely-1.disqus.com/count.js" async></script>
-		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-		<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -1158,118 +1169,19 @@ body {
 		<script type="text/javascript" src="assets/js/extra-js/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="assets/js/extra-js/contact.js"></script>
 		<script type="text/javascript" src="assets/js/extra-js/main.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.actions.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.carousel.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.kenburn.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.migration.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.parallax.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.video.min.js"></script>
 
 
-		<script>
-		(function (w,i,d,g,e,t,s){w[d]=w[d]||[];t=i.createElement(g); t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);})(window, document, '_gscq','script','//widgets.getsitecontrol.com/54219/script.js');
-		</script>
+
+
+
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-71950190-1', 'auto'); ga('send', 'pageview');
 		</script>
-		<script type="text/javascript">
-		    (function() {
-		                "use strict";
 
-		                $(document).ready(function() {
-		                    var revapi;
-		                    if($("#rev_slider").revolution == undefined){
-		                        revslider_showDoubleJqueryError("#rev_slider");
-		                    }else{
-		                        revapi = $("#rev_slider").show().revolution({
-		                            sliderType:"standard",
-		                            jsFileLocation:"assets/js/",
-		                            sliderLayout:"auto",
-		                            dottedOverlay:"none",
-		                            delay:10000,
-		                            navigation: {
-		                                keyboardNavigation: "on",
-		                                keyboard_direction: "horizontal",
-		                                mouseScrollNavigation: "off",
-		                                onHoverStop: "off",
-		                                touch: {
-		                                    touchenabled: "on",
-		                                    swipe_threshold: 75,
-		                                    swipe_min_touches: 1,
-		                                    swipe_direction: "horizontal",
-		                                    drag_block_vertical: false
-		                                },
-		                                arrows: {
-		                                    style: "erinyen",
-		                                    enable: true,
-		                                    hide_onmobile: false,
-		                                    hide_under: 768,
-		                                    hide_onleave: false,
-		                                    tmp: '<div class="tp-title-wrap"> <div class="tp-arr-imgholder"></div><div class="tp-arr-img-over"></div> <span class="tp-arr-titleholder">{{title}}</span> </div>',
-		                                    left: {
-		                                        h_align: "left",
-		                                        v_align: "center",
-		                                        h_offset: 20,
-		                                        v_offset: 0
-		                                    },
-		                                    right: {
-		                                        h_align: "right",
-		                                        v_align: "center",
-		                                        h_offset: 20,
-		                                        v_offset: 0
-		                                    }
-		                                }
-		                            },
-		                            viewPort: {
-		                                enable:true,
-		                                outof:"pause",
-		                                visible_area:"80%"
-		                            },
-		                            responsiveLevels:[1500,992,768,480],
-		                            gridwidth:[1470,970,750,480],
-		                            gridheight:[600,540,480,360],
-		                            autoHeight:"off",
-		                            lazyType:"single",
-		                            shadow:0,
-		                            spinner:"off",
-		                            stopLoop:"off",
-		                            stopAfterLoops:-1,
-		                            stopAtSlide:-1,
-		                            shuffle:"off",
-		                            hideThumbsOnMobile:"off",
-		                            hideSliderAtLimit:0,
-		                            hideCaptionAtLimit:0,
-		                            hideAllCaptionAtLilmit:0,
-		                            debugMode:false,
-		                            disableProgressBar: "on"
-		                        });
-
-		                    }
-		                });
-
-		            })();
-		</script>
 <!-- Latest compiled and minified JavaScript - Bootstrap JavaScript -->
 <script src="assets/js//vue/vue.js"></script>
 <script src="assets/js/vue/footer-vue.js"></script>
 <script src="assets/js/vue/general-vue.js"></script>
 <script src='assets/js/vue/header-vue.js'></script>
-<!-- Drip -->
-<script type="text/javascript">
-  var _dcq = _dcq || [];
-  var _dcs = _dcs || {};
-  _dcs.account = '7243446';
-
-  (function() {
-    var dc = document.createElement('script');
-    dc.type = 'text/javascript'; dc.async = true;
-    dc.src = '//tag.getdrip.com/7243446.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(dc, s);
-  })();
-</script>
 </body>
 </html>

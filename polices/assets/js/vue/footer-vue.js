@@ -19,29 +19,8 @@ new Vue({
 new Vue({
 	el: "#footer-short-description",
 	data: {
-		title: 		"We create social marketing solutions that are dead simple yet work."
+		title: "We create social marketing solutions that are dead simple yet work."
 
-	}
-});
-//Business Info Label - Call Us Label
-new Vue({
-	el: '#footer-call-us-label',
-	data: {
-		title: "Call Us"
-	}
-});
-//Business Info Label - Call Us Hours
-new Vue({
-	el: "#footer-call-us-hours",
-	data: {
-		title: "Mon-Fri. 9am-5pm (PST)"
-	}
-});
-//Business Info Label - Call Us Number
-new Vue({
-	el: "#footer-call-us-number",
-	data: {
-		title: "+1 888 629-0687"
 	}
 });
 //Business Info Label - Email Label
@@ -77,110 +56,39 @@ new Vue({
 new Vue({
 	el: "#footer-services-label",
 	data: {
-		title: "Services"
-	}
-});
-//Services - Development Services Label
-new Vue({
-	el: "#footer-lable-services-social-media",
-	data: {
-		title: "Social Media Services"
-	}
-});
-//Services - Mobile App Development Footer Link
-new Vue({
-	el: "#footer-services-full-service-social",
-	data: {
-		title: 'Full Service Mangement',
-		url: 'https://pynely.com/services/marketing/social-media-full-service-management.html'
-	}
-});
-//Services - WordPress Development Footer Link
-new Vue({
-	el: "#footer-services-content-posting",
-	data: {
-		title: 'Content Posting',
-		url: 'https://pynely.com/services/marketing/social-media-content-posting.html'
-	}
-});
-//Services - Facebook Ads Footer Link
-new Vue({
-	el: '#footer-services-facebook-ads',
-	data: {
-		title: 'Facebook Ads Management',
-		url: 'https://pynely.com/services/marketing/social-media-facebook-ppc.html'
-	}
-});
-//Services - Twitter Ads Footer Link
-new Vue({
-	el: '#footer-services-twitter-ads',
-	data: {
-		title: 'Twitter Ads Management',
-		url: 'https://pynely.com/services/marketing/social-media-twitter-ppc.html'
-	}
-});
-//Services - Pinterest Ads Footer Link
-new Vue({
-	el: '#footer-services-pinterest-ads',
-	data: {
-		title: 'Pinterest Ads Management',
-		url: 'https://pynely.com/services/marketing/social-media-pinterest-ppc.html'
-	}
-});
-//Services - Instagram Ads Footer Link
-new Vue({
-	el: '#footer-services-instagram-ads',
-	data: {
-		title: 'Instagram Ads Management',
-		url: 'https://pynely.com/services/marketing/social-media-instagram-ppc.html'
-	}
-});
-//Services - LinkedIn Ads Footer Link
-new Vue({
-	el: '#footer-services-linkedin-ads',
-	data: {
-		title: 'LinkedIn Ads Management',
-		url: 'https://pynely.com/services/marketing/social-media-linkedin-ppc.html'
-	}
-});
-//Services - Search Marketing Services Label
-new Vue({
-	el: "#footer-label-services-search",
-	data: {
-		title: "Search Engine Services"
+		title: "Service"
 	}
 });
 
-//Services - Pay-Per-Click Ads Footer Link
+//Services Tabs
 new Vue({
-	el: "#footer-services-search-ppc",
-	data: {
-		title: 'Pay-Per-Click Ads',
-		url: 'https://pynely.com/services/marketing/search-pay-per-click-ads.html'
-	}
+  el: "#footer-how-it-works",
+  data: {
+      title: 'How it works',
+      url: "https://pynely.com/services/marketing/social-media-management.html#how-it-works"
+  }
 });
-
-
-/*
-dfdhjfh
-*/
-//Twitter Feed Label
 new Vue({
-	el: "#footer-twitter-feed-label",
-	data: {
-		title: "Twitter Feed"
-	}
+  el: "#footer-pricing",
+  data: {
+      title: 'Pricing',
+      url: "https://pynely.com/services/marketing/social-media-management.html#pricing"
+  }
 });
-//Instagram Feed Label
 new Vue({
-	el: "#footer-instagram-feed-label",
-	data: {
-		title: "Instagram Feed"
-	}
+  el: "#footer-features",
+  data: {
+      title: "Features",
+      url: "https://pynely.com/services/marketing/social-media-management.html#features"
+  }
 });
-
-
-
+new Vue({
+  el: "#footer-faq",
+  data: {
+    title: "Faq",
+    url: "https://pynely.com/services/marketing/social-media-management.html#faq"
+  }
+});
 
 /*
 Bottom Footer Links Section
@@ -226,7 +134,7 @@ new Vue({
 	el: "#footer-bottom-qa",
 	data: {
 		title: 'Q & A',
-		url: "https://pynely.com/Q-A/home.html"
+		url: "https://blog.pynely.com/q-a/"
 	}
 });
 
@@ -262,78 +170,4 @@ new Vue({
 	data: {
 		title: "2017"
 	}
-});
-
-
-
-
-
-
-
-/*
-Social Media Icon Section
-*/
-
-//Social Label - Bottom Footer
-new Vue({
-	el: '#footer-social-label',
-	data: {
-		title: "Give Us A Follow"
-	}
-})
-//Facebook Icon - Bottom Footer
-new Vue({
-	el: '#footer-facebook-icon',
-		data: {
-			url: "https://www.facebook.com/pynelyllc"
-		}
-});
-//Twitter Icon - Bottom Footer
-new Vue({
-	el: '#footer-twitter-icon',
-		data: {
-			url: "https://twitter.com/pynely"
-		}
-});
-//LinkedIn Icon - Bottom Footer
-new Vue({
-	el: '#footer-linkedin-icon',
-		data: {
-			url: "https://www.linkedin.com/company/pynely"
-		}
-});
-//Instagram Icon - Bottom Footer
-new Vue({
-	el: '#footer-instagram-icon',
-		data: {
-			url: "https://www.instagram.com/pynelyllc/"
-		}
-});
-//Google Plus Icon - Bottom Footer
-new Vue({
-	el: '#footer-google-plus-icon',
-		data: {
-			url: "https://plus.google.com/+Pynelyhq"
-		}
-});
-//Pinterest Icon - Bottom Footer
-new Vue({
-	el: '#footer-pinterest-icon',
-		data: {
-			url: "https://www.pinterest.com/pynely/"
-		}
-});
-//Snapchat Icon - Bottom Footer
-new Vue({
-	el: '#footer-quora-icon',
-		data: {
-			url: "https://pynelyllc.quora.com"
-		}
-});
-//Tumblr Icon - Bottom Footer
-new Vue({
-	el: '#footer-tumblr-icon',
-		data: {
-			url: "https://pynely.tumblr.com/"
-		}
 });

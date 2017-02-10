@@ -1,3 +1,33 @@
+//Services Tabs
+new Vue({
+  el: "#header-how-it-works",
+  data: {
+      title: 'How it works',
+      url: "https://pynely.com/services/marketing/social-media-management.html#how-it-works"
+  }
+});
+new Vue({
+  el: "#header-pricing",
+  data: {
+      title: 'Pricing',
+      url: "https://pynely.com/services/marketing/social-media-management.html#pricing"
+  }
+});
+new Vue({
+  el: "#header-features",
+  data: {
+      title: "Features",
+      url: "https://pynely.com/services/marketing/social-media-management.html#features"
+  }
+});
+new Vue({
+  el: "#header-faq",
+  data: {
+    title: "Faq",
+    url: "https://pynely.com/services/marketing/social-media-management.html#faq"
+  }
+});
+
 /*
   Partners
           */
@@ -64,86 +94,7 @@
               el:"#header-qa",
               data: {
                 title: 'Q & A',
-                url: 'https://pynely.com/Q-A/home.html'
+                url: 'https://blog.pynely.com/q-a/'
               }
             });
           //End Blog
-
-//Dropdown Menu - Services - Marketing Services Label
-new Vue({
-    el: '#header-dropdown-services-label',
-    data: {
-      title: 'Services'
-    }
-  });
-//Dropdown Menu - Services - Full Service Management
-new Vue({
-  el: '#header-dropdown-services-social-full-service',
-  data: {
-    title: 'Full Service Management',
-    url: 'https://pynely.com/services/marketing/social-media-full-service-management.html'
-  }
-});
-
-//Dropdown Menu - Services - Content Posting
-new Vue({
-  el: '#header-dropdown-services-social-content-posting',
-  data: {
-    title: 'Content Posting',
-    url: 'https://pynely.com/services/marketing/social-media-content-posting.html'
-  }
-});
-//Dropdown Menu - Services - Marketing Services Label
-new Vue({
-  el: '#header-dropdown-services-social-media-ads-services-label',
-  data: {
-    title: 'Social Media Ads Services'
-  }
-});
-//Dropdown Menu - Services - Facebook Ads
-new Vue({
-  el: '#header-dropdown-services-facebook-ads-management',
-  data: {
-    title: 'Facebook Ads Management',
-    url: 'https://pynely.com/services/marketing/social-media-facebook-ppc.html'
-  }
-});
-//Dropdown Menu - Services - Twitter Ads
-new Vue({
-  el: '#header-dropdown-services-twitter-ads-management',
-  data: {
-    title: 'Twitter Ads Management',
-    url: 'https://pynely.com/services/marketing/social-media-twitter-ppc.html'
-  }
-});
-//Dropdown Menu - Services - Instagram Ads
-new Vue({
-  el: '#header-dropdown-services-instagram-ads-management',
-  data: {
-    title: 'Instagram Ads Management',
-    url: 'https://pynely.com/services/marketing/social-media-instagram-ppc.html'
-  }
-});
-//Dropdown Menu - Services - LinkedIn Ads
-new Vue({
-  el: '#header-dropdown-services-linkedin-ads-management',
-  data: {
-    title: 'LinkedIn Ads Management',
-    url: 'https://pynely.com/services/marketing/social-media-linkedin-ppc.html'
-  }
-});
-//Dropdown Menu - Services - Search Markteing Services Label
-new Vue({
-  el: '#header-dropdown-services-search-marketing-services-label',
-  data: {
-    title: 'Search Marketing Services'
-  }
-});
-//Dropdown Menu - Services - Pay-Per-Click Ads
-new Vue({
-  el: '#header-dropdown-services-pay-per-click-ads',
-  data: {
-    title: 'Pay-Per-Click Ads',
-    url: 'https://pynely.com/services/marketing/search-pay-per-click-ads.html'
-  }
-});

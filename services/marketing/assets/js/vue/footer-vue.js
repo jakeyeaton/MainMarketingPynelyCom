@@ -72,7 +72,7 @@ new Vue({
   el: "#footer-pricing",
   data: {
       title: 'Pricing',
-      url: "https://pynely.com/services/marketing/social-media-management.html#pricing"
+      url: "https://pynely.com/services/marketing/social-media-management.html#price"
   }
 });
 new Vue({

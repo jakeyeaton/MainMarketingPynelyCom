@@ -44,6 +44,7 @@ web design, mobile design">
 <link rel="stylesheet" href="assets/sass/main.css" />
 <script src="https://use.fontawesome.com/68e13207cf.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
@@ -183,75 +184,144 @@ drift.load('fmwrhpbtzhdc');
                                     </a>
                                   </li>
 
-                                  <li id="header-features">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
                                   <li id="header-faq">
                                     <a :href="url">
                                       {{ title }}
                                     </a>
                                   </li>
 
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-solutions-dentists">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-legal">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-local-gyms">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-restaurants">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-retail-e-commerce">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-web-development-agency">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                          </li>
+                                      </ul>
+                                  </li>
+
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-comparison">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-encyclopedia">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-evaluations">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-marketing-kits">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-marketing-resources">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-templetes">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                          </li>
+                                      </ul>
+                                  </li>
 
 
 
-
-																<li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-																					<li id="header-partners-white-lable">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-partners-affilate">
-					                                    <a :href="url">
-					                                    {{ title }}
-					                                    </a>
-					                                </li>
-
-                                        </li>
-                                    </ul>
-                                </li>
-
-																<li class="dropdown">
+                                <li class="dropdown">
                                     <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
                                       {{ title }}
                                       <span class="angle"></span>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown">
-																					<li id="header-blog-social-media">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-blog-productivity">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-blog-sales">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-qa">
-					                                    <a :href="url">
-					                                    {{ title }}
-					                                    </a>
-					                                </li>
+                                          <li id="header-blog-social-media">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-productivity">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-sales">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
+                                      {{ title }}
+                                      <span class="angle"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                          <li id="header-partners-white-lable">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-partners-affilate">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
 
                                         </li>
                                     </ul>
                                 </li>
+
 
                                 <li id="header-contact-us">
                                   <a href="" class="drift-open-chat">
@@ -264,8 +334,6 @@ drift.load('fmwrhpbtzhdc');
                     </div><!-- End .container-fluid -->
                 </div><!-- End .header-inner -->
             </header><!-- End .header -->
-
-
 
               <br>
                             <!-- Start Main Content -->
@@ -301,7 +369,7 @@ drift.load('fmwrhpbtzhdc');
                                  <div class="row">
                                      <div class="col-lg-3 col-md-3"></div>
                                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                         <h2 class="text-center" style="color:#4a4a4a;">
+                                         <h2 class="text-center" style="color:#4a4a4a;font-size:36px;">
                                          <span>
                                            Help Your Agencies Bottom Line.
                                          </span>
@@ -313,11 +381,12 @@ drift.load('fmwrhpbtzhdc');
 
                                              <br><br>
                                          </p>
-                                         <a href="https://goo.gl/forms/GtnzdeY457Myvl7n1" target="_blank">
+                                         <a href="https://pynely.com/partners/white-label.html#get-started">
                                            <button class="center-block btn btn-custom2 min-width-sm">
                                              Apply Now!
                                            </button>
                                          </a>
+                                         <br>
                                          <br>
                                          <h3 class="title text-center"></h3>
                                          <br>
@@ -335,19 +404,17 @@ drift.load('fmwrhpbtzhdc');
                                            Pynely does all the "behind-the-scenes" work on your clients social media accounts on your behalf, impressing your clients, building stronger relationships, and helping you make a great
                                            profit at the same time. Even if you don't have social media management experience, we make it easy for you to thrive as a Social Media Reseller. It's completely whitelabeled so your clients
                                            never know you're using our service. To find out more about the our social media full service management service
-                                           <strong><u><a href="https://pynely.com/services/social-media-full-service-management.html">check it out here</a></u></strong>.
-                                           <br><br>
-                                           We also offer another whitelabled service which is our Social Media Content Posting. For more information about this service
-                                           <strong><u><a href="https://pynely.com/services/social-media-content-posting.html">check it out here</a></u></strong>.
+                                           <strong><u><a href="https://pynely.com/services/social-media-full-service-management.html" target="_blank">check it out here</a></u></strong>.
                                            <br><br>
                                            For information about our pricing please
                                            <strong><u><a href="" class="drift-open-chat">contact us</a></u></strong> or <u><strong><a href="mailto:hello@pynely.com?subject=Whitelabel Partner Pricing Services Questions">email us</a></u></strong>.
                                            You choose how much to charge your clients.
                                            Some partners markup only 10% and go as high as 500%!
-
                                          </p>
                                          <br>
+                                         <br>
                                          <h3 class="title text-center"></h3>
+                                         <br>
                                          <br>
                                          <p class="text-left" style="font-size:24px;color:#4a4a4a;">
                                              <span style="color:#00b16a;">
@@ -405,21 +472,298 @@ drift.load('fmwrhpbtzhdc');
                                      </div>
                                      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                  </div>
+                                 <br>
+                                 <br>
+                                 <h3 class="title text-center"></h3>
+                                 <br>
+                                 <br>
 
-                                 <div class="row"><!-- Start .space-row -->
-                                   <div class="col-md-12">
-                                   </div>
-                             </div><!-- End .container-fluid -->
+                            <div class="row"><!-- Start .row -->
+                              <div class="col-md-3"></div>
+                              <div class="col-md-6">
+                                <h1 class="text-center" style="color:#4a4a4a;font-size:42px;">
+                                  White Label Pricing
+                                </h1>
+                                <br>
+                              </div>
+                              <div class="col-md-3"></div>
+                            </div><!-- End .row -->
+
+                            <div class="row fullwidth-row">
+                              <div class="col-md-3 col-sm-12">
+                                  <div class="pricing-table dark">
+                                      <header>
+                                          <h3 class="pricing-title">
+                                            Micro
+                                          </h3>
+                                          <div class="price-container">
+                                              <span class="price">$995<span>.00</span></span><br><br>
+                                              <span class="pricing-dur">per month</span><br>
+                                              <span class="pricing-dur">billed monthly</span><br>
+                                          </div><!-- End .price-container -->
+                                          <br>
+                                      </header>
+                                      <div class="pricing-body">
+                                        <ul class="text-left" style="font-size:16px;">
+                                            <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Pinterest, LinkedIn, or Google+</li>
+                                            <li><i class="fa fa-check"></i>Content Development</li>
+                                            <li><i class="fa fa-check"></i>Content Posting Management</li>
+                                        </ul>
+                                      </div><!-- End .pricing-body -->
+
+                                  </div><!-- End .pricing-table -->
+                              </div><!-- End .col-md-3 -->
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="pricing-table dark">
+                                        <header>
+                                            <h3 class="pricing-title">
+                                              Venture
+                                            </h3>
+                                            <div class="price-container">
+                                                <span class="price">$1,285<span>.00</span></span><br><br>
+                                                <span class="pricing-dur">per month</span><br>
+                                                <span class="pricing-dur">billed monthly</span><br>
+                                            </div><!-- End .price-container -->
+                                            <br>
+                                        </header>
+                                        <div class="pricing-body">
+                                          <ul class="text-left" style="font-size:16px;">
+                                              <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
+                                              <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                              <li><i class="fa fa-check"></i>Daily Posts to Pinterest</li>
+                                              <li><i class="fa fa-check"></i>Daily Posts to LinkedIn</li>
+                                              <li><i class="fa fa-check"></i>Daily Posts to Google+</li>
+                                              <li><i class="fa fa-check"></i>Content Development</li>
+                                              <li><i class="fa fa-check"></i>Content Posting Management</li>
+                                              <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
+                                              <li><i class="fa fa-check"></i>x2 Weekly Instagram Posts</li>
+                                              <li><i class="fa fa-check"></i>x4 Monthly Blog Post</li>
+                                          </ul>
+                                        </div><!-- End .pricing-body -->
+                                    </div><!-- End .pricing-table -->
+                                </div><!-- End .col-md-3 -->
+
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="pricing-table dark">
+                                        <header style="border-right:3px solid #fff;border-left:3px solid #fff;">
+                                            <h3 class="pricing-title">
+                                              Bouteche
+                                            </h3>
+                                            <div class="price-container">
+                                              <span class="price">$1,795<span>.00</span></span><br><br>
+                                              <span class="pricing-dur">per month</span><br>
+                                              <span class="pricing-dur">billed monthly</span><br>
+                                            </div><!-- End .price-container -->
+                                            <br>
+                                        </header>
+                                        <div class="pricing-body">
+                                        <ul class="text-left" style="font-size:16px;">
+                                            <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Pinterest</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to LinkedIn</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Google+</li>
+                                            <li><i class="fa fa-check"></i>Content Development</li>
+                                            <li><i class="fa fa-check"></i>Content Posting Management</li>
+                                            <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
+                                            <li><i class="fa fa-check"></i>x5 Weekly Instagram Posts</li>
+                                            <li><i class="fa fa-check"></i>x6 Monthly Blog Posts</li>
+                                            <li><i class="fa fa-check"></i>Facebook Ad Management ($500 ad spend)</li>
+                                        </ul>
+                                      </div><!-- End .pricing-body -->
+                                    </div><!-- End .pricing-table -->
+                                </div><!-- End .col-md-3 -->
+
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="pricing-table dark">
+                                        <header>
+                                            <h3 class="pricing-title">
+                                              <strong>Enterprise</strong>
+                                            </h3>
+                                            <div class="price-container">
+                                              <span class="price">$2,475<span>.00</span></span><br><br>
+                                              <span class="pricing-dur">per month</span><br>
+                                              <span class="pricing-dur">billed monthly</span><br>
+                                            </div><!-- End .price-container -->
+                                            <br>
+                                        </header>
+                                        <div class="pricing-body">
+                                        <ul class="text-left" style="font-size:16px;">
+                                            <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Pinterest</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to LinkedIn</li>
+                                            <li><i class="fa fa-check"></i>Daily Posts to Google+</li>
+                                            <li><i class="fa fa-check"></i>Content Development</li>
+                                            <li><i class="fa fa-check"></i>Content Posting Management</li>
+                                            <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
+                                            <li><i class="fa fa-check"></i>x5 Weekly Instagram Posts</li>
+                                            <li><i class="fa fa-check"></i>x8 Monthly Blog Posts</li>
+                                            <li><i class="fa fa-check"></i>Facebook Ad Management ($1,000 ad spend)</li>
+                                            <li><i class="fa fa-check"></i>Community & Engagement Management</li>
+                                            <li><i class="fa fa-check"></i>x1 Influencer Report Per Quarter</li>
+                                        </ul>
+                                      </div><!-- End .pricing-body -->
+                                    </div><!-- End .pricing-table -->
+                                </div><!-- End .col-md-3 -->
+
+                                <div class="col-md-12 text-center">
+
+                                </div>
 
 
-                             <div class="mb35 mb25-sm"></div><!-- margin -->
+                            </div><!--End .row -->
+
+                             <br>
+                             <br>
+                             <h3 class="title text-center"></h3>
+                             <br>
+                             <br>
+                             <div class="row">
+                             <div class="col-md-3"></div>
+                             <div class="col-md-6">
+                               <h1 class="text-left" style="color:#4a4a4a;font-size:42px;">
+                                 Discover How We Can Help Your Agency
+                               </h1>
+                               <p class="text-center" style="font-size:20px">
+                                 Team up with Pynely to deliver scalable and innovative search marketing services that fulfill your clients' needs.
+                               </p>
+                               <form id="get-started" name="white-label-partner" action="https://pynely.com/resources/thank-you/featured-content/follow-us-white-label.html" netlify>
+                                 <input type="text" name="First_Name" id="First_Name" class="form-control" placeholder="First Name*" required>
+                                 <input type="text" name="Last_Name" id="Last_name" class="form-control" placeholder="Last Name*" required>
+                                 <input type="text" name="Email" id="email" class="form-control" placeholder="Email*" required>
+                                 <input type="text" name="Phone" id="phone" class="form-control" placeholder="Phone*" required>
+                                 <input type="text" name="Company_Name" id="company_Name" class="form-control" placeholder="Company Name*" required>
+                                 <input type="text" name="Website_URL" id="website_url" class="form-control" placeholder="Website*" required>
+
+                                 <p class="hidden"><label>Bot field:
+                                   <input name="bot-field"></label>
+                                 </p>
+
+                                 <div class="radio text-left">
+                                   <label class="custom-radio-wrapper">
+                                     <span class="custom-radio-container">
+                                       <input type="radio" name="subscribe_to_pynelys_blog" value="subscribe_to_pynelys_blog">
+                                       <span class="custom-radio-icon"></span>
+                                     </span>
+                                     <span>
+                                       <span style="font-size:18px;color:#4a4a4a;">
+                                         Subscribe To Pynely's Blog
+                                       </span>
+                                     </span>
+                                   </label>
+                                 </div><!-- End .radio -->
+                                 <div class="g-recaptcha" data-sitekey="6LeePxsTAAAAADQGlbsdF6DsMZwLjJqv2M82oeBE"></div>
+                                 <br>
+                                 <button type="submit" id="submit" class="btn btn-md text-left" style="background:#00b16a;color:#fff;">Get Started</button>
+                               </form>
+                             </div>
+                             <div class="col-md-3"></div>
+                           </div>
 
 
-                             <div class="mb55 mb50-sm"></div><!-- margin -->
+                           <br>
+                           <br>
+                           <h3 class="title text-center"></h3>
+                           <br>
+                           <br>
+
+
+                             <div class="row">
+                               <div class="col-md-3"></div>
+                               <div class="col-md-6">
+                                 <h1 id="faq" class="text-left" style="color:#4a4a4a;font-size:42px;">Frequently asked questions<br>(FAQ)</h1>
+                                 <p>These are questions we hear a lot and you'll find the ansers below. But if you have others, please don't hesitate to contact us - we're here to help</p>
+                                 <button class="btn" style="background:#00b16a;color:#fff;">
+                                   <a href="" class="drift-open-chat" style="color:#fff;">
+                                   Contact us
+                                 </a>
+                                 </button>
+                                 <br>
+                                 <br>
+
+    <div class="panel-group" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-custom">
+            <div class="panel-heading" role="tab" id="heading12">
+                <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                    Can I outsource communication to Pynely?
+                    </a>
+                </h4>
+            </div><!-- End .panel-heading -->
+            <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                <div class="panel-body">
+                    <p>
+                      It is definitely possible for us to handle the entire communication with the end-client. However, it would require a different pricing as the amount of work required is substantial.
+                      We typically find the communication pattern that matches your clients needs and we will provide you with a custom quote.
+                    </p>
+                </div><!-- End .panel-body -->
+            </div><!-- End .panel-collapse -->
+        </div><!-- End .panel -->
+        <div class="panel panel-custom">
+            <div class="panel-heading" role="tab" id="heading13">
+                <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                    Is there a minimum of acounts required to outsource communication?
+                    </a>
+                </h4>
+            </div><!-- End .panel-heading -->
+            <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                <div class="panel-body">
+                    <p>
+                      If we were to take over communication, we would require a minimum of 50 accounts to enable White Label communication. This includes new emails with your domain and aliases to make it
+                      seem like our representative are from your agency.
+                    </p>
+                </div><!-- End .panel-body -->
+            </div><!-- End .panel-collapse -->
+        </div><!-- End .panel -->
+        <div class="panel panel-custom">
+            <div class="panel-heading" role="tab" id="heading14">
+                <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                    Who handles the communication with the end client?
+                    </a>
+                </h4>
+            </div><!-- End .panel-heading -->
+            <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                <div class="panel-body">
+                    <p>
+                      Communication with the end client will be handled by reps from your company. We will not contact your client or participate in conference calls. White Label communication will be between
+                      representatives from your agency and PPC Strategists from our team.
+                    </p>
+                </div><!-- End .panel-body -->
+            </div><!-- End .panel-collapse -->
+        </div><!-- End .panel -->
+        <div class="panel panel-custom">
+            <div class="panel-heading" role="tab" id="heading15">
+                <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                    How are my accounts going to be managed within Pynely?
+                    </a>
+                </h4>
+            </div><!-- End .panel-heading -->
+            <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+                <div class="panel-body">
+                    <p>
+                      We are strong believers in helping our social media Strategists focus on fewer verticals and growing their strength within those verticals exponentially. Your accounts will mainly be managed
+                      by the same team within Pynely.
+                      <br><br>
+                      The individual social media accounts will be managed by different people within that team depending on how their skills and experience match your client's business. In rate cases, we might
+                      involve another team if a new account drastically diers from your regular clients.
+                    </p>
+                </div><!-- End .panel-body -->
+            </div><!-- End .panel-collapse -->
+        </div><!-- End .panel -->
+    </div><!-- End .panel-group -->
+</div><!-- End .col-md-6 -->
+
+<div class="col-md-3"></div>
+</div> <!-- End .row -->
 
 
 
-                             <div class="mb70 mb65-xs"></div><!-- margin -->
                          </div><!-- End .main -->
 
 
@@ -477,19 +821,7 @@ drift.load('fmwrhpbtzhdc');
                                                                        </a>
                                                                      </li>
 
-                                                                     <li>
-                                                                         <a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-related="jakeyeaton" data-show-count="false">Tweet to @pynely</a>
-                                                                     </li>
-
-                                                                     <div style="width 100px;float:left;" class="index-transition-tablet-up center-block">
-                                                                       <div class="fb-like" data-href="https://facebook.com/pynelyllc" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
-                                                                     </div>
-                                                                     <div style="width: 100px;float:left;margin-left:10px;" class="index-transition-tablet-up center-block">
-                                                                         <a href="https://twitter.com/pynely" class="twitter-follow-button" data-show-count="true">Follow @pynely</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                                     </div>
-                                                                     <br>
-
-
+                                                                    <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox"></div>
                                                                  </ul>
                                                              </div><!-- End .widget -->
                                                          </div><!-- End .col-xs-4 -->
@@ -533,21 +865,40 @@ drift.load('fmwrhpbtzhdc');
                                                              </div><!-- End .widget -->
                                                          </div><!-- End .col-xs-4 -->
                                                          <div class="col-xs-4 col-xss-12">
-                                                           <p class="text-left">
-                                                             <strong>
-                                                               <span style="color:#00b16a;font-size:21px;">
-                                                                 Payment Methods
-                                                                 </span>
-                                                               </strong>
-                                                           </p>
-                                                           <img src="assets/img/payment-methods.png" class="img-responsive text-right" width="190px" alt="payment methods">
-                                                           <hr>
+                                                           <ul class="fa-ul text-left">
+                                                             <li id="footer-resources-label" >
+                                                               <strong>
+                                                                 <span style="color:#00b16a;font-size:21px;">
+                                                                   {{ title }}
+                                                                   </span>
+                                                                 </strong>
+                                                             </li>
 
-                                                           <a class="widget ng-scope" ng-href="https://www.thumbtack.com/-Seattle-WA/service/2903906" target="_blank" href="https://www.thumbtack.com/-Seattle-WA/service/2903906">
-                                                             <img alt="pynely thumbtack profile" class="text-right img-responsive" ng-src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/inline.svg" src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/inline.svg">
-                                                           </a>
-                                                           <script src='https://www.thumbtack.com/profile/widgets/scripts/?service_id=MmLK3vmTQaIHPw&widget_id=profile'></script>
-                                                         </a>
+                                                             <li id="footer-resources-comparison">
+                                                                 <a :href="url">
+                                                                   {{ title }}
+                                                                 </a>
+                                                               </li>
+
+                                                               <li id="footer-resources-encyclopedia">
+                                                                 <a :href="url">
+                                                                   {{ title }}
+                                                                 </a>
+                                                               </li>
+
+                                                               <li id="footer-resources-evaluations">
+                                                                 <a :href="url">
+                                                                   {{ title }}
+                                                                 </a>
+                                                               </li>
+
+                                                               <li id="footer-resources-marketing-resources">
+                                                                 <a :href="url">
+                                                                   {{ title }}
+                                                                 </a>
+                                                               </li>
+
+                                                           </ul>
                                                          </div><!-- End .col-xs-4 -->
 
                                                      </div><!-- End .row -->
@@ -581,7 +932,7 @@ drift.load('fmwrhpbtzhdc');
                                                          </a>
                                                        </li>
 
-                                                       <li id="footer-bottom-qa">
+                                                       <li id="footer-bottom-resources">
                                                          <a :href="url" target="_blank">
                                                            {{ title }}
                                                          </a>
@@ -622,6 +973,7 @@ drift.load('fmwrhpbtzhdc');
                                          </div><!-- End .footer-bottom -->
                                      </footer><!-- End .footer -->
 
+
                                      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                                      <script type="text/javascript" src="assets/js/extra-js/bootstrap.min.js"></script>
@@ -640,5 +992,6 @@ drift.load('fmwrhpbtzhdc');
                                      <script src="assets/js/vue/footer-vue.js"></script>
                                      <script src="assets/js/vue/general-vue.js"></script>
                                      <script src='assets/js/vue/header-vue.js'></script>
+                                     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
 </body>
 </html>

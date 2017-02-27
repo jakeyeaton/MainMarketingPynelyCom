@@ -1,0 +1,119 @@
+/* ----------- 8.Services Pages --------
+--------------------------------------*/
+.client {
+  display: block;
+  transition: all 0.65s cubic-bezier(0.92, 0.17, 0.29, 0.93) 0s;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.client img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.client:hover, .client:focus {
+  opacity: 1;
+}
+
+.testimonial-box {
+  margin-bottom: 1.5rem;
+}
+
+.swiper-container .testimonial-box {
+  margin-bottom: 0;
+}
+
+.testimonial-box .testimonial-content {
+  position: relative;
+  padding: 1.25rem;
+  margin-bottom: 0.9rem;
+  background-color: #d7dcde;
+}
+
+.bg-wrapper .testimonial-box .testimonial-content {
+  background-color: #c4cbce;
+}
+
+@media (min-width: 992px) {
+  .testimonial-box .testimonial-content {
+    padding: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial-box .testimonial-content {
+    padding: 1.5rem 1.7rem;
+  }
+}
+
+.testimonial-box .testimonial-content:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 2rem 2rem 0;
+  border-color: transparent #c6ced0 transparent transparent;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 10;
+}
+
+.bg-wrapper .testimonial-box .testimonial-content:after {
+  border-color: transparent #bbc4c7 transparent transparent;
+}
+
+.testimonial-box blockquote {
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.testimonial-box blockquote p {
+  margin: 0;
+}
+
+.testimonial-box blockquote:before {
+  font-size: 2rem;
+  left: -0.8rem;
+  top: -1rem;
+  color: #f0f2f3;
+}
+
+.testimonial-box .testimonial-owner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.testimonial-box .testimonial-owner figure {
+  max-width: 56px;
+}
+
+.testimonial-box .testimonial-owner figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.testimonial-box .testimonial-owner h5, .testimonial-box .testimonial-owner h4 {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.testimonial-box .testimonial-owner h5 span, .testimonial-box .testimonial-owner h4 span {
+  display: block;
+  font-weight: 400;
+  margin-top: 0.45rem;
+  font-size: 80%;
+}

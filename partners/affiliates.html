@@ -17,7 +17,7 @@ pynely web design, pynely social media markerting, pynely social, pynely email m
 shopify development, bigcommerce development, mobile app development, seattle mobile app development, portland mobile app development, shopify seattle development,
 web design, mobile design">
 <meta property="fb:app_id" content="763265290446217"/>
-<meta property="og:url" content="http://www.pynely.com/partners/afiliates.html"/>
+<meta property="og:url" content="http://www.pynely.com/partners/affiliates.html"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Affiliate Partner Program | Pynely"/>
 <meta property="og:description" content="Pynely provides social marketing solutions that are dead simple yet work - Pynely"/>
@@ -44,6 +44,7 @@ web design, mobile design">
 <link rel="stylesheet" href="assets/sass/main.css"/>
 <script src="https://use.fontawesome.com/68e13207cf.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
@@ -183,75 +184,144 @@ drift.load('fmwrhpbtzhdc');
                                     </a>
                                   </li>
 
-                                  <li id="header-features">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
                                   <li id="header-faq">
                                     <a :href="url">
                                       {{ title }}
                                     </a>
                                   </li>
 
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-solutions-dentists">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-legal">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-local-gyms">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-restaurants">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-retail-e-commerce">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-web-development-agency">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                          </li>
+                                      </ul>
+                                  </li>
+
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-comparison">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-encyclopedia">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-evaluations">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-marketing-kits">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-marketing-resources">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-templetes">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                          </li>
+                                      </ul>
+                                  </li>
 
 
 
-
-																<li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-																					<li id="header-partners-white-lable">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-partners-affilate">
-					                                    <a :href="url">
-					                                    {{ title }}
-					                                    </a>
-					                                </li>
-
-                                        </li>
-                                    </ul>
-                                </li>
-
-																<li class="dropdown">
+                                <li class="dropdown">
                                     <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
                                       {{ title }}
                                       <span class="angle"></span>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown">
-																					<li id="header-blog-social-media">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-blog-productivity">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-blog-sales">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-qa">
-					                                    <a :href="url">
-					                                    {{ title }}
-					                                    </a>
-					                                </li>
+                                          <li id="header-blog-social-media">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-productivity">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-sales">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
+                                      {{ title }}
+                                      <span class="angle"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                          <li id="header-partners-white-lable">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-partners-affilate">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
 
                                         </li>
                                     </ul>
                                 </li>
+
 
                                 <li id="header-contact-us">
                                   <a href="" class="drift-open-chat">
@@ -264,8 +334,6 @@ drift.load('fmwrhpbtzhdc');
                     </div><!-- End .container-fluid -->
                 </div><!-- End .header-inner -->
             </header><!-- End .header -->
-
-
 <br>
               <!-- Start Main Content -->
               <div class="main">
@@ -300,9 +368,11 @@ drift.load('fmwrhpbtzhdc');
             When you sign up for the Pynely Affiliate Program we'll give you a special link to Pynely that you can share through an ad, Facebook post, on your blog, a tweet - however you choose!
             You'll earn income for every customer that signs up for Pynely through your link.
             <br><br>
-            Earn commissions of up to 10% each month/quarter/year for monthly/quarter/annually services.
+            The Pynely Affiliate Program offers a competitive way to turn your site's traffic into legitimate revenue. Promote a brand that is dedicated to better the world of social media marketing,
+            and give your visitors the opportunity to discover some of the best social media services and products available. From our Social Media Management service to our books and premium memberships,
+            we feature a large inventory perfect for any audience.
         </p>
-        <a href="https://goo.gl/forms/3VbxsZ6zWAxwzV4i2" target="_blank">
+        <a href="https://pynely.com/partners/affiliates.html#get-started">
           <button class="center-block btn btn-custom2 min-width-sm">
             Apply Now!
           </button>
@@ -346,7 +416,7 @@ drift.load('fmwrhpbtzhdc');
         </p>
         <p class="text-left" style="font-size:20px">
           Monetize your blog by adding Pynely banners or affiliate links to your posts. Why not make the most of your site traffic by promoting one of the strongest brands
-          in the industry?
+          in the industry.
         </p>
         <p class="text-left" style="font-size:24px;color:#4a4a4a;">
              <span style="color:#00b16a;">
@@ -366,203 +436,303 @@ drift.load('fmwrhpbtzhdc');
 
 
 
+              <br>
+              <br>
+              <h3 class="title text-center"></h3>
+              <br>
+              <br>
+
+
+
                          <div class="row">
-                           <div class="col-md-12">
-                             <br>
-                             <br>
-                           </div><!-- End .com-md-12 -->
-                         </div><!-- End .row -->
-
-                         <footer class="footer text-center white">
-                                         <div class="container-fluid">
-                                             <div class="row">
-                                                 <div class="col-md-8 col-md-offset-2">
-
-                                                     <div class="row">
-                                                         <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                                                             <div class="widget about-widget">
-                                                                 <img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
-                                                                 <hr>
-                                                                 <p id="footer-short-description">
-                                                                 {{ title }}
-                                                                 </p>
-                                                             </div><!-- End .widget -->
-                                                         </div><!-- End .col-sm-4 -->
-                                                     </div><!-- End .row -->
-
-                                                     <div class="row">
-                                                         <div class="col-xs-4 col-xss-12">
-                                                             <div class="widget">
-
-                                                                 <ul class="about-list text-left">
-                                                                   <li>
-                                                                     <strong>
-                                                                       <span style="color:#00b16a;font-size:21px;">
-                                                                         Contact
-                                                                         </span>
-                                                                       </strong>
-                                                                   </li>
-                                                                     <li>
-                                                                       <span id="footer-location-label">{{ title }}</span>
-                                                                       <span id="footer-location-city">{{ title }}</span>
-                                                                     </li>
-                                                                     <li>
-                                                                       <span id="footer-email-label">{{ title }}</span>
-                                                                       <a id="footer-email-address" href="mailto:hello@pynely.com">
-                                                                         {{ title }}
-                                                                       </a>
-                                                                     </li>
-                                                                     <li>
-                                                                       <span id="footer-chat-label">{{ title }}</span>
-                                                                       <a id="footer-chat-trigger" class="drift-open-chat">
-                                                                         {{ title }}
-                                                                       </a>
-                                                                     </li>
-
-                                                                     <li>
-                                                                         <a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-related="jakeyeaton" data-show-count="false">Tweet to @pynely</a>
-                                                                     </li>
-
-                                                                     <div style="width 100px;float:left;" class="index-transition-tablet-up center-block">
-                                                                       <div class="fb-like" data-href="https://facebook.com/pynelyllc" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
-                                                                     </div>
-                                                                     <div style="width: 100px;float:left;margin-left:10px;" class="index-transition-tablet-up center-block">
-                                                                         <a href="https://twitter.com/pynely" class="twitter-follow-button" data-show-count="true">Follow @pynely</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                                     </div>
-                                                                     <br>
+                         <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h2 class="text-center" style="color:#4a4a4a;">
+        <span>
+          Commission Rates
+        </span>
+      </h2>
+      <br>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Product:</th>
+                        <th>Services:</th>
+                        <th>Membership:</th>
+                        <th>Books:</th>
+                        <th>Merchandise:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-size:18px;color:#4a4a4a;font-weight:bold;">Commission Rate:</td>
+                        <td style="font-size:18px;color:#4a4a4a;font-weight:bold;">16% Recurring Monthly</td>
+                        <td style="font-size:18px;color:#4a4a4a;font-weight:bold;">15%</td>
+                        <td style="font-size:18px;color:#4a4a4a;font-weight:bold;">25%</td>
+                        <td style="font-size:18px;color:#4a4a4a;font-weight:bold;">15%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><!-- End .table-responsive -->
+    </div><!-- End .col-sm-12 -->
+  </div class="col-md-1"></div>
+</div><!-- End .row -->
 
 
-                                                                 </ul>
-                                                             </div><!-- End .widget -->
-                                                         </div><!-- End .col-xs-4 -->
 
-                                                         <div class="col-xs-4 col-xss-12">
-                                                             <div class="widget">
-                                                                       <ul class="fa-ul text-left">
-                                                                         <li id="footer-services-label" >
-                                                                           <strong>
-                                                                             <span style="color:#00b16a;font-size:21px;">
-                                                                               {{ title }}
-                                                                               </span>
-                                                                             </strong>
-                                                                         </li>
+<br>
+<br>
+<h3 class="title text-center"></h3>
+<br>
+<br>
 
-                                                                         <li id="footer-how-it-works">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
+  <div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <h1 class="text-left" style="color:#4a4a4a;font-size:38px;">
+      Start Earning Commission Today:
+    </h1>
+    <form id="get-started" name="affiliate-partner" action="https://pynely.com/resources/thank-you/ffeatured-content/follow-us-affiliate.html" netlify>
+      <input type="text" name="First_Name" id="First_Name" class="form-control" placeholder="First Name*" required>
+      <input type="text" name="Last_Name" id="Last_name" class="form-control" placeholder="Last Name*" required>
+      <input type="text" name="Email" id="email" class="form-control" placeholder="Email*" required>
+      <input type="text" name="Phone" id="phone" class="form-control" placeholder="Phone*" required>
+      <input type="text" name="Company_Name" id="company_Name" class="form-control" placeholder="Company Name*" required>
+      <input type="text" name="Website_URL" id="website_url" class="form-control" placeholder="Website*" required>
+      <textarea class="form-control" name="Extra_Quetions/Comments" id="Extra_Questions/Comments" rows="6" placeholder="How do you plan of advertising Pynely?"></textarea>
 
-                                                                           <li id="footer-pricing">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
+      <p class="hidden"><label>Bot field:
+        <input name="bot-field"></label>
+      </p>
 
-                                                                           <li id="footer-features">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
-
-                                                                           <li id="footer-faq">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
-
-                                                                       </ul>
-                                                             </div><!-- End .widget -->
-                                                         </div><!-- End .col-xs-4 -->
-                                                         <div class="col-xs-4 col-xss-12">
-                                                           <p class="text-left">
-                                                             <strong>
-                                                               <span style="color:#00b16a;font-size:21px;">
-                                                                 Payment Methods
-                                                                 </span>
-                                                               </strong>
-                                                           </p>
-                                                           <img src="assets/img/payment-methods.png" class="img-responsive text-right" width="190px" alt="payment methods">
-                                                           <hr>
-
-                                                           <a class="widget ng-scope" ng-href="https://www.thumbtack.com/-Seattle-WA/service/2903906" target="_blank" href="https://www.thumbtack.com/-Seattle-WA/service/2903906">
-                                                             <img alt="pynely thumbtack profile" class="text-right img-responsive" ng-src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/inline.svg" src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/inline.svg">
-                                                           </a>
-                                                           <script src='https://www.thumbtack.com/profile/widgets/scripts/?service_id=MmLK3vmTQaIHPw&widget_id=profile'></script>
-                                                         </a>
-                                                         </div><!-- End .col-xs-4 -->
-
-                                                     </div><!-- End .row -->
+      <div class="radio text-left">
+        <label class="custom-radio-wrapper">
+          <span class="custom-radio-container">
+            <input type="radio" name="subscribe_to_pynelys_blog" value="subscribe_to_pynelys_blog">
+            <span class="custom-radio-icon"></span>
+          </span>
+          <span>
+            <span style="font-size:18px;color:#4a4a4a;">
+              Subscribe To Pynely's Blog
+            </span>
+          </span>
+        </label>
+      </div><!-- End .radio -->
+      <div class="g-recaptcha" data-sitekey="6LeePxsTAAAAADQGlbsdF6DsMZwLjJqv2M82oeBE"></div>
+      <br>
+      <button type="submit" id="submit" class="btn btn-md text-left" style="background:#00b16a;color:#fff;">Get Started</button>
+    </form>
+    <br><br>
+      <p class="text-center">
+        Affiliate Program Managed by
+        <a href="http://www.leaddyno.com/#_l_wm" target="_blank">
+          LeadDyno
+        </a>
+      </p>
+      <hr>
+  </div>
+  <div class="col-md-3"></div>
+</div>
 
 
-                                                 </div><!-- End .col-md-8 -->
-                                             </div><!-- End .row -->
-                                         </div><!-- End .container-fluid -->
+<footer class="footer text-center white">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
 
-                                         <div class="footer-bottom text-center">
-                                           <hr>
-                                             <div class="container-fluid">
-                                                 <div class="footer-left">
-                                                     <ul class="footer-menu">
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                                    <div class="widget about-widget">
+                                        <img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
+                                        <hr>
+                                        <p id="footer-short-description">
+                                        {{ title }}
+                                        </p>
+                                    </div><!-- End .widget -->
+                                </div><!-- End .col-sm-4 -->
+                            </div><!-- End .row -->
 
-                                                       <li id="footer-bottom-about">
-                                                         <a :href="url">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                            <div class="row">
+                                <div class="col-xs-4 col-xss-12">
+                                    <div class="widget">
 
-                                                       <li id="footer-bottom-partners">
-                                                         <a :href="url">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                                        <ul class="about-list text-left">
+                                          <li>
+                                            <strong>
+                                              <span style="color:#00b16a;font-size:21px;">
+                                                Contact
+                                                </span>
+                                              </strong>
+                                          </li>
+                                            <li>
+                                              <span id="footer-location-label">{{ title }}</span>
+                                              <span id="footer-location-city">{{ title }}</span>
+                                            </li>
+                                            <li>
+                                              <span id="footer-email-label">{{ title }}</span>
+                                              <a id="footer-email-address" href="mailto:hello@pynely.com">
+                                                {{ title }}
+                                              </a>
+                                            </li>
+                                            <li>
+                                              <span id="footer-chat-label">{{ title }}</span>
+                                              <a id="footer-chat-trigger" class="drift-open-chat">
+                                                {{ title }}
+                                              </a>
+                                            </li>
 
-                                                       <li id="footer-bottom-support">
-                                                         <a :href="url" target="_blank">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                                           <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox"></div>
+                                        </ul>
+                                    </div><!-- End .widget -->
+                                </div><!-- End .col-xs-4 -->
 
-                                                       <li id="footer-bottom-qa">
-                                                         <a :href="url" target="_blank">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                                <div class="col-xs-4 col-xss-12">
+                                    <div class="widget">
+                                              <ul class="fa-ul text-left">
+                                                <li id="footer-services-label" >
+                                                  <strong>
+                                                    <span style="color:#00b16a;font-size:21px;">
+                                                      {{ title }}
+                                                      </span>
+                                                    </strong>
+                                                </li>
 
-                                                         <li id="footer-bottom-blog">
-                                                           <a :href="url" target="_blank">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
+                                                <li id="footer-how-it-works">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                         <li id="footer-bottom-jobs">
-                                                           <a :href="url">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
+                                                  <li id="footer-pricing">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                         <li id="footer-bottom-privacy">
-                                                           <a :href="url">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
+                                                  <li id="footer-features">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                         <li id="footer-bottom-terms">
-                                                           <a :href="url">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
-                                                     </ul>
-                                                 </div><!-- End .footer-left -->
+                                                  <li id="footer-faq">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                 <div class="footer-right">
-                                                   <p id="footer-copyright-year" class="copyright">
-                                                     Copyright &copy; {{ title }} Pynely, LLC.
-                                                   </p>
-                                                 </div><!-- End .footer-right -->
-                                             </div><!-- End .container-fluid -->
-                                         </div><!-- End .footer-bottom -->
-                                     </footer><!-- End .footer -->
+                                              </ul>
+                                    </div><!-- End .widget -->
+                                </div><!-- End .col-xs-4 -->
+                                <div class="col-xs-4 col-xss-12">
+                                  <ul class="fa-ul text-left">
+                                    <li id="footer-resources-label" >
+                                      <strong>
+                                        <span style="color:#00b16a;font-size:21px;">
+                                          {{ title }}
+                                          </span>
+                                        </strong>
+                                    </li>
+
+                                    <li id="footer-resources-comparison">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
+
+                                      <li id="footer-resources-encyclopedia">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
+
+                                      <li id="footer-resources-evaluations">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
+
+                                      <li id="footer-resources-marketing-resources">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
+
+                                  </ul>
+                                </div><!-- End .col-xs-4 -->
+
+                            </div><!-- End .row -->
+
+
+                        </div><!-- End .col-md-8 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container-fluid -->
+
+                <div class="footer-bottom text-center">
+                  <hr>
+                    <div class="container-fluid">
+                        <div class="footer-left">
+                            <ul class="footer-menu">
+
+                              <li id="footer-bottom-about">
+                                <a :href="url">
+                                  {{ title }}
+                                </a>
+                              </li>
+
+                              <li id="footer-bottom-partners">
+                                <a :href="url">
+                                  {{ title }}
+                                </a>
+                              </li>
+
+                              <li id="footer-bottom-support">
+                                <a :href="url" target="_blank">
+                                  {{ title }}
+                                </a>
+                              </li>
+
+                              <li id="footer-bottom-resources">
+                                <a :href="url" target="_blank">
+                                  {{ title }}
+                                </a>
+                              </li>
+
+                                <li id="footer-bottom-blog">
+                                  <a :href="url" target="_blank">
+                                    {{ title }}
+                                  </a>
+                                </li>
+
+                                <li id="footer-bottom-jobs">
+                                  <a :href="url">
+                                    {{ title }}
+                                  </a>
+                                </li>
+
+                                <li id="footer-bottom-privacy">
+                                  <a :href="url">
+                                    {{ title }}
+                                  </a>
+                                </li>
+
+                                <li id="footer-bottom-terms">
+                                  <a :href="url">
+                                    {{ title }}
+                                  </a>
+                                </li>
+                            </ul>
+                        </div><!-- End .footer-left -->
+
+                        <div class="footer-right">
+                          <p id="footer-copyright-year" class="copyright">
+                            Copyright &copy; {{ title }} Pynely, LLC.
+                          </p>
+                        </div><!-- End .footer-right -->
+                    </div><!-- End .container-fluid -->
+                </div><!-- End .footer-bottom -->
+            </footer><!-- End .footer -->
 
 
                                      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -577,7 +747,7 @@ drift.load('fmwrhpbtzhdc');
                                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-71950190-1', 'auto'); ga('send', 'pageview');
                                      </script>
 
-
+                                     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
                                      <!-- Latest compiled and minified JavaScript - Bootstrap JavaScript -->
                                      <script src="assets/js//vue/vue.js"></script>
                                      <script src="assets/js/vue/footer-vue.js"></script>

@@ -204,75 +204,144 @@ drift.load('fmwrhpbtzhdc');
                                     </a>
                                   </li>
 
-                                  <li id="header-features">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
                                   <li id="header-faq">
                                     <a :href="url">
                                       {{ title }}
                                     </a>
                                   </li>
 
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-solutions-dentists">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-legal">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-local-gyms">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-restaurants">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-retail-e-commerce">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-solutions-web-development-agency">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                          </li>
+                                      </ul>
+                                  </li>
+
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-comparison">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-encyclopedia">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-evaluations">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-marketing-kits">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-marketing-resources">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-templetes">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                          </li>
+                                      </ul>
+                                  </li>
 
 
 
-
-																<li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-																					<li id="header-partners-white-lable">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-partners-affilate">
-					                                    <a :href="url">
-					                                    {{ title }}
-					                                    </a>
-					                                </li>
-
-                                        </li>
-                                    </ul>
-                                </li>
-
-																<li class="dropdown">
+                                <li class="dropdown">
                                     <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
                                       {{ title }}
                                       <span class="angle"></span>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown">
-																					<li id="header-blog-social-media">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-blog-productivity">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-blog-sales">
-																							<a :href="url">
-																							{{ title }}
-																							</a>
-																					</li>
-																					<li id="header-qa">
-					                                    <a :href="url">
-					                                    {{ title }}
-					                                    </a>
-					                                </li>
+                                          <li id="header-blog-social-media">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-productivity">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-sales">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
+                                      {{ title }}
+                                      <span class="angle"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                          <li id="header-partners-white-lable">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-partners-affilate">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
 
                                         </li>
                                     </ul>
                                 </li>
+
 
                                 <li id="header-contact-us">
                                   <a href="" class="drift-open-chat">
@@ -285,7 +354,6 @@ drift.load('fmwrhpbtzhdc');
                     </div><!-- End .container-fluid -->
                 </div><!-- End .header-inner -->
             </header><!-- End .header -->
-
 
 
 
@@ -320,7 +388,7 @@ drift.load('fmwrhpbtzhdc');
                                  <div class="row">
                                      <div class="col-lg-3 col-md-3"></div>
                                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                         <h2 class="text-left" style="color:#4a4a4a;font-size:48px">What To Expect With Pynely</h2>
+                                         <h2 class="text-left" style="color:#4a4a4a;font-size:43px">What To Expect With Pynely</h2>
                                          <h3 class="title text-center"></h3><br>
                                          <p class="text-left" style="font-size:18px;">
                                              Small Businesses have a million things to do daily. Social media doesn't have to be one. <strong>This is where we come in.</strong>
@@ -595,7 +663,7 @@ drift.load('fmwrhpbtzhdc');
 
 
                                  <br>
-                                 <h2 id="price" class="text-center" style="color:#4a4a4a;font-size:52px;">Our Pricing Is Simple</h2>
+                                 <h2 id="price" class="text-center" style="color:#4a4a4a;font-size:52px;">Social Media Marketing Pricing & Packages</h2>
                                  <h3 class="title text-center"></h3><br>
 
 
@@ -609,24 +677,29 @@ drift.load('fmwrhpbtzhdc');
                                                  <h3 class="pricing-title">
                                                    Micro
                                                  </h3>
+                                                 <p style="color:#fff;font-size:16px;">
+                                                   Best for marketing teams that need outside assistance or smaller companies looking to get started.
+                                                 </p>
                                                  <div class="price-container">
                                                      <span class="price">$995<span>.00</span></span><br><br>
                                                      <span class="pricing-dur">per month</span><br>
                                                      <span class="pricing-dur">billed monthly</span><br>
                                                  </div><!-- End .price-container -->
+                                                 <br>
+                                                 <div class="price-action">
+                                                     <a href="https://pynely-llc.chargify.com/subscribe/439sdx72j4pt/micro-content" target="_blank" style="background:#fff;color:#00b16a;" class="btn btn-sm min-width-sm">Get Started</a>
+                                                 </div><!-- End .price-action -->
 
                                              </header>
                                              <div class="pricing-body">
                                                <ul class="text-left" style="font-size:16px;">
                                                    <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
                                                    <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to Pinterest, LinkedIn, or Google+</li>
                                                    <li><i class="fa fa-check"></i>Content Development</li>
                                                    <li><i class="fa fa-check"></i>Content Posting Management</li>
-                                                   <li><i class="fa fa-check"></i>Competitive Analysis</li>
-                                                   <li><i class="fa fa-check"></i>Social Media Profile Audits</li>
-                                                   <li><i class="fa fa-check"></i>Pynely Reports (Dashboard Reporting)</li>
-                                                   <li><i class="fa fa-check"></i>Monthly Reports via Email</li>
-                                                   <li><i class="fa fa-check"></i>24/5 Support</li>
+                                                   <li><i class="fa fa-check"></i>x1 Weekly Instagram Post</li>
+                                                   <li><i class="fa fa-check"></i>x2 Monthly Blog Posts</li>
                                                </ul>
                                                  <div class="price-action">
                                                      <a href="https://pynely-llc.chargify.com/subscribe/439sdx72j4pt/micro-content" target="_blank" class="btn btn-custom min-width-sm">Get Started</a>
@@ -641,29 +714,31 @@ drift.load('fmwrhpbtzhdc');
                                                    <h3 class="pricing-title">
                                                      Venture
                                                    </h3>
+                                                   <p style="color:#fff;font-size:16px;">
+                                                     Best for small to mid-sized businesses looking for significant outside help with social media marketing.
+                                                   </p>
                                                    <div class="price-container">
                                                        <span class="price">$1,285<span>.00</span></span><br><br>
                                                        <span class="pricing-dur">per month</span><br>
                                                        <span class="pricing-dur">billed monthly</span><br>
-
                                                    </div><!-- End .price-container -->
-
+                                                   <br>
+                                                   <div class="price-action">
+                                                       <a href="https://pynely-llc.chargify.com/subscribe/htsz24r47q2z/venture-content" target="_blank" style="background:#fff;color:#00b16a;" class="btn btn-sm min-width-sm">Get Started</a>
+                                                   </div><!-- End .price-action -->
                                                </header>
                                                <div class="pricing-body">
                                                  <ul class="text-left" style="font-size:16px;">
                                                      <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
                                                      <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                                     <li><i class="fa fa-check"></i>Daily Posts to Pinterest</li>
+                                                     <li><i class="fa fa-check"></i>Daily Posts to LinkedIn</li>
+                                                     <li><i class="fa fa-check"></i>Daily Posts to Google+</li>
                                                      <li><i class="fa fa-check"></i>Content Development</li>
                                                      <li><i class="fa fa-check"></i>Content Posting Management</li>
-                                                     <li><i class="fa fa-check"></i>Competitive Analysis</li>
-                                                     <li><i class="fa fa-check"></i>Social Media Profile Audits</li>
-                                                     <li><i class="fa fa-check"></i>Pynely Reports (Dashboard Reporting)</li>
-                                                     <li><i class="fa fa-check"></i>Monthly Reports via Email</li>
-                                                     <li><i class="fa fa-check"></i>24/5 Support</li>
-                                                     <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
                                                      <li><i class="fa fa-check"></i>x2 Weekly Instagram Posts</li>
-                                                     <li><i class="fa fa-check"></i>Monthly Blog Post</li>
-
+                                                     <li><i class="fa fa-check"></i>x4 Monthly Blog Posts</li>
+                                                     <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
                                                  </ul>
                                                    <div class="price-action">
                                                        <a href="https://pynely-llc.chargify.com/subscribe/htsz24r47q2z/venture-content" target="_blank" class="btn btn-custom min-width-sm">Get Started</a>
@@ -674,34 +749,36 @@ drift.load('fmwrhpbtzhdc');
 
                                        <div class="col-md-3 col-sm-12">
                                            <div class="pricing-table dark">
-                                               <header>
+                                               <header style="border-right:3px solid #fff;border-left:3px solid #fff;">
                                                    <h3 class="pricing-title">
                                                      Bouteche
                                                    </h3>
+                                                   <p style="color:#fff;font-size:16px;">
+                                                     Best for small to mid-sized business with <u>aggressive growth goals</u> looking for an extensive social media marketing program.
+                                                   </p>
                                                    <div class="price-container">
                                                      <span class="price">$1,795<span>.00</span></span><br><br>
                                                      <span class="pricing-dur">per month</span><br>
                                                      <span class="pricing-dur">billed monthly</span><br>
-
                                                    </div><!-- End .price-container -->
-
+                                                   <br>
+                                                   <div class="price-action">
+                                                       <a href="https://pynely-llc.chargify.com/subscribe/2dv2zkqmr8ck/bouteche-content" target="_blank" style="background:#fff;color:#00b16a;" class="btn btn-sm min-width-sm">Get Started</a>
+                                                   </div><!-- End .price-action -->
                                                </header>
                                                <div class="pricing-body">
                                                <ul class="text-left" style="font-size:16px;">
                                                    <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
                                                    <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to Pinterest</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to LinkedIn</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to Google+</li>
                                                    <li><i class="fa fa-check"></i>Content Development</li>
                                                    <li><i class="fa fa-check"></i>Content Posting Management</li>
-                                                   <li><i class="fa fa-check"></i>Competitive Analysis</li>
-                                                   <li><i class="fa fa-check"></i>Social Media Profile Audits</li>
-                                                   <li><i class="fa fa-check"></i>Pynely Reports (Dashboard Reporting)</li>
-                                                   <li><i class="fa fa-check"></i>Monthly Reports via Email</li>
-                                                   <li><i class="fa fa-check"></i>24/5 Support</li>
-                                                   <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
                                                    <li><i class="fa fa-check"></i>x5 Weekly Instagram Posts</li>
-                                                   <li><i class="fa fa-check"></i>Weekly Blog Post</li>
-                                                   <li><i class="fa fa-check"></i>Facebook Ad Management ($250 ad spend)</li>
-                                                   <li><i class="fa fa-check"></i>LinkedIn, Pinterest, G+ Posts</li>
+                                                   <li><i class="fa fa-check"></i>x6 Monthly Blog Posts</li>
+                                                   <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
+                                                   <li><i class="fa fa-check"></i>Facebook Ad Management ($500 ad spend)</li>
                                                </ul>
                                                  <div class="price-action">
                                                      <a href="https://pynely-llc.chargify.com/subscribe/2dv2zkqmr8ck/bouteche-content" target="_blank" class="btn btn-custom min-width-sm">Get Started</a>
@@ -716,30 +793,32 @@ drift.load('fmwrhpbtzhdc');
                                                    <h3 class="pricing-title">
                                                      <strong>Enterprise</strong>
                                                    </h3>
+                                                   <p style="color:#fff;font-size:16px;">
+                                                     Best for mid-sized businesses with <u>very aggressive growth goals</u> or large enterprises with complex needs.
+                                                   </p>
                                                    <div class="price-container">
                                                      <span class="price">$2,475<span>.00</span></span><br><br>
                                                      <span class="pricing-dur">per month</span><br>
                                                      <span class="pricing-dur">billed monthly</span><br>
-
                                                    </div><!-- End .price-container -->
-
+                                                   <br>
+                                                   <div class="price-action">
+                                                       <a href="https://pynely-llc.chargify.com/subscribe/g9xfydv7fk35/enterprise-content" target="_blank" style="background:#fff;color:#00b16a;" class="btn btn-sm min-width-sm">Get Started</a>
+                                                   </div><!-- End .price-action -->
                                                </header>
                                                <div class="pricing-body">
                                                <ul class="text-left" style="font-size:16px;">
                                                    <li><i class="fa fa-check"></i>Daily Posts to Facebook</li>
                                                    <li><i class="fa fa-check"></i>Daily Posts to Twitter</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to Pinterest</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to LinkedIn</li>
+                                                   <li><i class="fa fa-check"></i>Daily Posts to Google+</li>
                                                    <li><i class="fa fa-check"></i>Content Development</li>
                                                    <li><i class="fa fa-check"></i>Content Posting Management</li>
-                                                   <li><i class="fa fa-check"></i>Competitive Analysis</li>
-                                                   <li><i class="fa fa-check"></i>Social Media Profile Audits</li>
-                                                   <li><i class="fa fa-check"></i>Pynely Reports (Dashboard Reporting)</li>
-                                                   <li><i class="fa fa-check"></i>Monthly Reports via Email</li>
-                                                   <li><i class="fa fa-check"></i>24/5 Support</li>
-                                                   <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
                                                    <li><i class="fa fa-check"></i>x5 Weekly Instagram Posts</li>
-                                                   <li><i class="fa fa-check"></i>Weekly Blog Post</li>
-                                                   <li><i class="fa fa-check"></i>Facebook Ad Management ($500 ad spend)</li>
-                                                   <li><i class="fa fa-check"></i>LinkedIn, Pinterest, G+ Posts</li>
+                                                   <li><i class="fa fa-check"></i>x8 Monthly Blog Posts</li>
+                                                   <li><i class="fa fa-check"></i>Website/Mobile Social Strategy</li>
+                                                   <li><i class="fa fa-check"></i>Facebook Ad Management ($1,000 ad spend)</li>
                                                    <li><i class="fa fa-check"></i>Community & Engagement Management</li>
                                                    <li><i class="fa fa-check"></i>x1 Influencer Report Per Quarter</li>
                                                </ul>
@@ -761,12 +840,151 @@ drift.load('fmwrhpbtzhdc');
                              </div><!-- End .container-fluid -->
 
 
+                             <br><br><br>
 
 
+                             <div class="col-md-12">
+                               <h1 class="text-center" style="color:#4a4a4a;font-weight:200;font-size:44px;">
+                                 All Social Media Marketing Service Packages Include:
+                               </h1>
+                             </div>
+                           </div>
+                           <div class="row">
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/student.png" alt="social media marketing consultant" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Social Media Marketing Consultant
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                     Your primary point of contact. We will work collaboratively with your in-house social media team or be your main source of social media marketing to develop an overarching
+                                     strategic direction and measurement plan up front.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/interface.png" alt="interface" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Competitve Analysis
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                   Our analysts do more than report on likes and followers. We set goals and deliver custom-designed reports that help you see what's needed to meet those goals.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/draw.png" alt="social media profile audits" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Social Media Profile Audits
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                     Getting traffic is one thing. But if your social media profiles aren't setup correctly you're missing out on potential opportunities.
+                                     We will make sure your profiles are optimized for opportunities.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+                           </div>
+                           <div class="row">
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/business.png" alt="monthly social media marketing gameplan" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Monthly Social Media Marketing Gameplan
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                   Created by your strategist outlining the highest priority activities needed for you to achieve your goals.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/graphic.png" alt="pynely reports" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Pynely Reports
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                   View key metrics for your Facebook, Facebook Ads, Instagram, LinkedIn, Twitter, and Youtube accounts in real-time one one secure dashboard.
+                                  </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/social.png" alt="monthly reports" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Monthly Reports via Email
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                     We send you a monthly report outlining varies work such as key social media metrics, what worked and didn't work and what we found which could be applied
+                                     towards your current marketing strategy.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+                           </div>
+                           <div class="row">
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                   <img src="assets/img/computer.png" alt="content posting management" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                      Content Posting Management
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                     Making use of leveraging social media holidays, optimal posting times and structuring content to be posted at correct times for optimal exposure.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                     <img src="assets/img/communication.png" alt="content development" class="img-responsive" width="85px">
+                                     <h3 class="service-title">
+                                       Content Development
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                   Beautiful content created for each platform according to your brand, goals, audience, target market, and other factors.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
+
+                             <div class="col-lg-4 col-md-4 col-sm-6">
+                                 <div class="service service-box">
+                                       <img src="assets/img/Basecamp_3.png" alt="basecampe 3" class="img-responsive">
+                                     <h3 class="service-title">
+                                       Basecamp 3
+                                   </h3>
+                                   <p style="font-size:18px;">
+                                  Shared collaboration space containing all communication, to-dos, and documents.
+                                   </p>
+                                 </div><!-- End .service -->
+                             </div><!-- End .col-md-3 -->
 
 
-
-
+                             <br><br><br>
+                             <div class="callout custom mb0">
+                               <div class="container-fluid">
+                             <div class="row">
+                             <div class="col-md-12 text-center">
+                               <h3 class="callout-title">Increase Your Social Media Marketing Presence Today With Pynely.</h3>
+                               <br>
+                               <button class="btn" style="background:#00b16a;color:#fff;">
+                                 <a href="" class="drift-open-chat" style="color:#fff;">Contact Us</a>
+                               </button>
+                               &nbsp;
+                               <button class="btn" style="background:#fff;color:#4a4a4a;">
+                               <a href="https://pynely.com/services/marketing/social-media-management.html#price" style="color:#00b16a;">
+                                   Get Started
+                                 </a>
+                               </button>
+                             </div>
+                             </div>
+                             </div>
+                             </div>
 
 
 
@@ -782,9 +1000,6 @@ drift.load('fmwrhpbtzhdc');
 
                              <div class="row">
                                <div class="col-md-2"></div>
-
-
-
                                <div class="col-md-8">
                                  <h1 id="faq" class="text-left" style="color:#4a4a4a;font-size:52px;">Frequently asked questions<br>(FAQ)</h1>
                                  <p>These are questions we hear a lot and you'll find the ansers below. But if you have others, please don't hesitate to contact us - we're here to help</p>
@@ -984,7 +1199,7 @@ drift.load('fmwrhpbtzhdc');
             </div><!-- End .panel-collapse -->
         </div><!-- End .panel -->
 
-        
+
 
         <br>
         <br>
@@ -1083,328 +1298,225 @@ drift.load('fmwrhpbtzhdc');
 </div> <!-- End .row -->
 </div><!-- End .main -->
 <br><br>
-    <div class="callout custom mb0">
-      <div class="container-fluid">
-        <div class="left">
-        <h3 class="callout-title">Increase Your Social Media Marketing Presence Today With Pynely.</h3>
-        </div><!-- End .left -->
-        <div class="right">
-          <ul class="list-inline">
-            <li>
-              <a href="#price" class="btn btn-custom2 min-width">Get Started</a>
-            </li>
-
-            <li>
-              <a href="" class="btn btn-custom2 min-width drift-open-chat">Contact Us</a>
-            </li>
-          </ul>
-
-
-        </div><!-- End .right -->
-      </div><!-- End .h -->
-    </div><!-- End .callout -->
-
-
-                         <!-- Snapchat Insights Modal -->
-                         <div class="modal fade" id="snapchatInsightsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                           <div class="modal-dialog" role="document">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <h4 class="modal-title text-center" id="myModalLabel">Snapchat Insights</h4>
-                               </div>
-                               <div class="modal-body">
-                                 <p>
-                                   We track various metrics for your Snapchat account. These metrics being the following:
-                                 </p>
-                                 <ul>
-                                   <li>Number of screenshots taken on Stories</li>
-                                   <li>Number of times Stories are opened</li>
-                                   <li>Completion rate on Stories</li>
-                                   <li>Open rate on Stories</li>
-                                   <li>Estimated total followers</li>
-                                   <li>Estimated average age of followers</li>
-                                   <li>Geolocation of followers</li>
-                                   <li>Daily follower growth</li>
-                                   <li>New followers by username</li>
-                                   <li>New followers by snapcode</li>
-                                   <li>New followers by deep link</li>
-                                   <li>New followers by suggestion</li>
-                                   <li>New followers by add-back</li>
-                                   <li>Comparison with accounts within your industry</li>
-                                 </ul>
-                               </div>
-
-                             </div>
-                           </div>
-                         </div>
-                         <!-- End Snapchat Insights Modal -->
-
-                         <!-- Snapchat Content Stragety Modal -->
-                         <div class="modal fade" id="snapchatContentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                           <div class="modal-dialog" role="document">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <h4 class="modal-title text-center" id="myModalLabel">Snapchat Content Strategy</h4>
-                               </div>
-                               <div class="modal-body">
-                               <p>
-                                 We feel that Snapchat is best utilized as a way to show the world the day-to-day of a business,  this is why we don't create content for our clients.
-                                 This is because we feel you and only you can show the world your businesses story. We however do help create a content strategy to best capture your businesses
-                                 day-to-day story.
-                               </p>
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-                         <!-- End Snapchat Content Stragety Modal -->
-
-                         <!-- Modal -->
-                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                           <div class="modal-dialog" role="document">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <h4 class="modal-title text-center" id="myModalLabel">Pynely Newsletter Signup</h4>
-                               </div>
-                               <div class="modal-body">
-                                 <!-- Begin MailChimp Signup Form -->
-                         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-                         <style type="text/css">
-                         	#mc_embed_signup{background:#e5f7f0; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                         	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                         	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                         </style>
-                         <div id="mc_embed_signup">
-                         <form action="//pynely.us12.list-manage.com/subscribe/post?u=6be85f8fb97dc1d21aafbf6da&amp;id=b009a2aed9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                             <div id="mc_embed_signup_scroll">
-                         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                         <div class="mc-field-group">
-                         	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                         </label>
-                         	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                         </div>
-                         <div class="mc-field-group">
-                         	<label for="mce-FNAME">First Name </label>
-                         	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                         </div>
-                         <div class="mc-field-group">
-                         	<label for="mce-LNAME">Last Name </label>
-                         	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                         </div>
+<div class="callout custom mb0">
+  <div class="container-fluid">
+<div class="row">
+<div class="col-md-12 text-center">
+  <h3 class="callout-title">Increase Your Social Media Marketing Presence Today With Pynely.</h3>
+  <br>
+  <button class="btn" style="background:#00b16a;color:#fff;">
+    <a href="" class="drift-open-chat" style="color:#fff;">Contact Us</a>
+  </button>
+  &nbsp;
+  <button class="btn" style="background:#fff;color:#4a4a4a;">
+  <a href="https://pynely.com/services/marketing/social-media-management.html#price" style="color:#00b16a;">
+      Get Started
+    </a>
+  </button>
+</div>
+</div>
+</div>
+</div>
 
 
+<footer class="footer text-center white">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
 
-                         	<div id="mce-responses" class="clear">
-                         		<div class="response" id="mce-error-response" style="display:none"></div>
-                         		<div class="response" id="mce-success-response" style="display:none"></div>
-                         	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6be85f8fb97dc1d21aafbf6da_b009a2aed9" tabindex="-1" value=""></div>
-                             <div class="clear">
-                               <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-custom2" style="background-color:#00b16a;">
-                             </div>
-                             </div>
-                         </form>
-                         </div>
-                         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='SUB_HANDLE';ftypes[3]='text';fnames[4]='PLAN_CODE';ftypes[4]='dropdown';fnames[5]='PLAN_NAME';ftypes[5]='dropdown';fnames[6]='SUB_SINCE';ftypes[6]='date';fnames[7]='SUB_STATUS';ftypes[7]='dropdown';fnames[8]='IS_TRIAL';ftypes[8]='radio';fnames[9]='TRIAL_END';ftypes[9]='date';fnames[10]='CANCEL_RSN';ftypes[10]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                         <!--End mc_embed_signup-->
-                               </div>
-                             </div>
-                           </div>
-                         </div><!-- End .modal -->
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                                    <div class="widget about-widget">
+                                        <img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
+                                        <hr>
+                                        <p id="footer-short-description">
+                                        {{ title }}
+                                        </p>
+                                    </div><!-- End .widget -->
+                                </div><!-- End .col-sm-4 -->
+                            </div><!-- End .row -->
 
+                            <div class="row">
+                                <div class="col-xs-4 col-xss-12">
+                                    <div class="widget">
 
-                         <footer class="footer text-center white">
-                                         <div class="container-fluid">
-                                             <div class="row">
-                                                 <div class="col-md-8 col-md-offset-2">
+                                        <ul class="about-list text-left">
+                                          <li>
+                                            <strong>
+                                              <span style="color:#00b16a;font-size:21px;">
+                                                Contact
+                                                </span>
+                                              </strong>
+                                          </li>
+                                            <li>
+                                              <span id="footer-location-label">{{ title }}</span>
+                                              <span id="footer-location-city">{{ title }}</span>
+                                            </li>
+                                            <li>
+                                              <span id="footer-email-label">{{ title }}</span>
+                                              <a id="footer-email-address" href="mailto:hello@pynely.com">
+                                                {{ title }}
+                                              </a>
+                                            </li>
+                                            <li>
+                                              <span id="footer-chat-label">{{ title }}</span>
+                                              <a id="footer-chat-trigger" class="drift-open-chat">
+                                                {{ title }}
+                                              </a>
+                                            </li>
 
-                                                     <div class="row">
-                                                         <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                                                             <div class="widget about-widget">
-                                                                 <img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
-                                                                 <hr>
-                                                                 <p id="footer-short-description">
-                                                                 {{ title }}
-                                                                 </p>
-                                                             </div><!-- End .widget -->
-                                                         </div><!-- End .col-sm-4 -->
-                                                     </div><!-- End .row -->
+                                           <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox"></div>
+                                        </ul>
+                                    </div><!-- End .widget -->
+                                </div><!-- End .col-xs-4 -->
 
-                                                     <div class="row">
-                                                         <div class="col-xs-4 col-xss-12">
-                                                             <div class="widget">
+                                <div class="col-xs-4 col-xss-12">
+                                    <div class="widget">
+                                              <ul class="fa-ul text-left">
+                                                <li id="footer-services-label" >
+                                                  <strong>
+                                                    <span style="color:#00b16a;font-size:21px;">
+                                                      {{ title }}
+                                                      </span>
+                                                    </strong>
+                                                </li>
 
-                                                                 <ul class="about-list text-left">
-                                                                   <li>
-                                                                     <strong>
-                                                                       <span style="color:#00b16a;font-size:21px;">
-                                                                         Contact
-                                                                         </span>
-                                                                       </strong>
-                                                                   </li>
-                                                                     <li>
-                                                                       <span id="footer-location-label">{{ title }}</span>
-                                                                       <span id="footer-location-city">{{ title }}</span>
-                                                                     </li>
-                                                                     <li>
-                                                                       <span id="footer-email-label">{{ title }}</span>
-                                                                       <a id="footer-email-address" href="mailto:hello@pynely.com">
-                                                                         {{ title }}
-                                                                       </a>
-                                                                     </li>
-                                                                     <li>
-                                                                       <span id="footer-chat-label">{{ title }}</span>
-                                                                       <a id="footer-chat-trigger" class="drift-open-chat">
-                                                                         {{ title }}
-                                                                       </a>
-                                                                     </li>
+                                                <li id="footer-how-it-works">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                                     <li>
-                                                                         <a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-related="jakeyeaton" data-show-count="false">Tweet to @pynely</a>
-                                                                     </li>
+                                                  <li id="footer-pricing">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                                     <div style="width 100px;float:left;" class="index-transition-tablet-up center-block">
-                                                                       <div class="fb-like" data-href="https://facebook.com/pynelyllc" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
-                                                                     </div>
-                                                                     <div style="width: 100px;float:left;margin-left:10px;" class="index-transition-tablet-up center-block">
-                                                                         <a href="https://twitter.com/pynely" class="twitter-follow-button" data-show-count="true">Follow @pynely</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                                     </div>
-                                                                     <br>
+                                                  <li id="footer-features">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
+                                                  <li id="footer-faq">
+                                                    <a :href="url">
+                                                      {{ title }}
+                                                    </a>
+                                                  </li>
 
-                                                                 </ul>
-                                                             </div><!-- End .widget -->
-                                                         </div><!-- End .col-xs-4 -->
+                                              </ul>
+                                    </div><!-- End .widget -->
+                                </div><!-- End .col-xs-4 -->
+                                <div class="col-xs-4 col-xss-12">
+                                  <ul class="fa-ul text-left">
+                                    <li id="footer-resources-label" >
+                                      <strong>
+                                        <span style="color:#00b16a;font-size:21px;">
+                                          {{ title }}
+                                          </span>
+                                        </strong>
+                                    </li>
 
-                                                         <div class="col-xs-4 col-xss-12">
-                                                             <div class="widget">
-                                                                       <ul class="fa-ul text-left">
-                                                                         <li id="footer-services-label" >
-                                                                           <strong>
-                                                                             <span style="color:#00b16a;font-size:21px;">
-                                                                               {{ title }}
-                                                                               </span>
-                                                                             </strong>
-                                                                         </li>
+                                    <li id="footer-resources-comparison">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-                                                                         <li id="footer-how-it-works">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
+                                      <li id="footer-resources-encyclopedia">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-                                                                           <li id="footer-pricing">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
+                                      <li id="footer-resources-evaluations">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-                                                                           <li id="footer-features">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
+                                      <li id="footer-resources-marketing-resources">
+                                        <a :href="url">
+                                          {{ title }}
+                                        </a>
+                                      </li>
 
-                                                                           <li id="footer-faq">
-                                                                             <a :href="url">
-                                                                               {{ title }}
-                                                                             </a>
-                                                                           </li>
+                                  </ul>
+                                </div><!-- End .col-xs-4 -->
 
-                                                                       </ul>
-                                                             </div><!-- End .widget -->
-                                                         </div><!-- End .col-xs-4 -->
-                                                         <div class="col-xs-4 col-xss-12">
-                                                           <p class="text-left">
-                                                             <strong>
-                                                               <span style="color:#00b16a;font-size:21px;">
-                                                                 Payment Methods
-                                                                 </span>
-                                                               </strong>
-                                                           </p>
-                                                           <img src="assets/img/payment-methods.png" class="img-responsive text-right" width="190px" alt="payment methods">
-                                                           <hr>
-
-                                                           <a class="widget ng-scope" ng-href="https://www.thumbtack.com/-Seattle-WA/service/2903906" target="_blank" href="https://www.thumbtack.com/-Seattle-WA/service/2903906">
-                                                             <img alt="pynely thumbtack profile" class="text-right img-responsive" ng-src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/inline.svg" src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/inline.svg">
-                                                           </a>
-                                                           <script src='https://www.thumbtack.com/profile/widgets/scripts/?service_id=MmLK3vmTQaIHPw&widget_id=profile'></script>
-                                                         </a>
-                                                         </div><!-- End .col-xs-4 -->
-
-                                                     </div><!-- End .row -->
+                            </div><!-- End .row -->
 
 
-                                                 </div><!-- End .col-md-8 -->
-                                             </div><!-- End .row -->
-                                         </div><!-- End .container-fluid -->
+                        </div><!-- End .col-md-8 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container-fluid -->
 
-                                         <div class="footer-bottom text-center">
-                                           <hr>
-                                             <div class="container-fluid">
-                                                 <div class="footer-left">
-                                                     <ul class="footer-menu">
+                <div class="footer-bottom text-center">
+                  <hr>
+                    <div class="container-fluid">
+                        <div class="footer-left">
+                            <ul class="footer-menu">
 
-                                                       <li id="footer-bottom-about">
-                                                         <a :href="url">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                              <li id="footer-bottom-about">
+                                <a :href="url">
+                                  {{ title }}
+                                </a>
+                              </li>
 
-                                                       <li id="footer-bottom-partners">
-                                                         <a :href="url">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                              <li id="footer-bottom-partners">
+                                <a :href="url">
+                                  {{ title }}
+                                </a>
+                              </li>
 
-                                                       <li id="footer-bottom-support">
-                                                         <a :href="url" target="_blank">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                              <li id="footer-bottom-support">
+                                <a :href="url" target="_blank">
+                                  {{ title }}
+                                </a>
+                              </li>
 
-                                                       <li id="footer-bottom-qa">
-                                                         <a :href="url" target="_blank">
-                                                           {{ title }}
-                                                         </a>
-                                                       </li>
+                              <li id="footer-bottom-resources">
+                                <a :href="url" target="_blank">
+                                  {{ title }}
+                                </a>
+                              </li>
 
-                                                         <li id="footer-bottom-blog">
-                                                           <a :href="url" target="_blank">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
+                                <li id="footer-bottom-blog">
+                                  <a :href="url" target="_blank">
+                                    {{ title }}
+                                  </a>
+                                </li>
 
-                                                         <li id="footer-bottom-jobs">
-                                                           <a :href="url">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
+                                <li id="footer-bottom-jobs">
+                                  <a :href="url">
+                                    {{ title }}
+                                  </a>
+                                </li>
 
-                                                         <li id="footer-bottom-privacy">
-                                                           <a :href="url">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
+                                <li id="footer-bottom-privacy">
+                                  <a :href="url">
+                                    {{ title }}
+                                  </a>
+                                </li>
 
-                                                         <li id="footer-bottom-terms">
-                                                           <a :href="url">
-                                                             {{ title }}
-                                                           </a>
-                                                         </li>
-                                                     </ul>
-                                                 </div><!-- End .footer-left -->
+                                <li id="footer-bottom-terms">
+                                  <a :href="url">
+                                    {{ title }}
+                                  </a>
+                                </li>
+                            </ul>
+                        </div><!-- End .footer-left -->
 
-                                                 <div class="footer-right">
-                                                   <p id="footer-copyright-year" class="copyright">
-                                                     Copyright &copy; {{ title }} Pynely, LLC.
-                                                   </p>
-                                                 </div><!-- End .footer-right -->
-                                             </div><!-- End .container-fluid -->
-                                         </div><!-- End .footer-bottom -->
-                                     </footer><!-- End .footer -->
+                        <div class="footer-right">
+                          <p id="footer-copyright-year" class="copyright">
+                            Copyright &copy; {{ title }} Pynely, LLC.
+                          </p>
+                        </div><!-- End .footer-right -->
+                    </div><!-- End .container-fluid -->
+                </div><!-- End .footer-bottom -->
+            </footer><!-- End .footer -->
+
 
 
 
@@ -1426,6 +1538,6 @@ drift.load('fmwrhpbtzhdc');
 <script src="assets/js/vue/footer-vue.js"></script>
 <script src="assets/js/vue/general-vue.js"></script>
 <script src='assets/js/vue/header-vue.js'></script>
-
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
 </body>
 </html>

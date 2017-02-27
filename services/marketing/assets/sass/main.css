@@ -8195,7 +8195,7 @@ hr {
   margin-bottom: 1.9rem; }
 
 .pricing-table header .price {
-  font-size: 3.6rem;
+  font-size: 48px;
   line-height: 1;
   font-weight: 700; }
 
@@ -12681,16 +12681,13 @@ label.error {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
 
-.service.service-box:hover {
-  color: #fff;
-  background-color: #00b16a !important; }
 
 .service.service-box:hover .service-icon.custom {
   background-color: #009f5f;
   box-shadow: 5px 5px 2px #008d54; }
 
 .service.service-box:hover .service-title {
-  color: #fff; }
+  color: #4a4a4a; }
 
 .service.service-box:hover .service-title a {
   color: #f1f1f1; }

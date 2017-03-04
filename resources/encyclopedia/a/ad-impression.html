@@ -390,13 +390,10 @@ input[type=text]:focus {
                                    <div class="col-md-12 text-left">
                                      <br><br>
                                    <p style="color:#4a4a4a;font-size:38px;">
+                                     <i class="fa fa-book" aria-hidden="true"></i>
                                       Digital Marketing Encyclopedia. &nbsp;&nbsp;<span style="font-size:18px">Learn everything there is to know about digital marketing</span>
                                      </p>
-
-
-                                     <input type="text" name="search" placeholder="Search..">
-
-                                     <br><hr>
+                                     <hr>
                                    </div>
 
                                    <div class="col-sm-12 col-md-9 text-left">
@@ -404,7 +401,7 @@ input[type=text]:focus {
                                        Ad Impression
                                      </p>
                                      <hr>
-                                     <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox_mbya text-right"></div>
+                                     <div class="addthis_inline_share_toolbox_mbya text-left"></div>
                                      <br><br>
 
                                      <p style="font-size:21px">
@@ -478,6 +475,12 @@ input[type=text]:focus {
                                      <li>
                                        <a href="https://www.slideshare.net/Pynely_Slides" style="color:#4a4a4a;" target="_blank">
                                          <i class="fa fa-slideshare" style="font-size:24px;color:#0077b5;" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Pynely on SlideShare
+                                       </a>
+                                     </li>
+
+                                     <li>
+                                       <a href="https://www.linkedin.com/groups/13517601" style="color:#4a4a4a" target="_blank">
+                                         <i class="fa fa-linkedin" style="font-size:24px;color:#0077b5;" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Pynely Partners Group
                                        </a>
                                      </li>
 
@@ -661,6 +664,12 @@ input[type=text]:focus {
                                                                      </strong>
                                                                  </li>
 
+                                                                 <li id="footer-resources-pynelychat">
+                                                                     <a :href="url">
+                                                                       {{ title }}
+                                                                     </a>
+                                                                   </li>
+
                                                                  <li id="footer-resources-comparison">
                                                                      <a :href="url">
                                                                        {{ title }}
@@ -702,6 +711,12 @@ input[type=text]:focus {
                                                          <ul class="footer-menu">
 
                                                            <li id="footer-bottom-about">
+                                                             <a :href="url">
+                                                               {{ title }}
+                                                             </a>
+                                                           </li>
+
+                                                           <li id="footer-bottom-brand">
                                                              <a :href="url">
                                                                {{ title }}
                                                              </a>
@@ -759,8 +774,6 @@ input[type=text]:focus {
                                                  </div><!-- End .container-fluid -->
                                              </div><!-- End .footer-bottom -->
                                          </footer><!-- End .footer -->
-
-
 
     <div class="fb-quote"></div>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

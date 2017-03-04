@@ -13110,8 +13110,10 @@ label.error {
   background-color: #fff; }
 
 .table thead > tr {
-  border-top: 1px solid #673AB7;
-  border-bottom: 1px solid #673AB7; }
+  border-top: 1px solid #00b16a;
+  border-bottom: 1px solid #00b16a;
+  border-left: 1px solid #00b16a;
+  border-right: 1px solid #00b16a;}
 
 .table thead > tr > th {
   font-size: 1.2rem;
@@ -13120,8 +13122,8 @@ label.error {
   font-family: "Raleway", sans-serif;
   color: #fff;
   padding: 1.1rem 1rem;
-  background-color: #673AB7;
-  border-color: #673AB7; }
+  background-color: #00b16a;
+  border-color: #00b16a; }
 
 @media (min-width: 992px) {
   .table thead > tr > th {
@@ -13166,17 +13168,21 @@ label.error {
 .table.table-condensed > tfoot > tr > td {
   padding: 0.8rem 1rem; }
 
-.table.table-bordered > thead > tr > th,
-.table.table-bordered > thead > tr > td {
-  border-color: #8259cb; }
+  .table.table-condensed > tfoot > tr > th,
+  .table.table-condensed > tfoot > tr > td {
+    padding: 0.8rem 1rem; }
 
-.table.table-bordered > tbody > tr > th,
-.table.table-bordered > tbody > tr > td {
-  border-color: #eaeaea; }
+  .table.table-bordered > thead > tr > th,
+  .table.table-bordered > thead > tr > td {
+    border-color:  #fff; }
 
-.table.table-bordered > tfoot > tr > th,
-.table.table-bordered > tfoot > tr > td {
-  border-color: #eaeaea; }
+  .table.table-bordered > tbody > tr > th,
+  .table.table-bordered > tbody > tr > td {
+    border-color:  #00b16a;  }
+
+  .table.table-bordered > tfoot > tr > th,
+  .table.table-bordered > tfoot > tr > td {
+    border-color: #fff; }
 
 .table.table-colored > thead > tr {
   border: none !important; }

@@ -164,6 +164,14 @@ new Vue({
 		title: 'About us'
 	}
 });
+//Brand - Bottom Footer
+new Vue({
+	el: '#footer-bottom-brand',
+	data: {
+		url: 'https://pynely.com/brand-assets.html',
+		title: 'Brand Assets'
+	}
+});
 //Copyright Year - Bottom Footer
 new Vue({
 	el: '#footer-copyright-year',
@@ -179,6 +187,13 @@ new Vue({
 	el: "#footer-resources-label",
 	data: {
 		title: "Resources"
+	}
+});
+new Vue({
+	el: '#footer-resources-pynelychat',
+	data:{
+		url: 'https://pynely.com/pynelychat.html',
+		title: "#PynelyChat"
 	}
 });
 new Vue({

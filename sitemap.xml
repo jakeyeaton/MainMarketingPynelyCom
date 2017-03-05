@@ -8,6 +8,38 @@
 <priority>1</priority>
 </url>
 
+<!--
+
+<url>
+  <loc>https://www.pynely.com/podcast.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/newsletters.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.75/priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/bots.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+-->
+
+<url>
+  <loc>https://www.pynely.com/pynelychat.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
 <url>
 <loc>https://www.pynely.com/404.html</loc>
 <lastmod>2016-12-23</lastmod>
@@ -49,7 +81,7 @@
 <loc>https://www.pynely.com/services/marketing/social-media-management.html</loc>
 <lastmod>2016-12-19</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
 
 <url>
@@ -200,18 +232,175 @@
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/blog-content-1.html</loc>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-affiliates.html</loc>
   <lastmod>2016-24-12</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/form-follow-up-1.html</loc>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-dentists.html</loc>
   <lastmod>2016-24-12</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-industry.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-legal.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-local-gym.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-media.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-restaurants.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-retail-e-commerce.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-start-ups.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-web-development-agency.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-white-label.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/social-media-audit-checklist.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/social-media-marketing-kit.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/featured-content/standard-marketing-services.html</loc>
+  <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/comparison/404.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.25</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/comparison/99dollarsocial.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.5</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/404.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-venture.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-micro.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-enterprise.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-bouteche.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/marketing-kit/404.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+
+<url>
+  <loc>https://www.pynely.com/resources/marketing-kit/social-media-marketing-kit.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/template/editorial-calendar.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/404.html</loc>
@@ -222,13 +411,6 @@
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1</priority>
-</url>
-
-<url>
-  <loc>https://www.pynely.com/resources/encyclopedia/i/inbound.html</loc>
   <lastmod>2017-03-01</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
@@ -597,4 +779,802 @@
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/a/a-b-test.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/a/ad-impression.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/a/ad-network.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/a/adwords.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/a/analytics.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/a/application-programming-interface.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/b/b2b.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/b/b2c.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/b/behavior-flow-report.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/b/blogging.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/b/bottom-of-the-funnel.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/b/bounce-rate.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/call-to-action.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/can-spam.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/churn-rate.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/click-through-rate.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/closed-loop-marketing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/content-management-system.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/content-optimizaiton-system.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/content.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/conversion-path.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/conversion-rate-optimization.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/cost-per-lead.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/crowdsourced-content.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/customer-acquisition-cost.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/c/customer-relationship-management.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/d/digital-public-relations.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/d/dynamic-content.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/d/dynamic-search-ads.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/ebook.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/editorial-calendar.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/email.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/engagement-rate.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/enhanced-campaigns.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/enhanced-cpc.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/e/evergreen-content.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/f/facebook.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/f/flexible-bid-strategies.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/f/flexible-conversion-counting.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/f/form.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/f/friction.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/g/google-analytics.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/g/google-plus.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/g/graceful-degradation.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/h/hashtag.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/h/html.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/i/inbound-link.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/i/inbound-marketing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/i/infographic.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/i/instagram.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/j/javascript.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/k/key-performance-indicator.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/k/keywords.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/landing-page.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/lead-nurturing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/lead.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/lifecycle-stages.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/lifetime-value.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/link-building.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/linkedin.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/l/long-tail-keyword.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/m/microsite.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/m/middle-of-the-funnel.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/m/mobile-marketing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/m/mobile-optimizaiton.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/m/monthly-recurring-revenue.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/n/native-advertising.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/n/negative-keywords.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/n/net-promoter-score.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/n/news-feed.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/n/no-follow-link.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/o/off-site-seo.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/o/offer.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/o/on-site-seo.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/o/organic-traffic.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/p/page-view.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/p/paid-traffic.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/p/pinterest.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/p/ppc.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/q/qr-code.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/q/qualified-lead.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/r/remarketing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/r/report-filters.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/r/return-on-investment.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/search-engine-marketing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/search-engine-optimzation.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/search-impression-share-report.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/sender-score.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/service-level-agreement.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/small-to-medium-business.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/smarketing.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/snapchat.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/social-media.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/social-proof.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/s/software-as-a-service.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/t/tailored-audiences.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/t/top-of-the-funnel.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/t/traffic-sources.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/t/traffic.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/t/twitter.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/t/</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/u/unique-visitor.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/u/url.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/u/user-experience.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/u/user-interface.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/v/view-though-conversions.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/v/viral-content.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/w/web-analytics.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/w/website.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/w/word-of-mouth.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/w/workflow.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/x/xml-sitemap.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/y/youtube.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/encyclopedia/z/zapier.html</loc>
+  <lastmod>2017-03-06</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>.75</priority>
+</url>
+
 </urlset>

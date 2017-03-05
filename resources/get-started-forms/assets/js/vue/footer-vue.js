@@ -131,10 +131,10 @@ new Vue({
 
 //Q&A - Bottom Footer
 new Vue({
-	el: "#footer-bottom-qa",
+	el: "#footer-bottom-resources",
 	data: {
-		title: 'Q & A',
-		url: "https://blog.pynely.com/q-a/"
+		title: 'Resources',
+		url: "https://pynely.com/resources/home.html"
 	}
 });
 
@@ -164,10 +164,63 @@ new Vue({
 		title: 'About us'
 	}
 });
+//Brand - Bottom Footer
+new Vue({
+	el: '#footer-bottom-brand',
+	data: {
+		url: 'https://pynely.com/brand-assets.html',
+		title: 'Brand Assets'
+	}
+});
 //Copyright Year - Bottom Footer
 new Vue({
 	el: '#footer-copyright-year',
 	data: {
 		title: "2017"
+	}
+});
+
+
+//Free Resources
+//Services - Main Label
+new Vue({
+	el: "#footer-resources-label",
+	data: {
+		title: "Resources"
+	}
+});
+new Vue({
+	el: '#footer-resources-pynelychat',
+	data:{
+		url: 'https://pynely.com/pynelychat.html',
+		title: "#PynelyChat"
+	}
+});
+new Vue({
+	el: '#footer-resources-comparison',
+	data:{
+		url: 'https://pynely.com/resources/comparison/99dollarsocial.html',
+		title: "Comparison"
+	}
+});
+new Vue({
+	el: '#footer-resources-encyclopedia',
+	data:{
+		url: 'https://pynely.com/resources/encyclopedia/home.html',
+		title: "Encylopedia"
+	}
+});
+new Vue({
+	el: '#footer-resources-evaluations',
+	data:{
+		url: 'https://pynely.com/resources/evaluations/facebook-page.html',
+		title: "Free Evaluation"
+	}
+});
+new Vue({
+	el: '#footer-resources-marketing-resources',
+	data:{
+		url: 'https://pynely.com/resources/home.html',
+		title: "Marketing Resources"
 	}
 });

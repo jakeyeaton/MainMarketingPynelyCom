@@ -1,9 +1,6 @@
 <!DOCTYPE>
 <html>
 <html>
-<!--
-If you're the kind of person who reads source code, you might be a great fit at Pynely Apply at: https://www.pynely.com/jobs/home.html
--->
 <head>
 <title id="app">Contact | Pynely</title>
 <meta charset="utf-8"/>
@@ -36,16 +33,10 @@ web design, mobile design">
 <meta itemprop="headline" content="Contact | Pynely"/>
 <meta itemprop="description" content="Pynely provides social marketing solutions that are dead simple yet work. - Pynely"/>
 <meta itemprop="image" content="https://www.pynely.com/assets/img/PynelyFullLogoGrey.png"/>
-
-
-<!-- Google Fonts -->
 <link href="http://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,600,700" rel="stylesheet">
-
-
 <link rel="stylesheet" href="assets/sass/main.css" />
 <script src="https://use.fontawesome.com/68e13207cf.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
@@ -55,7 +46,7 @@ web design, mobile design">
 <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
 <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
@@ -63,600 +54,449 @@ web design, mobile design">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-
-<!-- Start of Async Drift Code -->
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('fmwrhpbtzhdc');
-</script>
-<!-- End of Async Drift Code -->
-
-<!-- place this script tag after the Drift embed tag -->
-<script>
-(function() {
- /* Add this class to any elements you want to use to open Drift.
- *
- * Examples:
- * - <a class="drift-open-chat">Questions? We're here to help!</a>
- * - <button class="drift-open-chat">Chat now!</button>
- *
- * You can have any additional classes on those elements that you
- * would ilke.
- */
- var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
-
- /* http://youmightnotneedjquery.com/#ready */
- function ready(fn) {
- if (document.readyState != 'loading') {
- fn();
- } else if (document.addEventListener) {
- document.addEventListener('DOMContentLoaded', fn);
- } else {
- document.attachEvent('onreadystatechange', function() {
- if (document.readyState != 'loading')
- fn();
- });
- }
- }
- /* http://youmightnotneedjquery.com/#each */
- function forEachElement(selector, fn) {
- var elements = document.querySelectorAll(selector);
- for (var i = 0; i < elements.length; i++)
- fn(elements[i], i);
- }
- function openSidebar(driftApi, event) {
- event.preventDefault();
- driftApi.sidebar.open();
- return false;
- }
- ready(function() {
- drift.on('ready', function(api) {
- var handleClick = openSidebar.bind(this, api)
- forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
- el.addEventListener('click', handleClick);
- });
- });
- });
-})();
-</script>
-    <script type="text/javascript">
-(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);mixpanel.init("0565aa0abb7e971aecdaf76a00d2ace0");
-    </script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+<script>/*<![CDATA[*/!function(){var a;if(a=window.driftt=window.drift=window.driftt||[],!a.init){return a.invoked?void (window.console&&console.error&&console.error("Drift snippet included twice.")):(a.invoked=!0,a.methods=["identify","config","track","reset","debug","show","ping","page","hide","off","on"],a.factory=function(b){return function(){var c;return c=Array.prototype.slice.call(arguments),c.unshift(b),a.push(c),a}},a.methods.forEach(function(b){a[b]=a.factory(b)}),a.load=function(c){var d,g,f,b;d=300000,b=Math.ceil(new Date()/d)*d,f=document.createElement("script"),f.type="text/javascript",f.async=!0,f.crossorigin="anonymous",f.src="https://js.driftt.com/include/"+b+"/"+c+".js",g=document.getElementsByTagName("script")[0],g.parentNode.insertBefore(f,g)})}}();drift.SNIPPET_VERSION="0.3.1";drift.load("fmwrhpbtzhdc");/*]]>*/</script>
+<script>/*<![CDATA[*/(function(){var c=".drift-open-chat";function b(e){if(document.readyState!="loading"){e()}else{if(document.addEventListener){document.addEventListener("DOMContentLoaded",e)}else{document.attachEvent("onreadystatechange",function(){if(document.readyState!="loading"){e()}})}}}function d(e,g){var h=document.querySelectorAll(e);for(var f=0;f<h.length;f++){g(h[f],f)}}function a(f,e){e.preventDefault();f.sidebar.open();return false}b(function(){drift.on("ready",function(f){var e=a.bind(this,f);d(c,function(g){g.addEventListener("click",e)})})})})();/*]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/(function(s,v){if(!v.__SV){var u=window;try{var t,f,p,o=u.location,r=o.hash;t=function(e,c){return(f=e.match(RegExp(c+"=([^&]*)")))?f[1]:null};r&&t(r,"state")&&(p=JSON.parse(decodeURIComponent(t(r,"state"))),"mpeditor"===p.action&&(u.sessionStorage.setItem("_mpcehash",r),history.replaceState(p.desiredHash||"",s.title,o.pathname+o.search)))}catch(d){}var n,q;window.mixpanel=v;v._i=[];v.init=function(a,j,g){function h(e,k){var l=k.split(".");2==l.length&&(e=e[l[0]],k=l[1]);e[k]=function(){e.push([k].concat(Array.prototype.slice.call(arguments,0)))}}var i=v;"undefined"!==typeof g?i=v[g]=[]:g="mixpanel";i.people=i.people||[];i.toString=function(c){var e="mixpanel";"mixpanel"!==g&&(e+="."+g);c||(e+=" (stub)");return e};i.people.toString=function(){return i.toString(1)+".people (stub)"};n="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(q=0;q<n.length;q++){h(i,n[q])}v._i.push([a,j,g])};v.__SV=1.2;u=s.createElement("script");u.type="text/javascript";u.async=!0;u.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===s.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";t=s.getElementsByTagName("script")[0];t.parentNode.insertBefore(u,t)}})(document,window.mixpanel||[]);mixpanel.init("0565aa0abb7e971aecdaf76a00d2ace0");/*]]>*/</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=763265290446217";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-	        <div id="wrapper">
-            <header class="header header2 sticky-header animated-dropdown ttb-dropdown">
-                <div class="header-inner">
-                    <div class="container-fluid">
-                        <a href="https://pynely.com" class="site-logo" title="Bold - Multipurpose Template">
-                            <img src="assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" data-rjs="3" alt="Pynely Logo">
-                        </a>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
-                            <span class="toggle-text">Menu</span>
-                            <span class="toggle-wrapper">
-                                <span class="sr-only">Toggle Menu</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="main-nav-container">
-                            <ul class="nav navbar-nav">
-
-                                <li id="header-how-it-works">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
-                                  <li id="header-pricing">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
-                                  <li id="header-faq">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
-                                  <li class="dropdown">
-                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
-                                        {{ title }}
-                                        <span class="angle"></span>
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                          <li class="dropdown">
-                                            <li id="header-solutions-dentists">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-legal">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-local-gyms">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-
-                                            <li id="header-solutions-restaurants">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-retail-e-commerce">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-web-development-agency">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                          </li>
-                                      </ul>
-                                  </li>
-
-                                  <li class="dropdown">
-                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
-                                        {{ title }}
-                                        <span class="angle"></span>
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                          <li class="dropdown">
-                                            <li id="header-comparison">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-encyclopedia">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-evaluations">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-marketing-kits">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-marketing-resources">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-templetes">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                          </li>
-                                      </ul>
-                                  </li>
-
-
-
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-                                          <li id="header-blog-social-media">
-                                              <a :href="url" target="_blank">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                          <li id="header-blog-productivity">
-                                              <a :href="url" target="_blank">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                          <li id="header-blog-sales">
-                                              <a :href="url" target="_blank">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-                                          <li id="header-partners-white-lable">
-                                              <a :href="url">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                          <li id="header-partners-affilate">
-                                              <a :href="url">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-
-                                        </li>
-                                    </ul>
-                                </li>
-
-
-                                <li id="header-contact-us">
-                                  <a href="" class="drift-open-chat">
-                                    Get Started <i class="fa fa-comment" aria-hidden="true"></i>
-                                  </a>
-                                </li>
-
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- End .container-fluid -->
-                </div><!-- End .header-inner -->
-            </header><!-- End .header -->
-              <!-- Start Main Body -->
-
-              <div class="main">
-                <div class="page-header largest custom text-center" data-0="background-position:50% 50%;" data-top-bottom="background-position:50% 100%">
-                    <div class="container-fluid">
-                        <h1>Contact us <span style="color:#00b16a;">.</span></h1>
-                    </div><!-- End .container-fluid -->
-                </div><!-- End .page-header -->
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-6">
-                          <br>
-                            <h2 class="title custom">Get in touch</h2>
-                            <form netlify action="thank-you" id="contact-form" name="contact-pynely">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>Name</label>
-                                        <input type="text" class="form-control" id="contactname" name="contactname" placeholder="Name" required>
-                                    </div><!-- End .col-md-6 -->
-                                    <div class="col-md-6">
-                                        <label>Email</label>
-                                        <input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Email" required>
-                                    </div><!-- End .col-md-6 -->
-                                </div><!-- End .row -->
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>Website</label>
-                                        <input type="url" class="form-control" id="contactwebsite" name="contactwebsite" placeholder="Website" required>
-                                        <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
-                                    </div><!-- End .col-md-6 -->
-                                    <div class="col-md-6">
-                                        <label>Subject</label>
-                                        <input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Subject">
-                                    </div><!-- End .col-md-6 -->
-                                </div><!-- End .row -->
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>Message</label>
-                                        <textarea class="form-control" rows="6" id="contactmessage" name="contactmessage" placeholder="Message" required></textarea>
-                                    </div><!-- End .col-md-12 -->
-                                </div><!-- End .row -->
-
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p style="font-size:14px;">
-                <span style="color:red;">*</span>By submitting this form, you are confirming you have read and clicking agree to our
-                <a href="https://pynely.com/polices/terms.html" style="color:#00b16a;text-decoration:none;">terms of service</a>
-                and <a href="https://pynely.com/polices/privacy.html" style="color:#00b16a;text-decoration:none;">privacy policy</a>.
-            </p>
-            <div class="g-recaptcha" data-sitekey="6LeePxsTAAAAADQGlbsdF6DsMZwLjJqv2M82oeBE"></div>
-                    <br>
-                                    </div>
-                                </div>
-
-
-                                <div class="mb10"></div><!-- margin -->
-
-                                <input type="submit" class="btn btn-custom min-width" data-loading-text="Sending Message..." value="Send Message">
-                            </form>
-                            <br>
-                        </div><!-- End .col-md-8 -->
-
-                        <div class="clearfix mb50 visible-sm visible-xs"></div><!-- margin -->
-
-                        <aside class="col-md-4 col-sm-6">
-                           <br>
-                            <div class="location-info">
-                                <div class="location-icon custom">
-                                    <i class="fa fa-map-marker"></i>
-                                </div><!-- End .location-icon -->
-
-                                <h3>Remote</h3>
-                                <address>
-                                    Everywhere, Planet Earth
-                                </address>
-                                <p><strong>Phone</strong> <a href="tel18886290687">+01 888 629-0687</a></p>
-                                <p><strong>Email</strong> <a href="mailto:hello@pynely.com">hello@pynely.com</a></p>
-                                <p><strong>Live Chat</strong> <a class="drift-open-chat">Leave a Message</a></p>
-                                <a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-show-count="false">Tweet to @pynely</a>
-
-                            </div><!-- End .location-info -->
-                        </aside><!-- End .col-md-4 -->
-                    </div><!-- End .row -->
-                </div><!-- End .container-fluid -->
-            </div><!-- End .main -->
-           <div class="mb50"></div><!-- margin -->
-
-
-              <!-- End Main Body -->
-
-              <footer class="footer text-center white">
-                              <div class="container-fluid">
-                                  <div class="row">
-                                      <div class="col-md-8 col-md-offset-2">
-
-                                          <div class="row">
-                                              <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                                                  <div class="widget about-widget">
-                                                      <img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" alt="Pynely Logo" class="footer-logo">
-                                                      <hr>
-                                                      <p id="footer-short-description">
-                                                      {{ title }}
-                                                      </p>
-                                                  </div><!-- End .widget -->
-                                              </div><!-- End .col-sm-4 -->
-                                          </div><!-- End .row -->
-
-                                          <div class="row">
-                                              <div class="col-xs-4 col-xss-12">
-                                                  <div class="widget">
-
-                                                      <ul class="about-list text-left">
-                                                        <li>
-                                                          <strong>
-                                                            <span style="color:#00b16a;font-size:21px;">
-                                                              Contact
-                                                              </span>
-                                                            </strong>
-                                                        </li>
-                                                          <li>
-                                                            <span id="footer-location-label">{{ title }}</span>
-                                                            <span id="footer-location-city">{{ title }}</span>
-                                                          </li>
-                                                          <li>
-                                                            <span id="footer-email-label">{{ title }}</span>
-                                                            <a id="footer-email-address" href="mailto:hello@pynely.com">
-                                                              {{ title }}
-                                                            </a>
-                                                          </li>
-                                                          <li>
-                                                            <span id="footer-chat-label">{{ title }}</span>
-                                                            <a id="footer-chat-trigger" class="drift-open-chat">
-                                                              {{ title }}
-                                                            </a>
-                                                          </li>
-
-                                                         <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox"></div>
-                                                      </ul>
-                                                  </div><!-- End .widget -->
-                                              </div><!-- End .col-xs-4 -->
-
-                                              <div class="col-xs-4 col-xss-12">
-                                                  <div class="widget">
-                                                            <ul class="fa-ul text-left">
-                                                              <li id="footer-services-label" >
-                                                                <strong>
-                                                                  <span style="color:#00b16a;font-size:21px;">
-                                                                    {{ title }}
-                                                                    </span>
-                                                                  </strong>
-                                                              </li>
-
-                                                              <li id="footer-how-it-works">
-                                                                  <a :href="url">
-                                                                    {{ title }}
-                                                                  </a>
-                                                                </li>
-
-                                                                <li id="footer-pricing">
-                                                                  <a :href="url">
-                                                                    {{ title }}
-                                                                  </a>
-                                                                </li>
-
-                                                                <li id="footer-features">
-                                                                  <a :href="url">
-                                                                    {{ title }}
-                                                                  </a>
-                                                                </li>
-
-                                                                <li id="footer-faq">
-                                                                  <a :href="url">
-                                                                    {{ title }}
-                                                                  </a>
-                                                                </li>
-
-                                                            </ul>
-                                                  </div><!-- End .widget -->
-                                              </div><!-- End .col-xs-4 -->
-                                              <div class="col-xs-4 col-xss-12">
-                                                <ul class="fa-ul text-left">
-                                                  <li id="footer-resources-label" >
-                                                    <strong>
-                                                      <span style="color:#00b16a;font-size:21px;">
-                                                        {{ title }}
-                                                        </span>
-                                                      </strong>
-                                                  </li>
-
-                                                  <li id="footer-resources-pynelychat">
-                                                      <a :href="url">
-                                                        {{ title }}
-                                                      </a>
-                                                    </li>
-
-                                                  <li id="footer-resources-comparison">
-                                                      <a :href="url">
-                                                        {{ title }}
-                                                      </a>
-                                                    </li>
-
-                                                    <li id="footer-resources-encyclopedia">
-                                                      <a :href="url">
-                                                        {{ title }}
-                                                      </a>
-                                                    </li>
-
-                                                    <li id="footer-resources-evaluations">
-                                                      <a :href="url">
-                                                        {{ title }}
-                                                      </a>
-                                                    </li>
-
-                                                    <li id="footer-resources-marketing-resources">
-                                                      <a :href="url">
-                                                        {{ title }}
-                                                      </a>
-                                                    </li>
-
-                                                </ul>
-                                              </div><!-- End .col-xs-4 -->
-
-                                          </div><!-- End .row -->
-
-
-                                      </div><!-- End .col-md-8 -->
-                                  </div><!-- End .row -->
-                              </div><!-- End .container-fluid -->
-
-                              <div class="footer-bottom text-center">
-                                <hr>
-                                  <div class="container-fluid">
-                                      <div class="footer-left">
-                                          <ul class="footer-menu">
-
-                                            <li id="footer-bottom-about">
-                                              <a :href="url">
-                                                {{ title }}
-                                              </a>
-                                            </li>
-
-                                            <li id="footer-bottom-brand">
-                                              <a :href="url">
-                                                {{ title }}
-                                              </a>
-                                            </li>
-
-                                            <li id="footer-bottom-partners">
-                                              <a :href="url">
-                                                {{ title }}
-                                              </a>
-                                            </li>
-
-                                            <li id="footer-bottom-support">
-                                              <a :href="url" target="_blank">
-                                                {{ title }}
-                                              </a>
-                                            </li>
-
-                                            <li id="footer-bottom-resources">
-                                              <a :href="url" target="_blank">
-                                                {{ title }}
-                                              </a>
-                                            </li>
-
-                                              <li id="footer-bottom-blog">
-                                                <a :href="url" target="_blank">
-                                                  {{ title }}
-                                                </a>
-                                              </li>
-
-                                              <li id="footer-bottom-jobs">
-                                                <a :href="url">
-                                                  {{ title }}
-                                                </a>
-                                              </li>
-
-                                              <li id="footer-bottom-privacy">
-                                                <a :href="url">
-                                                  {{ title }}
-                                                </a>
-                                              </li>
-
-                                              <li id="footer-bottom-terms">
-                                                <a :href="url">
-                                                  {{ title }}
-                                                </a>
-                                              </li>
-                                          </ul>
-                                      </div><!-- End .footer-left -->
-
-                                      <div class="footer-right">
-                                        <p id="footer-copyright-year" class="copyright">
-                                          Copyright &copy; {{ title }} Pynely, LLC.
-                                        </p>
-                                      </div><!-- End .footer-right -->
-                                  </div><!-- End .container-fluid -->
-                              </div><!-- End .footer-bottom -->
-                          </footer><!-- End .footer -->
-
-
+<div id="fb-root"></div>
+<script>/*<![CDATA[*/(function(e,a,f){var c,b=e.getElementsByTagName(a)[0];if(e.getElementById(f)){return}c=e.createElement(a);c.id=f;c.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=763265290446217";b.parentNode.insertBefore(c,b)}(document,"script","facebook-jssdk"));/*]]>*/</script>
+<div id="wrapper">
+<header class="header header2 sticky-header animated-dropdown ttb-dropdown">
+<div class="header-inner">
+<div class="container-fluid">
+<a href="https://pynely.com" class="site-logo" title="Bold - Multipurpose Template">
+<img src="assets/img/pynelyFullLogoGrey.png" style="max-height:40px" data-rjs="3" alt="Pynely Logo">
+</a>
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
+<span class="toggle-text">Menu</span>
+<span class="toggle-wrapper">
+<span class="sr-only">Toggle Menu</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</span>
+</button>
+<div class="collapse navbar-collapse" id="main-nav-container">
+<ul class="nav navbar-nav">
+<li id="header-how-it-works">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-pricing">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-faq">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
+{{ title }}
+<span class="angle"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="dropdown">
+<li id="header-solutions-dentists">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-solutions-legal">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-solutions-local-gyms">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-solutions-restaurants">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-solutions-retail-e-commerce">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-solutions-web-development-agency">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
+{{ title }}
+<span class="angle"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="dropdown">
+<li id="header-comparison">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-encyclopedia">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-evaluations">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-marketing-kits">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-marketing-resources">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-templetes">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
+{{ title }}
+<span class="angle"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="dropdown">
+<li id="header-blog-social-media">
+<a :href="url" target="_blank">
+{{ title }}
+</a>
+</li>
+<li id="header-blog-productivity">
+<a :href="url" target="_blank">
+{{ title }}
+</a>
+</li>
+<li id="header-blog-sales">
+<a :href="url" target="_blank">
+{{ title }}
+</a>
+</li>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
+{{ title }}
+<span class="angle"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="dropdown">
+<li id="header-partners-white-lable">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="header-partners-affilate">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+</li>
+</ul>
+</li>
+<li id="header-contact-us">
+<a href="" class="drift-open-chat">
+Get Started <i class="fa fa-comment" aria-hidden="true"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+<div class="main">
+<div class="page-header largest custom text-center" data-0="background-position:50% 50%;" data-top-bottom="background-position:50% 100%">
+<div class="container-fluid">
+<h1>Contact us <span style="color:#00b16a">.</span></h1>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 col-sm-6">
+<br>
+<h2 class="title custom">Get in touch</h2>
+<form netlify action="thank-you" id="contact-form" name="contact-pynely">
+<div class="row">
+<div class="col-md-6">
+<label>Name</label>
+<input type="text" class="form-control" id="contactname" name="contactname" placeholder="Name" required>
+</div>
+<div class="col-md-6">
+<label>Email</label>
+<input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Email" required>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<label>Website</label>
+<input type="url" class="form-control" id="contactwebsite" name="contactwebsite" placeholder="Website" required>
+<p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
+</div>
+<div class="col-md-6">
+<label>Subject</label>
+<input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Subject">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<label>Message</label>
+<textarea class="form-control" rows="6" id="contactmessage" name="contactmessage" placeholder="Message" required></textarea>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p style="font-size:14px">
+<span style="color:red">*</span>By submitting this form, you are confirming you have read and clicking agree to our
+<a href="https://pynely.com/polices/terms.html" style="color:#00b16a;text-decoration:none">terms of service</a>
+and <a href="https://pynely.com/polices/privacy.html" style="color:#00b16a;text-decoration:none">privacy policy</a>.
+</p>
+<div class="g-recaptcha" data-sitekey="6LeePxsTAAAAADQGlbsdF6DsMZwLjJqv2M82oeBE"></div>
+<br>
+</div>
+</div>
+<div class="mb10"></div>
+<input type="submit" class="btn btn-custom min-width" data-loading-text="Sending Message..." value="Send Message">
+</form>
+<br>
+</div>
+<div class="clearfix mb50 visible-sm visible-xs"></div>
+<aside class="col-md-4 col-sm-6">
+<br>
+<div class="location-info">
+<div class="location-icon custom">
+<i class="fa fa-map-marker"></i>
+</div>
+<h3>Remote</h3>
+<address>
+Everywhere, Planet Earth
+</address>
+<p><strong>Phone</strong> <a href="tel18886290687">+01 888 629-0687</a></p>
+<p><strong>Email</strong> <a href="mailto:hello@pynely.com">hello@pynely.com</a></p>
+<p><strong>Live Chat</strong> <a class="drift-open-chat">Leave a Message</a></p>
+<a href="https://twitter.com/intent/tweet?screen_name=pynely" class="twitter-mention-button" data-size="large" data-show-count="false">Tweet to @pynely</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<div class="mb50"></div>
+<footer class="footer text-center white">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+<div class="widget about-widget">
+<img src="/assets/img/pynelyFullLogoGrey.png" style="max-height:40px" alt="Pynely Logo" class="footer-logo">
+<hr>
+<p id="footer-short-description">
+{{ title }}
+</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-4 col-xss-12">
+<div class="widget">
+<ul class="about-list text-left">
+<li>
+<strong>
+<span style="color:#00b16a;font-size:21px">
+Contact
+</span>
+</strong>
+</li>
+<li>
+<span id="footer-location-label">{{ title }}</span>
+<span id="footer-location-city">{{ title }}</span>
+</li>
+<li>
+<span id="footer-email-label">{{ title }}</span>
+<a id="footer-email-address" href="mailto:hello@pynely.com">
+{{ title }}
+</a>
+</li>
+<li>
+<span id="footer-chat-label">{{ title }}</span>
+<a id="footer-chat-trigger" class="drift-open-chat">
+{{ title }}
+</a>
+</li>
+<div class="addthis_inline_follow_toolbox"></div>
+</ul>
+</div>
+</div>
+<div class="col-xs-4 col-xss-12">
+<div class="widget">
+<ul class="fa-ul text-left">
+<li id="footer-services-label">
+<strong>
+<span style="color:#00b16a;font-size:21px">
+{{ title }}
+</span>
+</strong>
+</li>
+<li id="footer-how-it-works">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-pricing">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-features">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-faq">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-4 col-xss-12">
+<ul class="fa-ul text-left">
+<li id="footer-resources-label">
+<strong>
+<span style="color:#00b16a;font-size:21px">
+{{ title }}
+</span>
+</strong>
+</li>
+<li id="footer-resources-pynelychat">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-resources-comparison">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-resources-encyclopedia">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-resources-evaluations">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-resources-marketing-resources">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom text-center">
+<hr>
+<div class="container-fluid">
+<div class="footer-left">
+<ul class="footer-menu">
+<li id="footer-bottom-about">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-brand">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-partners">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-support">
+<a :href="url" target="_blank">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-resources">
+<a :href="url" target="_blank">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-blog">
+<a :href="url" target="_blank">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-jobs">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-privacy">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+<li id="footer-bottom-terms">
+<a :href="url">
+{{ title }}
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-right">
+<p id="footer-copyright-year" class="copyright">
+Copyright &copy; {{ title }} Pynely, LLC.
+</p>
+</div>
+</div>
+</div>
+</footer>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <script type="text/javascript" src="assets/js/extra-js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/extra-js/plugins.min.js"></script>
 <script type="text/javascript" src="assets/js/extra-js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="assets/js/extra-js/contact.js"></script>
 <script type="text/javascript" src="assets/js/extra-js/main.js"></script>
 <script type="text/javascript" src="assets/js/extra-js/extensions/revolution.extension.navigation.min.js"></script>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-71950190-1', 'auto'); ga('send', 'pageview');
-</script>
-
-
-<!-- Latest compiled and minified JavaScript - Bootstrap JavaScript -->
+<script>(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-71950190-1","auto");ga("send","pageview");</script>
 <script src="assets/js//vue/vue.js"></script>
 <script src="assets/js/vue/footer-vue.js"></script>
 <script src="assets/js/vue/general-vue.js"></script>
 <script src='assets/js/vue/header-vue.js'></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
 </body>
 </html>

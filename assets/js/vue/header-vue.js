@@ -124,7 +124,7 @@ new Vue({
             new Vue({
               el:"#header-templetes",
               data: {
-                title: 'Templetes',
+                title: 'Templates',
                 url: 'https://pynely.com/resources/template.html'
               }
             });

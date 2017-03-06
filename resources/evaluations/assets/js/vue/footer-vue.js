@@ -207,7 +207,7 @@ new Vue({
 	el: '#footer-resources-encyclopedia',
 	data:{
 		url: 'https://pynely.com/resources/encyclopedia/home.html',
-		title: "Encylopedia"
+		title: "Encyclopedia"
 	}
 });
 new Vue({

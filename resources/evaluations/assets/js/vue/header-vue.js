@@ -104,7 +104,7 @@ new Vue({
               el:"#header-evaluations",
               data: {
                 title: 'Evaluations',
-                url: 'https://pynely.com/resources/evaluations.html'
+                url: 'https://pynely.com/resources/evaluation.html'
               }
             });
             new Vue({
@@ -124,8 +124,8 @@ new Vue({
             new Vue({
               el:"#header-templetes",
               data: {
-                title: 'Templetes',
-                url: 'https://pynely.com/resources/templates.html'
+                title: 'Templates',
+                url: 'https://pynely.com/resources/template.html'
               }
             });
           //End Resources
@@ -154,7 +154,7 @@ new Vue({
               el:"#header-solutions-local-gyms",
               data: {
                 title: 'Local Gyms',
-                url: 'https://pynely.com/solutions/industry/local-gyms.html'
+                url: 'https://pynely.com/solutions/industry/local-gym.html'
               }
             });
             new Vue({

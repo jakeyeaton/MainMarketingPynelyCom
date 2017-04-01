@@ -3,12 +3,25 @@
 
 <url>
 <loc>https://www.pyenly.com</loc>
-<lastmod>2016-12-19</lastmod>
+<lastmod>2017-03-29</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
+<url>
+<loc>https://www.pyenly.com/sitemap.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+
 <!--
+<url>
+<loc>https://www.pyenly.com/book-an-appointment.html</loc>
+<lastmod>2016-12-19</lastmod>
+<changefreq>always</changefreq>
+<priority>1</priority>
+</url>
 
 <url>
   <loc>https://www.pynely.com/podcast.html</loc>
@@ -31,32 +44,30 @@
   <priority>.75</priority>
 </url>
 
--->
-
 <url>
   <loc>https://www.pynely.com/pynelychat.html</loc>
   <lastmod>2017-03-06</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
-
+-->
 <url>
-<loc>https://www.pynely.com/404.html</loc>
-<lastmod>2016-12-23</lastmod>
-<chagefreq>yearly</changefreq>
-<priority>0.25</priority>
+<loc>https://www.pyenly.com/brand-assets.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>yearly</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>https://www.pynely.com/about.html</loc>
-<lastmod>2016-12-19</lastmod>
+<lastmod>2017-03-29</lastmod>
 <changefreq>yearly</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://www.pynely.com/404.html</loc>
-<lastmod>2016-12-19</lastmod>
+<lastmod>2017-12-19</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.25</priority>
 </url>
@@ -78,8 +89,57 @@
 
 
 <url>
-<loc>https://www.pynely.com/services/marketing/social-media-management.html</loc>
-<lastmod>2016-12-19</lastmod>
+<loc>https://www.pynely.com/services/marketing/content-marketing-services.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/facebook-advertising.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/facebook-ppc.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/inbound-marketing.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/inbound-marketing-services.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/marketing-automation.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/search-engine-optimization.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/social-media-marketing.html</loc>
+<lastmod>2017-03-29</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1</priority>
 </url>
@@ -92,1489 +152,1939 @@
 </url>
 
 <url>
-<loc>https://www.pynely.com/polices/privacy.html</loc>
-<lastmod>2016-12-19</lastmod>
+<loc>https://www.pynely.com/services/marketing/pricing/404.html</loc>
+<lastmod>2017-03-29</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.25</priority>
+<priority>.5</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/pricing/content-marketing.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/pricing/facebook-advertising.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/pricing/facebook-ppc.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/pricing/inbound-marketing.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/ad-copywriting.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/copy-editing.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/ebooks.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/email-copy.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/infographic.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/landing-pages.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/press-releases.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/product-descriptions.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/sales-pages.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/slide-content.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/web-pages.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/whitepapers.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/marketing/content-marketing/single/404.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>.5</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/design/growth-driven-blog-website-redesign.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<!--
+<url>
+<loc>https://www.pynely.com/services/design/growth-driven-ecommerce-website-design.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+  <url>
+<loc>https://www.pynely.com/services/design/growth-driven-website-design.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+  <url>
+<loc>https://www.pynely.com/services/design/increase-website-conversion.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/design/logo-design.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+-->
+<url>
+<loc>https://www.pynely.com/services/design/404.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>.5</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/services/design/pricing/design-services-overview.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/polices/privacy.html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>https://www.pynely.com/polices/terms.html</loc>
-<lastmod>2016-12-19</lastmod>
+<lastmod>2017-03-29</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.25</priority>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>https://www.pynely.com/polices/404.html</loc>
 <lastmod>2016-12-19</lastmod>
 <changefreq>yearly</changefreq>
-<priority>0.25</priority>
+<priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://www.pynely.com/jobs/home.html</loc>
-<lastmod>2016-12-19</lastmod>
+<lastmod>2017-03-29</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
+<priority>1</priority>
 </url>
+
+<!--
+<url>
+<loc>https://www.pynely.com/jobs/tech/[FILL IN WITH JOB NAME].html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/jobs/design/[FILL IN WITH JOB NAME].html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/jobs/marketing/[FILL IN WITH JOB NAME].html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
+<loc>https://www.pynely.com/jobs/sales/[FILL IN WITH JOB NAME].html</loc>
+<lastmod>2017-03-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+-->
 
 <url>
 <loc>https://www.pynely.com/jobs/404.html</loc>
 <lastmod>2016-12-19</lastmod>
 <changefreq>yearly</changefreq>
-<priority>0.25</priority>
+<priority>.5</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/partners/white-label.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.5</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/partners/affiliates.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.5</priority>
 </url>
 
+<!--
+  <url>
+  <loc>https://www.pynely.com/partners/reseller.html</loc>
+  <lastmod>2017-01-04</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+-->
+
 <url>
   <loc>https://www.pynely.com/resources/home.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/template.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/marketing-kit.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/ebook.html</loc>
-  <lastmod>2017-02-16</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/white-paper.html</loc>
-  <lastmod>2017-02-16</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/evaluation.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/404.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/evaluations/404.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/evaluations/facebook-page.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
+  <loc>https://www.pynely.com/resources/evaluations/website-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/evaluations/website-report.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+
+<url>
   <loc>https://www.pynely.com/resources/template/404.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/template/social-media-audit-checklist.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/template/editorial-calendar.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/ebooks/404.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/ebooks/12-step-checklist-web-design-optimzation.html</loc>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/thank-you/404.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/404.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <loc>https://www.pynely.com/resources/thank-you/partners/follow-us-affiliates.html</loc>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-affiliates.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <loc>https://www.pynely.com/resources/thank-you/partners/follow-us-white-label.html</loc>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-dentists.html</loc>
+  <loc>https://www.pynely.com/resources/thank-you/partners/404.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+
+
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/resources/thank-you/evaluaions/website-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/resources/evaluations/website-report.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/resources/evaluations/facebook-page-thank-you.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/resources/marketing-kit/social-media-marketing-kit.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/resources/template/social-media-audit-checklist.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/logo-design/logo-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/psd-html-to-cms/html-to-psd-reverse.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/psd-html-to-cms/html-to-wordpress.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/psd-html-to-cms/psd-to-ghost.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/psd-html-to-cms/psd-to-wordpress.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/web-design/standard-blog-redesign.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/web-design/standard-ecommerce-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/web-design/standard-web-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/design/standard-digital-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/standard-marketing-services.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/ads/facebook/standard-fb-ads-marketing.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/blogging-boutique.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/blogging-micro.html</loc>
   <lastmod>2016-24-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/blogging-venture.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/industry-focused-blogging-boutique.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/industry-focused-blogging-micro.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/industry-focused-blogging-venture.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+  <url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/social-media-boutique.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/social-media-micro.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/social-media-venture/html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/content/standard-content-marketing.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://www.pynely.com/resources/thank-you/services/marketing/inbound/standard-inbound-marketing.html</loc>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-industry.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-dentists.html</loc>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-legal.html</loc>
-  <lastmod>2016-24-12</lastmod>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-industry.html</loc>
+  <lastmod>2017-03-29</lastmod>
   <changefreq>daily</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-local-gym.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-legal.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-media.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-local-gym.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-restaurants.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-media.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-retail-e-commerce.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-restaurants.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-start-ups.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-retail-e-commerce.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-web-development-agency.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-start-ups.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/follow-us-white-label.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://www.pynely.com/resources/thank-you/solutions/follow-us-web-development-agency.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
-<url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/social-media-audit-checklist.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1</priority>
-</url>
-
-<url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/social-media-marketing-kit.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1</priority>
-</url>
-
-<url>
-  <loc>https://www.pynely.com/resources/thank-you/featured-content/standard-marketing-services.html</loc>
-  <lastmod>2016-24-12</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1</priority>
-</url>
 
 <url>
   <loc>https://www.pynely.com/resources/comparison/404.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>.25</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/comparison/99dollarsocial.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>.5</priority>
 </url>
 
 <url>
-  <loc>https://www.pynely.com/resources/get-started-forms/404.html</loc>
+  <loc>https://www.pynely.com/resources/comparison/home.html</loc>
   <lastmod>2017-03-06</lastmod>
   <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/404.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>.5</priority>
 </url>
 
 
 <url>
   <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-venture.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-micro.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-enterprise.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/get-started-forms/standard-marketing-services-bouteche.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/logo-design/standard-logo-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+  <url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/psd-html-to-cms/html-to-psd-reverse.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+  <url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/psd-html-to-cms/html-to-wordpress.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+  <url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/psd-html-to-cms/psd-to-ghost.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+  <url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/psd-html-to-cms/psd-to-wordpress.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/web-design/blog-redesign.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+  <url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/web-design/ecommerce-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://www.pynely.com/resources/get-started-forms/design/web-design/standard-web-design.html</loc>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/marketing-kit/404.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 
 <url>
   <loc>https://www.pynely.com/resources/marketing-kit/social-media-marketing-kit.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
-</url>
-
-<url>
-  <loc>https://www.pynely.com/resources/template/editorial-calendar.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/d/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/g/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/h/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/i/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/j/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/k/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/o/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/p/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/q/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/r/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/u/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/v/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/w/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/x/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/y/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/z/404.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/d/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/g/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/h/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/i/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/j/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/k/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/o/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/p/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/q/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/r/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/u/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/v/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/w/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/x/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/y/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/z/home.html</loc>
-  <lastmod>2017-03-01</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/a-b-test.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/ad-impression.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/ad-network.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/adwords.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/analytics.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/a/application-programming-interface.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/b2b.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/b2c.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/behavior-flow-report.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/blogging.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/bottom-of-the-funnel.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/b/bounce-rate.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/call-to-action.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/can-spam.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/churn-rate.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/click-through-rate.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/closed-loop-marketing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/content-management-system.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/content-optimizaiton-system.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/content.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/conversion-path.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/conversion-rate-optimization.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+   <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/cost-per-lead.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/crowdsourced-content.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/customer-acquisition-cost.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+   <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/c/customer-relationship-management.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/d/digital-public-relations.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/d/dynamic-content.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/d/dynamic-search-ads.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/ebook.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/editorial-calendar.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/email.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/engagement-rate.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/enhanced-campaigns.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/enhanced-cpc.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/e/evergreen-content.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/facebook.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+    <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/flexible-bid-strategies.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/flexible-conversion-counting.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/form.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/f/friction.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/g/google-analytics.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/g/google-plus.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/g/graceful-degradation.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/h/hashtag.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/h/html.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/i/inbound-link.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/i/inbound-marketing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/i/infographic.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/i/instagram.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+   <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/j/javascript.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/k/key-performance-indicator.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/k/keywords.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/landing-page.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/lead-nurturing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/lead.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/lifecycle-stages.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/lifetime-value.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/link-building.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/linkedin.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/l/long-tail-keyword.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/microsite.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/middle-of-the-funnel.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/mobile-marketing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/mobile-optimizaiton.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/m/monthly-recurring-revenue.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/native-advertising.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/negative-keywords.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/net-promoter-score.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+   <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/news-feed.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/n/no-follow-link.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/o/off-site-seo.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/o/offer.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/o/on-site-seo.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/o/organic-traffic.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/p/page-view.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/p/paid-traffic.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/p/pinterest.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/p/ppc.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/q/qr-code.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/q/qualified-lead.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/r/remarketing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/r/report-filters.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/r/return-on-investment.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/search-engine-marketing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/search-engine-optimzation.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/search-impression-share-report.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/sender-score.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/service-level-agreement.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/small-to-medium-business.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/smarketing.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/snapchat.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/social-media.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/social-proof.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/s/software-as-a-service.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/tailored-audiences.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/top-of-the-funnel.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/traffic-sources.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/traffic.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/twitter.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/t/</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/u/unique-visitor.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/u/url.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/u/user-experience.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/u/user-interface.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/v/view-though-conversions.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/v/viral-content.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/w/web-analytics.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/w/website.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/w/word-of-mouth.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/w/workflow.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/x/xml-sitemap.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/y/youtube.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 <url>
   <loc>https://www.pynely.com/resources/encyclopedia/z/zapier.html</loc>
-  <lastmod>2017-03-06</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>.75</priority>
+  <lastmod>2017-03-29</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1</priority>
 </url>
 
 </urlset>

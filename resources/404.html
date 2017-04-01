@@ -138,23 +138,49 @@ drift.load('fmwrhpbtzhdc');
                         <div class="collapse navbar-collapse" id="main-nav-container">
                             <ul class="nav navbar-nav">
 
-                                <li id="header-how-it-works">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
-                                  </li>
-
                                   <li id="header-pricing">
                                     <a :href="url">
                                       {{ title }}
                                     </a>
                                   </li>
 
-                                  <li id="header-faq">
-                                    <a :href="url">
-                                      {{ title }}
-                                    </a>
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services">
+                                        {{ title }}
+                                        <span class="angle"></span>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown">
+                                            <li id="header-services-marketing">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-services-logo-design">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-services-web-design">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-services-facebook-ads">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+                                            <li id="header-services-blog-redesign">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
+
+                                          </li>
+                                      </ul>
                                   </li>
+
 
                                   <li class="dropdown">
                                       <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
@@ -234,11 +260,14 @@ drift.load('fmwrhpbtzhdc');
                                                 {{ title }}
                                                 </a>
                                             </li>
+                                            <li id="header-pynelychat">
+                                                <a :href="url">
+                                                {{ title }}
+                                                </a>
+                                            </li>
                                           </li>
                                       </ul>
                                   </li>
-
-
 
                                 <li class="dropdown">
                                     <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
@@ -252,16 +281,50 @@ drift.load('fmwrhpbtzhdc');
                                               {{ title }}
                                               </a>
                                           </li>
-                                          <li id="header-blog-productivity">
+                                          <li id="header-blog-inbound-marketing">
                                               <a :href="url" target="_blank">
                                               {{ title }}
                                               </a>
                                           </li>
+                                          <li id="header-blog-content-marketing">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-seo">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <!--
                                           <li id="header-blog-sales">
                                               <a :href="url" target="_blank">
                                               {{ title }}
                                               </a>
                                           </li>
+                                          <li id="header-blog-design">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <li id="header-blog-engineering">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                        -->
+                                          <li id="header-blog-pynely-life">
+                                              <a :href="url" target="_blank">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                          <!--
+                                          <li id="header-blog-podcast">
+                                              <a :href="url">
+                                              {{ title }}
+                                              </a>
+                                          </li>
+                                        -->
                                         </li>
                                     </ul>
                                 </li>
@@ -288,7 +351,6 @@ drift.load('fmwrhpbtzhdc');
                                     </ul>
                                 </li>
 
-
                                 <li id="header-contact-us">
                                   <a href="" class="drift-open-chat">
                                     Get Started <i class="fa fa-comment" aria-hidden="true"></i>
@@ -300,7 +362,6 @@ drift.load('fmwrhpbtzhdc');
                     </div><!-- End .container-fluid -->
                 </div><!-- End .header-inner -->
             </header><!-- End .header -->
-
 
               <!-- Start of Main Content -->
 
@@ -548,5 +609,19 @@ drift.load('fmwrhpbtzhdc');
 <script src="assets/js/vue/general-vue.js"></script>
 <script src='assets/js/vue/header-vue.js'></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '7243446';
+
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true;
+    dc.src = '//tag.getdrip.com/7243446.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
 </body>
 </html>

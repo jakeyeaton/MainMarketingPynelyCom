@@ -120,188 +120,248 @@ drift.load('fmwrhpbtzhdc');
 
 	        <div id="wrapper">
             <header class="header header2 sticky-header animated-dropdown ttb-dropdown">
-                <div class="header-inner">
-                    <div class="container-fluid">
-                        <a href="https://pynely.com" class="site-logo" title="Bold - Multipurpose Template">
-                            <img src="assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" data-rjs="3" alt="Pynely Logo">
+    <div class="header-inner">
+        <div class="container-fluid">
+            <a href="https://pynely.com" class="site-logo" title="Bold - Multipurpose Template">
+                <img src="assets/img/pynelyFullLogoGrey.png" style="max-height:40px;" data-rjs="3" alt="Pynely Logo">
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
+                <span class="toggle-text">Menu</span>
+                <span class="toggle-wrapper">
+                    <span class="sr-only">Toggle Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav-container">
+                <ul class="nav navbar-nav">
+
+                      <li id="header-pricing">
+                        <a :href="url">
+                          {{ title }}
                         </a>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
-                            <span class="toggle-text">Menu</span>
-                            <span class="toggle-wrapper">
-                                <span class="sr-only">Toggle Menu</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </span>
-                        </button>
+                      </li>
 
-                        <div class="collapse navbar-collapse" id="main-nav-container">
-                            <ul class="nav navbar-nav">
-
-                                <li id="header-how-it-works">
+                      <li class="dropdown">
+                          <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-services">
+                            {{ title }}
+                            <span class="angle"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                <li id="header-services-marketing">
                                     <a :href="url">
-                                      {{ title }}
+                                    {{ title }}
                                     </a>
-                                  </li>
-
-                                  <li id="header-pricing">
+                                </li>
+                                <li id="header-services-logo-design">
                                     <a :href="url">
-                                      {{ title }}
+                                    {{ title }}
                                     </a>
-                                  </li>
-
-                                  <li id="header-faq">
+                                </li>
+                                <li id="header-services-web-design">
                                     <a :href="url">
-                                      {{ title }}
+                                    {{ title }}
                                     </a>
-                                  </li>
-
-                                  <li class="dropdown">
-                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
-                                        {{ title }}
-                                        <span class="angle"></span>
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                          <li class="dropdown">
-                                            <li id="header-solutions-dentists">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-legal">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-local-gyms">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-restaurants">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-solutions-retail-e-commerce">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-
-                                            <li id="header-solutions-web-development-agency">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                          </li>
-                                      </ul>
-                                  </li>
-
-                                  <li class="dropdown">
-                                      <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
-                                        {{ title }}
-                                        <span class="angle"></span>
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                          <li class="dropdown">
-                                            <li id="header-comparison">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-encyclopedia">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-evaluations">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-marketing-kits">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-marketing-resources">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                            <li id="header-templetes">
-                                                <a :href="url">
-                                                {{ title }}
-                                                </a>
-                                            </li>
-                                          </li>
-                                      </ul>
-                                  </li>
-
-
-
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
+                                </li>
+                                <li id="header-services-facebook-ads">
+                                    <a :href="url">
+                                    {{ title }}
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-                                          <li id="header-blog-social-media">
-                                              <a :href="url" target="_blank">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                          <li id="header-blog-productivity">
-                                              <a :href="url" target="_blank">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                          <li id="header-blog-sales">
-                                              <a :href="url" target="_blank">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                        </li>
-                                    </ul>
+                                </li>
+                                <li id="header-services-blog-redesign">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
                                 </li>
 
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
-                                      {{ title }}
-                                      <span class="angle"></span>
+                              </li>
+                          </ul>
+                      </li>
+
+
+                      <li class="dropdown">
+                          <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-solutions">
+                            {{ title }}
+                            <span class="angle"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                <li id="header-solutions-dentists">
+                                    <a :href="url">
+                                    {{ title }}
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown">
-                                          <li id="header-partners-white-lable">
-                                              <a :href="url">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-                                          <li id="header-partners-affilate">
-                                              <a :href="url">
-                                              {{ title }}
-                                              </a>
-                                          </li>
-
-                                        </li>
-                                    </ul>
                                 </li>
+                                <li id="header-solutions-legal">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-solutions-local-gyms">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-solutions-restaurants">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-solutions-retail-e-commerce">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-solutions-web-development-agency">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                              </li>
+                          </ul>
+                      </li>
 
+                      <li class="dropdown">
+                          <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-resources">
+                            {{ title }}
+                            <span class="angle"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                <li id="header-comparison">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-encyclopedia">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-evaluations">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-marketing-kits">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-marketing-resources">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-templetes">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                                <li id="header-pynelychat">
+                                    <a :href="url">
+                                    {{ title }}
+                                    </a>
+                                </li>
+                              </li>
+                          </ul>
+                      </li>
 
-                                <li id="header-contact-us">
-                                  <a href="" class="drift-open-chat">
-                                    Get Started <i class="fa fa-comment" aria-hidden="true"></i>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-blog-label">
+                          {{ title }}
+                          <span class="angle"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                              <li id="header-blog-social-media">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
                                   </a>
-                                </li>
+                              </li>
+                              <li id="header-blog-inbound-marketing">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <li id="header-blog-content-marketing">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <li id="header-blog-seo">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <!--
+                              <li id="header-blog-sales">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <li id="header-blog-design">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <li id="header-blog-engineering">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                            -->
+                              <li id="header-blog-pynely-life">
+                                  <a :href="url" target="_blank">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <!--
+                              <li id="header-blog-podcast">
+                                  <a :href="url">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                            -->
+                            </li>
+                        </ul>
+                    </li>
 
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- End .container-fluid -->
-                </div><!-- End .header-inner -->
-            </header><!-- End .header -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-expanded="false" id="header-dropdown-partners-label">
+                          {{ title }}
+                          <span class="angle"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                              <li id="header-partners-white-lable">
+                                  <a :href="url">
+                                  {{ title }}
+                                  </a>
+                              </li>
+                              <li id="header-partners-affilate">
+                                  <a :href="url">
+                                  {{ title }}
+                                  </a>
+                              </li>
 
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li id="header-contact-us">
+                      <a href="" class="drift-open-chat">
+                        Get Started <i class="fa fa-comment" aria-hidden="true"></i>
+                      </a>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- End .container-fluid -->
+    </div><!-- End .header-inner -->
+</header><!-- End .header -->
 
               <!-- Start of Main Content -->
 
@@ -546,5 +606,19 @@ drift.load('fmwrhpbtzhdc');
 <script src="assets/js/vue/general-vue.js"></script>
 <script src='assets/js/vue/header-vue.js'></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57071d6c9335de7e"></script>
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '7243446';
+
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true;
+    dc.src = '//tag.getdrip.com/7243446.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
 </body>
 </html>

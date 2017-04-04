@@ -5,8 +5,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+.sitemap-html-links:hover {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+
+
 html {
-  font-family: sans-serif;
+  font-family: 'Muli', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -2437,6 +2445,45 @@ output {
   line-height: 1.42857;
   color: #555555; }
 
+.form-control-shorter {
+  display: block;
+  width: 100%;
+  height: 28px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #4a4a4a;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  .form-control-shorter:focus {
+    background:#b2e7d2;
+    border-color: #4a4a4a;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px #00b16a 8px #00b16a; }
+  .form-control-shorter::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  .form-control-shorter:-ms-input-placeholder {
+    color: #999; }
+  .form-control-shorter::-webkit-input-placeholder {
+    color: #999; }
+  .form-control-shorter::-ms-expand {
+    border: 0;
+    background-color: transparent; }
+  .form-control-shorter[disabled], .form-control-shorter[readonly], fieldset[disabled] .form-control-shorter {
+    background-color: #eeeeee;
+    opacity: 1; }
+  .form-control-shorter[disabled], fieldset[disabled] .form-control-shorter {
+    cursor: not-allowed; }
+
 .form-control {
   display: block;
   width: 100%;
@@ -2557,7 +2604,6 @@ input[type="search"] {
 .radio-inline,
 .checkbox-inline {
   position: relative;
-  font-size:18px;
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 0;
@@ -3179,6 +3225,18 @@ tbody.collapse.in {
 
 .dropdown-toggle:focus {
   outline: 0; }
+.dropdown-menu-pricing-style {
+  text-align: center;
+  font-size:24px;
+  border: 1px solid #00b16a;
+
+}
+.dropdown-menu-pricing-style > .active > a, .dropdown-menu-pricing-style > .active > a:hover, .dropdown-menu-pricing-style > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #00b16a;
+}
 
 .dropdown-menu {
   position: absolute;
@@ -3190,8 +3248,8 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
-  text-align: left;
+  font-size: 24x;
+  text-align: center;
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -4321,13 +4379,20 @@ a.badge:hover, a.badge:focus {
       .jumbotron .h1 {
         font-size: 63px; } }
 
+.thumbnail-dis {
+border-bottom:10px solid #4a4a4a;
+box-shadow:10px 10px #00b16a;
+border-top:2px solid #4a4a4a;
+  border-left:2px solid #4a4a4a;
+  border-right:2px solid #4a4a4a;
+  color:#4a4a4a;
+}
 .thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
   background-color: #fff;
-  border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
@@ -4347,6 +4412,7 @@ a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
   border-color: #337ab7; }
+
 
 .alert {
   padding: 15px;
@@ -5031,6 +5097,14 @@ button.list-group-item-danger {
 .well-sm {
   padding: 9px;
   border-radius: 3px; }
+
+.well-service-marketing-page{
+  margin-top:25px;
+  background:#fff;
+  color:#4a4a4a;
+  border:1px solid #4a4a4a;
+  box-shadow:10px 10px #00b16a;
+}
 
 .close {
   float: right;
@@ -9274,7 +9348,7 @@ hr {
 --------------------------------------*/
 /* Header Main */
 .header {
-  background-color: #fff;
+  background-color: #4a4a4a;
   position: relative; }
 
 .header a {
@@ -9446,7 +9520,7 @@ hr {
 
 .site-logo img {
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   height: auto; }
 
 .header-info-boxes {
@@ -9933,8 +10007,11 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   margin: 0 0 15px; }
 
 .navbar-nav a {
-  color: #222; }
+  color: #fff; }
 
+.navbar-nav a:hover {
+  color: #fff;
+}
 .navbar-nav > li > a {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -9945,7 +10022,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 
 @media (max-width: 767px) {
   .navbar-nav {
-    background-color: #fff;
+    background-color: #00b16a;
     margin-bottom: 0;
     padding: 0.4rem 0; }
 
@@ -10090,7 +10167,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   .navbar-nav .dropdown-menu {
     min-width: 210px; } }
 .navbar-nav .dropdown-menu > li > a {
-  color: #3e3e3e;
+  color:#4a4a4a;
   padding: 0.5rem 1rem;
   font-weight: 600;
   white-space: normal; }
@@ -10175,8 +10252,8 @@ Animations - add these clases to the parent element - Navbar Or dropdown
   margin-top: 0.5rem;
   margin-right: 0;
   margin-bottom: 0.5rem;
-  background-color: #00b16a;
-  border: 1px solid #00b16a;
+  background-color: #4a4a4a;
+  border: 1px solid #fff;
   border-radius: 0;
   font-size: 0;
   color: #fff;
@@ -24149,3 +24226,9 @@ border:2px solid #00b16a;
 }
 
 /* End - Call to Action Styles */
+.whats-included:hover{
+  font-weight:400;
+}
+.pricing-body, a, a:hover{
+  font-weight:400;
+}

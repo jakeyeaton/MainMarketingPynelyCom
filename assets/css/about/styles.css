@@ -1,0 +1,85 @@
+.logo{
+    font-family: 'Megrim', cursive;
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+
+.img-responsive{
+  max-width: 100%;
+    height: auto;
+}
+
+.round-img{
+  border-radius: 50%;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px; }
+  .list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+#spaceoff{
+    text-align: left;
+}
+.newsletter_submit{
+    position: absolute;
+    margin-top:-50px;
+    margin-left: 39%;
+    width:108.4px;
+    background-color:#4a4a4a;
+    color:#28eb9d;
+    border:3px solid #4a4a4a;
+}
+.newsletter_email{
+    background:#28eb9d;
+    color:#4a4a4a;
+    border:1px solid #4a4a4a;
+}
+
+input:placeholder-shown {
+  color:#4a4a4a;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4a4a4a;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #4a4a4a;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #4a4a4a;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #4a4a4a;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #4a4a4a;
+    background: #fff;
+}
+
+::selection {
+    color: #4a4a4a;
+    background: #fff;
+}
+
+/* Custom CSS */
+  @media (max-width: 766px) {
+    .index-transition-tablet-up{
+      display: none;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 766px) {
+    .index-transition-mobile{
+      display: none;
+      
+    }
+    
+  }
